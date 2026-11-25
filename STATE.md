@@ -6,9 +6,25 @@ Updated by every run. Newest facts win.
 
 Ten episodes per series. Read each episode at 48 hours and judge at 7 days. Kill the series at 0 of 10 past 2,000 views in 7 days. Keep it at 2 of 10 past 10,000.
 
-## Daily slots (Europe/Budapest)
+## Three-day plan (Europe/Budapest)
 
-Three posts per brand per day: 10:30, 14:30, 19:00. The two brands share the slots. Each run builds one episode per series and schedules both for its slot.
+The owner asked for posts on both channels at 06:00, 13:00 and 19:00 on 2026-11-26, 2026-11-27 and 2026-11-28. Each run builds one episode per series and schedules both for one slot. Mark a slot with the episode numbers once both films are scheduled in Metricool.
+
+## Schedule
+
+| Date | Slot | Where It Goes | The Night Bus | Built by |
+|---|---|---|---|---|
+| 2026-11-26 | 06:00 | open | open | chat session, evening of 11-25 |
+| 2026-11-26 | 13:00 | open | open | run at 08:38 |
+| 2026-11-26 | 19:00 | open | open | run at 12:38 |
+| 2026-11-27 | 06:00 | open | open | run at 20:38 on 11-26 |
+| 2026-11-27 | 13:00 | open | open | run at 08:38 |
+| 2026-11-27 | 19:00 | open | open | run at 12:38 |
+| 2026-11-28 | 06:00 | open | open | run at 20:38 on 11-27 |
+| 2026-11-28 | 13:00 | open | open | run at 08:38 |
+| 2026-11-28 | 19:00 | open | open | run at 12:38 |
+
+Nothing goes out after 2026-11-28 19:00 without a new instruction from the owner.
 
 ## Where It Goes (CutSignal HQ, blogId 6535620)
 
@@ -27,6 +43,8 @@ Next topics, in order. Each one is the aftermath of something the viewer did:
 8. The old phone you hand in
 9. The blood you donate
 10. The umbrella you leave on a train
+11. The clothes you donate
+12. The battery you drop in the collection box
 
 Skip a topic if the research does not give two solid sources. Pick the next one.
 
@@ -41,9 +59,9 @@ Rules of the series:
 
 - Otto keeps a souvenir from every passenger and pins it by his seat: the snail's ticket, the cub's drawing. Show the growing collection in the last scene.
 - Each episode opens on the last cliffhanger, resolves it with a gentle surprise, then takes the passenger home.
-- Read the votes in the comments of the last episode if a browser tool is at hand. With no votes, take the first option.
+- Episodes are built hours ahead, so votes rarely arrive in time. Take the first option of the last vote unless this file records a winner. The caption says: "Vote in the comments. The winner rides soon."
 
-Next: episode 3. The one on the roof. Default: the owl. Later passengers: a hedgehog with a giant suitcase, a ghost who lost its sheet, twin mice going to a concert, a tortoise on its first bus ride, a small cloud that fell, a scarecrow going home, a moth that follows the bus light.
+Next: episode 3. The one on the roof. Default: the owl. Later passengers: a hedgehog with a giant suitcase, a ghost who lost its sheet, twin mice going to a concert, a tortoise on its first bus ride, a small cloud that fell, a scarecrow going home, a moth that follows the bus light, a snowman who must be home before sunrise, a kite with a broken string.
 
 ## Account notes
 

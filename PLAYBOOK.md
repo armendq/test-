@@ -75,7 +75,7 @@ If any check fails and you cannot fix it, do not post. Report what failed.
 
 1. Copy `web.mp4` into the `media` clone as `media/<series>_epNN_<slug>.mp4`, commit, `git push origin media`.
 2. Public link: `https://raw.githubusercontent.com/armendq/test-/media/media/<file>.mp4`
-3. Schedule with the Metricool connector, tool `createScheduledPost`. Date must lie in the future. Use the slot given in the task prompt. Timezone `Europe/Budapest`.
+3. Schedule with the Metricool connector, tool `createScheduledPost`. Date must lie in the future. Use the slot given in the task prompt. Timezone `Europe/Budapest`. The `date` argument takes the same time with its offset, for example `2026-11-26T13:00:00+01:00`.
 
 `info` template (fill the capitals):
 
@@ -93,7 +93,7 @@ If any check fails and you cannot fix it, do not post. Report what failed.
                  "category": "ENTERTAINMENT_OR_FILM_ANIMATION", "madeForKids": false, "isAiGeneratedContent": false}}
 ```
 
-Notes: TikTok needs `title`. Where It Goes uses category `ENTERTAINMENT` and tags like `#whereitgoes`. The Night Bus uses `FILM_ANIMATION` and `#nightbus #animation #cozy`. The Night Bus caption ends with the vote: "Most votes rides in episode N."
+Notes: TikTok needs `title`. Where It Goes uses category `ENTERTAINMENT` and tags like `#whereitgoes`. The Night Bus uses `FILM_ANIMATION` and `#nightbus #animation #cozy`. The Night Bus caption ends with the vote: "Vote in the comments. The winner rides soon."
 
 4. Send the finished file to the user with a one-line caption.
 5. Update `STATE.md`: episode log line, the vote options, any numbers you read. Commit and push the `studio` branch together with the new `scenes.py` and `audio.py` in `series/epNN/`.
