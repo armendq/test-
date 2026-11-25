@@ -34,7 +34,7 @@ Skip a topic if the research does not give two solid sources. Pick the next one.
 
 | Ep | Passenger | Posted | File | Cliffhanger and vote |
 |---|---|---|---|---|
-| 1 | Snail with a ticket | 2026-11-25 14:48 | media/night_bus_ep01_the_snail.mp4 | Eyes in the mirror. Fox, owl or ghost. No votes came in. Fox chosen. |
+| 1 | Snail with a ticket | 2026-11-25 14:48 | media/night_bus_ep01_the_snail.mp4 | Eyes in the mirror. Fox, owl or ghost. No votes came in. Fox chosen. After 4 hours: YouTube 769 views, TikTok 228 plays, Instagram 172. |
 | 2 | Fox cub, paid with an acorn, home on the hill with the crooked tree | 2026-11-25 18:33 | media/night_bus_ep02_the_fox_cub.mp4 | Steps on the roof, eyes at the window. Owl, cat or ghost. |
 
 Rules of the series:
