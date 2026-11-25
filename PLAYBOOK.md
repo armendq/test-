@@ -105,4 +105,6 @@ Notes: TikTok needs `title`. Where It Goes uses category `ENTERTAINMENT` and tag
 - A world transform that shifts the scene leaves unpainted bands. Paint the full frame first.
 - Things that pass under a caption or the source strip read as clutter. Move them.
 - The Night Bus interior helpers live in `nightbus/base.py` (`bus_int_back`, `otto_full`, `bus_ext`, `snail`). Episode 2 adds `fox`, `rear`, `bench`, `kid_drawing`, `country`, `hill`, `road`, `driver`. Reuse them.
+- Episode 3 scripts import earlier episodes. Where It Goes: copy `whereitgoes/ep02/scenes.py` into the work folder as `base2.py` (`bag`, `belt`, `boh`, `hall`, `tag_card`), and `whereitgoes/ep03/scenes.py` adds `env`, `street`, `mailbox`, `stream`, `monitor`, `granny`. The Night Bus: copy `nightbus/base.py` as `base.py` and `nightbus/ep02/scenes.py` as `ep2.py`, and `nightbus/ep03/scenes.py` adds `owl`, `feather`, `tree_card`, `souvenirs`, `ladder`, `tree`. A new episode starts with `from ep2 import *` or `from base2 import *` and copies the helpers it needs.
+- Build time in the chat session: about 35 minutes per film, most of it scene writing and one round of contact-sheet fixes.
 - TikTok `@cutsignalhq` gets almost no reach. Post there anyway. Do not spend time on it.

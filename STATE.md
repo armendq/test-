@@ -14,7 +14,7 @@ The owner asked for posts on both channels at 06:00, 13:00 and 19:00 on 2026-11-
 
 | Date | Slot | Where It Goes | The Night Bus | Built by |
 |---|---|---|---|---|
-| 2026-11-26 | 06:00 | open | open | chat session, evening of 11-25 |
+| 2026-11-26 | 06:00 | ep 3, scheduled (post 442111851) | ep 3, scheduled (post 442111883) | chat session, evening of 11-25 |
 | 2026-11-26 | 13:00 | open | open | run at 08:38 |
 | 2026-11-26 | 19:00 | open | open | run at 12:38 |
 | 2026-11-27 | 06:00 | open | open | run at 20:38 on 11-26 |
@@ -32,11 +32,11 @@ Nothing goes out after 2026-11-28 19:00 without a new instruction from the owner
 |---|---|---|---|---|
 | 1 | Coin in the Trevi Fountain | 2026-11-25 13:36 | not in repo | Sources: Reuters, Caritas Roma. YouTube 1.1K views after 5 hours. Instagram 171. TikTok 0. |
 | 2 | Suitcase after check-in | 2026-11-25 18:22 | media/where_it_goes_ep02_suitcase.mp4 | Sources: SITA Baggage IT Insights 2026, Airport Technology (Heathrow T5). |
+| 3 | The letter you post | scheduled 2026-11-26 06:00 | media/where_it_goes_ep03_letter.mp4 | Sources: USPS Postal Facts, USPS Link, Smithsonian National Postal Museum. US figures. |
 
 Next topics, in order. Each one is the aftermath of something the viewer did:
 
-3. The letter you post
-4. The plastic bottle you recycle
+4. The plastic bottle you recycle (next)
 5. The water you flush
 6. The parcel you send back
 7. The message you send (undersea cables)
@@ -54,6 +54,7 @@ Skip a topic if the research does not give two solid sources. Pick the next one.
 |---|---|---|---|---|
 | 1 | Snail with a ticket | 2026-11-25 14:48 | media/night_bus_ep01_the_snail.mp4 | Eyes in the mirror. Fox, owl or ghost. No votes came in. Fox chosen. After 4 hours: YouTube 769 views, TikTok 228 plays, Instagram 172. |
 | 2 | Fox cub, paid with an acorn, home on the hill with the crooked tree | 2026-11-25 18:33 | media/night_bus_ep02_the_fox_cub.mp4 | Steps on the roof, eyes at the window. Owl, cat or ghost. |
+| 3 | Owl with a hurt wing, paid with a feather, home at the very top of the tallest tree | scheduled 2026-11-26 06:00 | media/night_bus_ep03_the_owl.mp4 | The bus drives away while Otto stands in the road. "Who is driving the bus?" Hedgehog, ghost or mice. |
 
 Rules of the series:
 
@@ -61,7 +62,7 @@ Rules of the series:
 - Each episode opens on the last cliffhanger, resolves it with a gentle surprise, then takes the passenger home.
 - Episodes are built hours ahead, so votes rarely arrive in time. Take the first option of the last vote unless this file records a winner. The caption says: "Vote in the comments. The winner rides soon."
 
-Next: episode 3. The one on the roof. Default: the owl. Later passengers: a hedgehog with a giant suitcase, a ghost who lost its sheet, twin mice going to a concert, a tortoise on its first bus ride, a small cloud that fell, a scarecrow going home, a moth that follows the bus light, a snowman who must be home before sunrise, a kite with a broken string.
+Next: episode 4. It opens on the bus rolling away without Otto. Default driver: the hedgehog, who mistook the bus for the luggage van and has a giant suitcase to take home. Otto's collection by the seat now holds the snail's ticket, the cub's drawing and the owl's feather. Later passengers: a ghost who lost its sheet, twin mice going to a concert, a tortoise on its first bus ride, a small cloud that fell, a scarecrow going home, a moth that follows the bus light, a snowman who must be home before sunrise, a kite with a broken string.
 
 ## Account notes
 
