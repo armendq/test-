@@ -15,7 +15,7 @@ The owner asked for posts on both channels at 06:00, 13:00 and 19:00 on 2026-11-
 | Date | Slot | Where It Goes | The Night Bus | Built by |
 |---|---|---|---|---|
 | 2026-11-26 | 06:00 | ep 3, scheduled (post uuid 6660782198279980202, Instagram and YouTube) | ep 3, scheduled (post 442111883) | chat session, evening of 11-25 |
-| 2026-11-26 | 13:00 | open | open | run at 08:38 |
+| 2026-11-26 | 13:00 | ep 4, scheduled (post 442786085, uuid 890930339708751015, Instagram and YouTube) | ep 4, scheduled (post 442786098, uuid 3749873471815435575) | run at 08:38, both scheduled at 09:17 |
 | 2026-11-26 | 19:00 | open | open | run at 12:38 |
 | 2026-11-27 | 06:00 | open | open | run at 20:38 on 11-26 |
 | 2026-11-27 | 13:00 | open | open | run at 08:38 |
@@ -32,14 +32,15 @@ Nothing goes out after 2026-11-28 19:00 without a new instruction from the owner
 |---|---|---|---|---|
 | 1 | Coin in the Trevi Fountain | 2026-11-25 13:36 | not in repo | Sources: Reuters, Caritas Roma. YouTube 1.1K views after 5 hours. Instagram 171. TikTok 0. |
 | 2 | Suitcase after check-in | 2026-11-25 18:22 | media/where_it_goes_ep02_suitcase.mp4 | Sources: SITA Baggage IT Insights 2026, Airport Technology (Heathrow T5). |
-| 3 | The letter you post | scheduled 2026-11-26 06:00 | media/where_it_goes_ep03_letter_v2.mp4 (new first frame) | Sources: USPS Postal Facts, USPS Link, Smithsonian National Postal Museum. US figures. |
+| 3 | The letter you post | 2026-11-26 06:00 | media/where_it_goes_ep03_letter_v2.mp4 (new first frame) | Sources: USPS Postal Facts, USPS Link, Smithsonian National Postal Museum. US figures. Metricool shows it published: youtube.com/shorts/164vQsLbJOg, instagram.com/reel/DgMTtNaBPEh. |
+| 4 | The love lock you clip on a Paris bridge | scheduled 2026-11-26 13:00 | media/where_it_goes_ep04_love_lock.mp4 | Sources: Guinness World Records, PBS NewsHour, NPR, NBC News (Reuters), The Connexion, Smithsonian Magazine. Seven scenes, 3.6 s then six of 4.4 s. Frame 0: shocked lock on the railing, key in mid-air, Eiffel Tower behind. Numbers on screen: 1,000,000 locks, 45 tonnes, June 2014, 2.4 metres, 2015, 2017, 150 bunches, 250,000 euros, 3 charities. |
 
 Next topics, in order. Each one is the aftermath of something the viewer did.
 
 Changed 2026-11-26 08:30. Reason: the coin film (famous place, built-in curiosity) held 56.9% of the feed. The suitcase film held 38.2% and the letter film 42.2% (first 2.5 hours, new first frame). Everyday objects pull less than famous places and odd rituals. Famous and curious topics go first:
 
-4. The love lock you clip on a Paris bridge (next)
-5. The letter your child sends to Santa
+4. The love lock you clip on a Paris bridge (done, episode 4)
+5. The letter your child sends to Santa (next)
 6. The gum you stick on the Seattle Gum Wall
 7. The Christmas tree you put out in January
 8. The wish plaque you hang at a Japanese shrine
@@ -61,7 +62,8 @@ Skip a topic if the research does not give two solid sources. Pick the next one.
 |---|---|---|---|---|
 | 1 | Snail with a ticket | 2026-11-25 14:48 | media/night_bus_ep01_the_snail.mp4 | Eyes in the mirror. Fox, owl or ghost. No votes came in. Fox chosen. After 4 hours: YouTube 769 views, TikTok 228 plays, Instagram 172. |
 | 2 | Fox cub, paid with an acorn, home on the hill with the crooked tree | 2026-11-25 18:33 | media/night_bus_ep02_the_fox_cub.mp4 | Steps on the roof, eyes at the window. Owl, cat or ghost. |
-| 3 | Owl with a hurt wing, paid with a feather, home at the very top of the tallest tree | scheduled 2026-11-26 06:00 | media/night_bus_ep03_the_owl.mp4 | The bus drives away while Otto stands in the road. "Who is driving the bus?" Hedgehog, ghost or mice. |
+| 3 | Owl with a hurt wing, paid with a feather, home at the very top of the tallest tree | 2026-11-26 06:00 | media/night_bus_ep03_the_owl.mp4 | The bus drives away while Otto stands in the road. "Who is driving the bus?" Hedgehog, ghost or mice. No winner on record at 08:38. Hedgehog taken as the first option. Metricool shows it published: youtube.com/shorts/zE6YIHduawc, tiktok video 7712340917608385814, instagram.com/reel/DgMTpCfMKKa. |
+| 4 | Hedgehog on a giant suitcase. It took the bus for the luggage van. Paid with a luggage tag. Home at the hedge at the end of the lane. The suitcase held its winter bed of leaves. | scheduled 2026-11-26 13:00 | media/night_bus_ep04_the_hedgehog.mp4 | The STOP bell rings in an empty bus. "Who rang the bell?" Ghost, mice or moth. |
 
 Rules of the series:
 
@@ -69,7 +71,16 @@ Rules of the series:
 - Each episode opens on the last cliffhanger, resolves it with a gentle surprise, then takes the passenger home.
 - Episodes are built hours ahead, so votes rarely arrive in time. Take the first option of the last vote unless this file records a winner. The caption says: "Vote in the comments. The winner rides soon."
 
-Next: episode 4. It opens on the bus rolling away without Otto. Default driver: the hedgehog, who mistook the bus for the luggage van and has a giant suitcase to take home. Otto's collection by the seat now holds the snail's ticket, the cub's drawing and the owl's feather. Later passengers: a ghost who lost its sheet, twin mice going to a concert, a tortoise on its first bus ride, a small cloud that fell, a scarecrow going home, a moth that follows the bus light, a snowman who must be home before sunrise, a kite with a broken string.
+Next: episode 5. It opens on the STOP bell ringing while the mirror shows an empty bus. A strap swings and a seat dents. Default passenger: the ghost who lost its sheet. Nobody can see it without the sheet, and that is why the bus looked empty. Otto's collection by the seat now holds the snail's ticket, the cub's drawing, the owl's feather and the hedgehog's luggage tag. The feather and the tag are pinned left of his head in the cabin view (`scG` in `nightbus/ep04/scenes.py`). Later passengers: twin mice going to a concert, a moth that follows the bus light, a tortoise on its first bus ride, a small cloud that fell, a scarecrow going home, a snowman who must be home before sunrise, a kite with a broken string.
+
+## Build notes from episode 4 (run at 08:38 on 2026-11-26)
+
+- Both films use seven scenes: 3.6 s for the opening, then six scenes of 4.4 s. That keeps every scene under 4.5 s.
+- Where It Goes: `whereitgoes/ep04/scenes.py` starts with `from base2 import *` (copy `whereitgoes/ep02/scenes.py` as `base2.py`). It adds `lock`, `mini`, `lockwall`, `keyobj`, `eiffel`, `paris_bg`, `deck`, `railing`, `crackfx`, `sweat`, `cutters`, `barrow`, `burst`, `shelter`, `fish`. Its `draw()` slides every scene change, also the first one.
+- The Night Bus: `nightbus/ep04/scenes.py` starts with `from ep2 import *` (copy `nightbus/base.py` as `base.py` and `nightbus/ep02/scenes.py` as `ep2.py`). It carries its own copies of `feather` and `souvenirs`. It adds `hog`, `suitcase`, `ltag`, `leaf`, `hedge`, `bush`, `hedge_card`, `road2`, `driver_sil`, `stop_lamp`.
+- The opening camera uses two layers in Where It Goes: the far background scales from 1.12 to 1.0 while the railing and the hero scale from 1.9 to 1.0. The landmark stays in frame 0 that way.
+- Research: the search tool returns links only. Three `web-fetch` agents read the pages and quoted the numbers. Budget ten minutes for it.
+- Build time in this run: about 40 minutes for both films, checks and scheduling.
 
 ## Hook test (YouTube Studio, CutSignal HQ, read 2026-11-26 01:00)
 
