@@ -111,6 +111,12 @@ YouTube Studio shows why every Short stops near 1,000 views: most of the feed sw
 
 Reference: `whereitgoes/ep03/scenes.py`, `scene1`. The letter trembles above the gaping slot, face 'o', eyes 'big', sweat drops, zoom 2.05.
 
+## Keep the catalogue alive (added 2026-11-26)
+
+- Every caption ends its first paragraph with one send line fitted to the film. Example: "Send this to the friend who always loses a suitcase." Sends carry the most weight for reach to new people on Instagram.
+- The Night Bus: every title and caption carries the episode number. The caption names the previous episode in one short line ("Episode 2: the fox cub.").
+- Never delete a stalled video. Never upload the same file twice.
+
 ## Known pitfalls
 
 - `make.py` imports `scenes.draw`. Run it from the work folder.
