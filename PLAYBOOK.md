@@ -98,6 +98,19 @@ Notes: TikTok needs `title`. Where It Goes uses category `ENTERTAINMENT` and tag
 4. Send the finished file to the user with a one-line caption.
 5. Update `STATE.md`: episode log line, the vote options, any numbers you read. Commit and push the `studio` branch together with the new `scenes.py` and `audio.py` in `series/epNN/`.
 
+## First-frame rules (added 2026-11-26, both series)
+
+YouTube Studio shows why every Short stops near 1,000 views: most of the feed swipes away at the first frame. Channel lifetime on CutSignal HQ: 36.5% stayed to watch. Coin film: 56.9% stayed (opens on a shocked coin in mid-air). Suitcase film: 38.2% stayed (opens on a calm, smiling suitcase). The first frame decides the reach. Follow these rules in every film:
+
+1. Frame 0 shows the hero in trouble. A face with shock or fear, an action in mid-motion, and the threat or the destination in the same frame. Never a calm establishing shot. Never a smiling hero at rest.
+2. The camera starts tight, about 2x zoom on the hero, and pulls back after 0.6 seconds.
+3. The caption sits on screen from frame 0. No fade-in on the first caption.
+4. Something moves in each of the first 15 frames: a tremble, sweat drops, motion lines, a falling object.
+5. Check: render the still at t=0.0 next to the stills at 0.5 and 1.0. If frame 0 reads as a calm poster, rebuild the opening before the full render.
+6. Keep every scene under 4.5 seconds and end each scene on a small surprise. The coin film lost viewers mid-film (average view 19 of 31 seconds).
+
+Reference: `whereitgoes/ep03/scenes.py`, `scene1`. The letter trembles above the gaping slot, face 'o', eyes 'big', sweat drops, zoom 2.05.
+
 ## Known pitfalls
 
 - `make.py` imports `scenes.draw`. Run it from the work folder.
@@ -107,4 +120,4 @@ Notes: TikTok needs `title`. Where It Goes uses category `ENTERTAINMENT` and tag
 - The Night Bus interior helpers live in `nightbus/base.py` (`bus_int_back`, `otto_full`, `bus_ext`, `snail`). Episode 2 adds `fox`, `rear`, `bench`, `kid_drawing`, `country`, `hill`, `road`, `driver`. Reuse them.
 - Episode 3 scripts import earlier episodes. Where It Goes: copy `whereitgoes/ep02/scenes.py` into the work folder as `base2.py` (`bag`, `belt`, `boh`, `hall`, `tag_card`), and `whereitgoes/ep03/scenes.py` adds `env`, `street`, `mailbox`, `stream`, `monitor`, `granny`. The Night Bus: copy `nightbus/base.py` as `base.py` and `nightbus/ep02/scenes.py` as `ep2.py`, and `nightbus/ep03/scenes.py` adds `owl`, `feather`, `tree_card`, `souvenirs`, `ladder`, `tree`. A new episode starts with `from ep2 import *` or `from base2 import *` and copies the helpers it needs.
 - Build time in the chat session: about 35 minutes per film, most of it scene writing and one round of contact-sheet fixes.
-- TikTok `@cutsignalhq` gets almost no reach. Post there anyway. Do not spend time on it.
+- TikTok `@cutsignalhq` gets 0 plays. The owner removed TikTok from the CutSignal post for 2026-11-26 06:00. CutSignal HQ posts go to Instagram and YouTube only: providers `instagram` and `youtube`, no `tiktokData`. Talewend posts keep all three networks.

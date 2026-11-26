@@ -61,15 +61,29 @@ def scene1(c, t, f, g):
     drop = ease(seg(t, 1.35, 2.25))
     hand0 = (HIP[0] + 150, HIP[1] - 230)
     px = lerp(hand0[0] + 40, SLOT[0], drop); py = lerp(hand0[1] - 30, SLOT[1], drop) - 170 * math.sin(drop * math.pi)
-    k = ease(seg(t, 0.35, 1.25)); z = lerp(2.3, 1.0, k); fx, fy = lerp(px, 540, k), lerp(py, 960, k)
+    k = ease(seg(t, 0.6, 1.3)); z = lerp(2.05, 1.0, k)
+    fx, fy = lerp((px + SLOT[0]) / 2 + 10, 540, k), lerp((py + SLOT[1]) / 2 - 30, 960, k)
+    fear = 1 - seg(t, 1.2, 1.35)
+    jx = 5 * math.sin(g * 41) * fear; jy = 4 * math.sin(g * 53 + 1) * fear
+    es = lerp(0.84, 0.62, k)
     c.save(); c.translate(W / 2, H / 2); c.scale(z, z); c.translate(-fx, -fy)
     street(c, f, g)
     mailbox(c, f, 700, 1380)
+    if t < 1.35:                                   # the slot gapes like a mouth
+        gp = 12 + 14 * abs(math.sin(g * 5))
+        rrect(c, 610, 1024 - gp / 2, 180, 34 + gp, 16); fs(c, hx('10172B'), 6)
     stick(c, HIP[0], HIP[1], 1.0, 'you', f, lh=(-60, -20), rh=(150, -230) if t < 2.3 else (110 + 12 * math.sin(g * 9), -300), face='smile', eyes='closed',
           shirt=TEAL, bob=math.sin(g * 3) * 2)
     if drop < 1:
-        env(c, px, py, 0.62 * (1 - 0.35 * ein(seg(drop, 0.8, 1.0))), 'hero', f, face='smile' if t < 1.35 else 'o', eyes='dot' if t < 1.35 else 'big',
-            rot=0.1 * math.sin(g * 7) + drop * 0.5, look=(1, 0.5))
+        if t < 1.3:                                # sweat flies off the letter
+            for i in range(4):
+                ph = (g * 2.4 + i / 4) % 1
+                ang = -2.75 + i * 0.5
+                rr = (150 + 95 * ph) * es
+                wcirc(c, px + jx + math.cos(ang) * rr, py + jy + math.sin(ang) * rr * 0.8, (13 - 9 * ph) * es / 0.62, ('sw', i), f, amp=1)
+                fs(c, hx('8FD9FA'), 4)
+        env(c, px + jx, py + jy, es * (1 - 0.35 * ein(seg(drop, 0.8, 1.0))), 'hero', f, face='o', eyes='big',
+            rot=0.12 * math.sin(g * 30) * fear + 0.1 * math.sin(g * 7) * (1 - fear) + drop * 0.5, look=(1, 0.6))
     rrect(c, 616, 1024, 168, 34, 12); rgb(c, hx('10172B'), 1.0 if drop > 0.85 else 0.0); c.fill()
     c.restore()
     caption(c, t, -1, [[("WHERE DOES", CREAM)], [("YOUR LETTER GO?", GOLD)]], y=300, size=92, pop=False)

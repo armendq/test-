@@ -14,7 +14,7 @@ The owner asked for posts on both channels at 06:00, 13:00 and 19:00 on 2026-11-
 
 | Date | Slot | Where It Goes | The Night Bus | Built by |
 |---|---|---|---|---|
-| 2026-11-26 | 06:00 | ep 3, scheduled (post 442111851) | ep 3, scheduled (post 442111883) | chat session, evening of 11-25 |
+| 2026-11-26 | 06:00 | ep 3, scheduled (post uuid 6660782198279980202, Instagram and YouTube) | ep 3, scheduled (post 442111883) | chat session, evening of 11-25 |
 | 2026-11-26 | 13:00 | open | open | run at 08:38 |
 | 2026-11-26 | 19:00 | open | open | run at 12:38 |
 | 2026-11-27 | 06:00 | open | open | run at 20:38 on 11-26 |
@@ -32,7 +32,7 @@ Nothing goes out after 2026-11-28 19:00 without a new instruction from the owner
 |---|---|---|---|---|
 | 1 | Coin in the Trevi Fountain | 2026-11-25 13:36 | not in repo | Sources: Reuters, Caritas Roma. YouTube 1.1K views after 5 hours. Instagram 171. TikTok 0. |
 | 2 | Suitcase after check-in | 2026-11-25 18:22 | media/where_it_goes_ep02_suitcase.mp4 | Sources: SITA Baggage IT Insights 2026, Airport Technology (Heathrow T5). |
-| 3 | The letter you post | scheduled 2026-11-26 06:00 | media/where_it_goes_ep03_letter.mp4 | Sources: USPS Postal Facts, USPS Link, Smithsonian National Postal Museum. US figures. |
+| 3 | The letter you post | scheduled 2026-11-26 06:00 | media/where_it_goes_ep03_letter_v2.mp4 (new first frame) | Sources: USPS Postal Facts, USPS Link, Smithsonian National Postal Museum. US figures. |
 
 Next topics, in order. Each one is the aftermath of something the viewer did:
 
@@ -64,7 +64,17 @@ Rules of the series:
 
 Next: episode 4. It opens on the bus rolling away without Otto. Default driver: the hedgehog, who mistook the bus for the luggage van and has a giant suitcase to take home. Otto's collection by the seat now holds the snail's ticket, the cub's drawing and the owl's feather. Later passengers: a ghost who lost its sheet, twin mice going to a concert, a tortoise on its first bus ride, a small cloud that fell, a scarecrow going home, a moth that follows the bus light, a snowman who must be home before sunrise, a kite with a broken string.
 
+## Hook test (YouTube Studio, CutSignal HQ, read 2026-11-26 01:00)
+
+| Film | First frame | Stayed to watch | Average view | Views |
+|---|---|---|---|---|
+| Coin | shocked coin in mid-air | 56.9% | 0:19 of 0:31 | 1.3K |
+| Suitcase | calm, smiling suitcase on a belt | 38.2% | 0:26 of 0:31 | 1.1K |
+| Letter | frightened letter above the gaping slot | not yet read | | |
+
+Channel lifetime: 36.5% stayed, 95% of views from the Shorts feed. Older puzzle videos: 15% to 44% stayed. Every Short stops near 1,000 views. Target: 65% stayed or more. Follow the first-frame rules in PLAYBOOK.md. Talewend Studio numbers are not read yet.
+
 ## Account notes
 
 - Baselines on 2026-11-25: CutSignal YouTube 6 subscribers, Instagram 2 followers, TikTok 0 followers. Talewend YouTube 2 videos, Instagram 0 followers, TikTok 0 followers.
-- TikTok `@cutsignalhq`: every video sits at 0 to 10 plays. The account needs a check by the owner in the TikTok app.
+- TikTok `@cutsignalhq`: every video sits at 0 to 10 plays. The account needs a check by the owner in the TikTok app. The owner removed TikTok from the CutSignal post for 2026-11-26 06:00. No TikTok on CutSignal HQ posts until the owner says otherwise.
