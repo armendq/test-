@@ -105,7 +105,8 @@ Next: episode 6. It opens on the tiny music and the small light under seat 7 whi
 |---|---|---|---|---|
 | Coin | shocked coin in mid-air | 56.9% | 0:19 of 0:31 | 1.3K |
 | Suitcase | calm, smiling suitcase on a belt | 38.2% | 0:26 of 0:31 | 1.1K |
-| Letter | frightened letter above the gaping slot | 42.2% (2.5 hours in) | 0:15 of 0:31 | 302 |
+| Letter | frightened letter above the gaping slot | 43.5% (8 hours in) | 0:16 of 0:31 | 913 |
+| Love lock | frightened lock close-up on the bridge | 50.0% (1 hour in, 2 feed views) | 0:05 | 2 (Instagram 182) |
 
 Channel lifetime: 36.5% stayed, 95% of views from the Shorts feed. Older puzzle videos: 15% to 44% stayed. Every Short stops near 1,000 views. Target: 65% stayed or more. Follow the first-frame rules in PLAYBOOK.md. Talewend Studio numbers are not read yet.
 
