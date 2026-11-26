@@ -116,6 +116,8 @@ Reference: `whereitgoes/ep03/scenes.py`, `scene1`. The letter trembles above the
 - Every caption ends its first paragraph with one send line fitted to the film. Example: "Send this to the friend who always loses a suitcase." Sends carry the most weight for reach to new people on Instagram.
 - The Night Bus: every title and caption carries the episode number. The caption names the previous episode in one short line ("Episode 2: the fox cub.").
 - Never delete a stalled video. Never upload the same file twice.
+- Chat check-ins with the server browser (CutSignal HQ only, the browser holds no Talewend login): after each CutSignal film goes live, post one question comment under it on YouTube with a sourced fact from the film, add it to the public playlist "Where It Goes", and reply to every viewer comment with a heart.
+- Blocked on 2026-11-26: related-video links and pinned comments on CutSignal HQ YouTube need channel verification (selfie video or ID). Only the owner can complete it. YouTube unlocks it on its own after about 2 months of channel history.
 
 ## Known pitfalls
 
