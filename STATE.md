@@ -18,9 +18,9 @@ The owner asked for three posts a day on both channels through 2026-11-28. On 20
 | 2026-11-26 | 13:00 | ep 4, published (post uuid 890930339708751015, Instagram and YouTube) | ep 4, published (post uuid 3749873471815435575) | run at 08:38 |
 | 2026-11-26 | 19:00 | ep 5, scheduled (post uuid 6398902071684647353, Instagram and YouTube) | ep 5, scheduled (post uuid -7829230190743764758) | run at 12:38 |
 | 2026-11-26 | 23:00 | open | open | run at 16:38 |
-| 2026-11-27 | 15:00 | reserved: ep 7 | reserved: ep 7 | chat session, afternoon of 11-26 |
-| 2026-11-27 | 19:00 | reserved: ep 8 | reserved: ep 8 | chat session, afternoon of 11-26 |
-| 2026-11-27 | 23:00 | reserved: ep 9 | reserved: ep 9 | chat session, afternoon of 11-26 |
+| 2026-11-27 | 15:00 | ep 7, scheduled (post uuid -4090777591657117813, Instagram and YouTube) | ep 7, scheduled (post uuid -5075034786245884956) | chat session, afternoon of 11-26 |
+| 2026-11-27 | 19:00 | ep 8, scheduled (post uuid -3154122013597284128, Instagram and YouTube) | ep 8, scheduled (post uuid -3323159541580086499) | chat session, afternoon of 11-26 |
+| 2026-11-27 | 23:00 | ep 9, scheduled (post uuid 4618433659693843675, Instagram and YouTube) | ep 9, scheduled (post uuid 2212531941976394766) | chat session, afternoon of 11-26 |
 | 2026-11-28 | 15:00 | open | open | run at 20:38 on 11-27 |
 | 2026-11-28 | 19:00 | open | open | run at 12:38 |
 | 2026-11-28 | 23:00 | open | open | run at 16:38 |
@@ -38,6 +38,9 @@ Audience note: CutSignal HQ has no country of residence set. YouTube does not us
 | 3 | The letter you post | 2026-11-26 06:00 | media/where_it_goes_ep03_letter_v2.mp4 (new first frame) | Sources: USPS Postal Facts, USPS Link, Smithsonian National Postal Museum. US figures. Metricool shows it published: youtube.com/shorts/164vQsLbJOg, instagram.com/reel/DgMTtNaBPEh. |
 | 4 | The love lock you clip on a Paris bridge | 2026-11-26 13:00 | media/where_it_goes_ep04_love_lock.mp4 | Sources: Guinness World Records, PBS NewsHour, NPR, NBC News (Reuters), The Connexion, Smithsonian Magazine. Seven scenes, 3.6 s then six of 4.4 s. Frame 0: shocked lock on the railing, key in mid-air, Eiffel Tower behind. Numbers on screen: 1,000,000 locks, 45 tonnes, June 2014, 2.4 metres, 2015, 2017, 150 bunches, 250,000 euros, 3 charities. Metricool shows it published: youtube.com/shorts/ZncVX-L8BmY, instagram.com/reel/DgND__RhyQR. |
 | 5 | The letter your child sends to Santa (USPS Operation Santa) | scheduled 2026-11-26 19:00 | media/where_it_goes_ep05_santa_letter.mp4 | Sources: USPS news releases of Sept. 14 and Nov. 4, 2026, USPS Operation Santa site (About, How it works), USPS Postal Facts, Smithsonian Magazine. US topic. Seven scenes, 3.6 s then six of 4.4 s. Frame 0: shocked Santa letter in mid-air above the gaping slot of a snowy mailbox, a child's mitten below, zoom 2.0. Numbers on screen: 123 Elf Road, North Pole 88888, 1912, year 114, December 5. No Santa figure on screen. Closing question: "What did you ask Santa for?" Wrinkle: the USPS history page dates the first permission to Nov. 1911 and the rule to 1913. The film follows the USPS Operation Santa site, USPS Postal Facts and Smithsonian Magazine (1912). The December 5 deadline dates the film after that day. |
+| 7 | The parcel you send back | scheduled 2026-11-27 15:00 | media/where_it_goes_ep07_online_return.mp4 | Source: NRF and Happy Returns, 2025 Retail Returns Landscape. |
+| 8 | The suitcase nobody claims | scheduled 2026-11-27 19:00 | media/where_it_goes_ep08_lost_suitcase.mp4 | Sources: PBS NewsHour, Smithsonian Magazine, NBC News, WSB-TV, WPTV, Afar, NewsNation. |
+| 9 | The Christmas tree in January | scheduled 2026-11-27 23:00 | media/where_it_goes_ep09_christmas_tree.mp4 | Sources: National Christmas Tree Association, University of Illinois Extension, Waste360. |
 
 Next topics, in order. Each one is the aftermath of something the viewer did.
 
@@ -46,9 +49,9 @@ Changed 2026-11-26 08:30. Reason: the coin film (famous place, built-in curiosit
 4. The love lock you clip on a Paris bridge (done, episode 4)
 5. The letter your child sends to Santa (done, episode 5)
 6. The gum you stick on the Seattle Gum Wall (next: episode 6, slot 2026-11-26 23:00, run at 16:38)
-7. RESERVED, chat session builds it as episode 7: the parcel you send back after Black Friday
-8. RESERVED, chat session builds it as episode 8: the suitcase you never collect (Unclaimed Baggage, Alabama)
-9. RESERVED, chat session builds it as episode 9: the Christmas tree you put out in January
+7. The parcel you send back (done, episode 7)
+8. The suitcase you never collect (done, episode 8)
+9. The Christmas tree you put out in January (done, episode 9)
 10. The message you put in a bottle (next after episode 9: episode 10)
 10b. The wish plaque you hang at a Japanese shrine
 11. The plastic bottle you recycle
@@ -70,6 +73,9 @@ Skip a topic if the research does not give two solid sources. Pick the next one.
 | 3 | Owl with a hurt wing, paid with a feather, home at the very top of the tallest tree | 2026-11-26 06:00 | media/night_bus_ep03_the_owl.mp4 | The bus drives away while Otto stands in the road. "Who is driving the bus?" Hedgehog, ghost or mice. No winner on record at 08:38. Hedgehog taken as the first option. Metricool shows it published: youtube.com/shorts/zE6YIHduawc, tiktok video 7712340917608385814, instagram.com/reel/DgMTpCfMKKa. |
 | 4 | Hedgehog on a giant suitcase. It took the bus for the luggage van. Paid with a luggage tag. Home at the hedge at the end of the lane. The suitcase held its winter bed of leaves. | 2026-11-26 13:00 | media/night_bus_ep04_the_hedgehog.mp4 | The STOP bell rings in an empty bus. "Who rang the bell?" Ghost, mice or moth. No winner on record at 12:38. Ghost taken as the first option. Metricool shows it published: youtube.com/shorts/5Dm1XMNIv6w, tiktok video 7712450117038624022, instagram.com/reel/DgNEHRgTpuy. |
 | 5 | Ghost who lost its sheet. Nobody could see it, so the bus looked empty. Otto throws a spare cloth over the dented seat and the ghost appears. Paid with a wooden clothes peg. Home at the old house with the washing line, where its own sheet hung. It was washing day. | scheduled 2026-11-26 19:00 | media/night_bus_ep05_the_ghost.mp4 | Tiny music and a small light under seat 7. "Who is playing under seat 7?" Mice, crickets or a moth. |
+| 7 | A small cloud that fell, paid with a raindrop, home in the sky above the hill | scheduled 2026-11-27 15:00 | media/night_bus_ep07_the_cloud.mp4 | A figure stands in the field. Scarecrow, statue or wizard. |
+| 8 | The scarecrow, paid with a coat button, home on its pole with its crows | scheduled 2026-11-27 19:00 | media/night_bus_ep08_the_scarecrow.mp4 | Something melts in seat 3. Snowman, ice cream or icicle. |
+| 9 | The snowman, paid with a snowflake, home on the snowy hill before sunrise | scheduled 2026-11-27 23:00 | media/night_bus_ep09_the_snowman.mp4 | A string tugs at the bus. Kite, balloon or star. |
 
 Rules of the series:
 
@@ -77,13 +83,14 @@ Rules of the series:
 - Each episode opens on the last cliffhanger, resolves it with a gentle surprise, then takes the passenger home.
 - Episodes are built hours ahead, so votes rarely arrive in time. Take the first option of the last vote unless this file records a winner. The caption says: "Vote in the comments. The winner rides soon."
 
-RESERVED ARC, 2026-11-26 14:50. The owner asked the chat session to build all three pairs for 2026-11-27. The chat session builds episodes 7, 8 and 9 of both series this afternoon. A run that finds "reserved" in the Schedule table skips that slot and takes the next slot that shows "open". Episode numbers for the runs: the 16:38 run on 11-26 builds episode 6 (slot 11-26 23:00). The 20:38 run on 11-26 builds episode 10 (slot 11-28 15:00). Later runs count on from 10.
+ARC, fixed 2026-11-26 14:50. Episodes 7, 8 and 9 of both series are BUILT and SCHEDULED (15:25 on 11-26). The owner asked the chat session to build all three pairs for 2026-11-27. The chat session builds episodes 7, 8 and 9 of both series this afternoon. A run that finds "reserved" in the Schedule table skips that slot and takes the next slot that shows "open". Episode numbers for the runs: the 16:38 run on 11-26 builds episode 6 (slot 11-26 23:00). The 20:38 run on 11-26 builds episode 10 (slot 11-28 15:00). Later runs count on from 10.
 
 Night Bus arc, fixed so the episodes join up:
 - Episode 6 (run at 16:38): opens on seat 7 as described below. It MUST end on this cliffhanger: Otto brakes hard, the headlights show something white and fluffy lying in the road. Caption: "What is lying in the road?" Vote: "Cloud, sheep or pillow? You pick."
 - Episode 7 (chat session): a small cloud that fell out of the sky. Fare: one raindrop in a jar. Ends on: a figure stands dead still in a field with its arms out. "Who is standing in the field?" Vote: "Scarecrow, statue or wizard?"
 - Episode 8 (chat session): the scarecrow going home to its field. Fare: one coat button. Ends on: cold in the bus, a puddle under seat 3. "Who is melting in seat 3?" Vote: "Snowman, ice cream or icicle?"
 - Episode 9 (chat session): the snowman who must be home before sunrise. Fare: one snowflake that never melts. Ends on: a string hangs in front of the windscreen and tugs at the bus. "What is on the other end?" Vote: "Kite, balloon or star?"
+- Episode 6 souvenir: pin one small golden music note in the cabin view at screen position (64, 690), left of the cub's drawing. Episodes 7 to 9 already show it there (`note6` and `POS` in `nightbus/kit/nkit.py`).
 - Episode 10 (run at 20:38 on 11-26): opens on the string at the windscreen. Passenger: the kite with a broken string. Otto's collection then holds, after the ghost's peg: the episode 6 souvenir, the raindrop jar, the coat button and the snowflake.
 
 Next: episode 6. It opens on the tiny music and the small light under seat 7 while Otto bends down with wide eyes. Default passenger: twin mice with tiny fiddles on their way to a concert (mice is the first vote option). Otto's collection by the seat now holds the snail's ticket, the cub's drawing, the owl's feather, the hedgehog's luggage tag and the ghost's clothes peg. The peg is pinned below the feather and the tag, left of his head in the cabin view (`collection` and `cabin` in `nightbus/ep05/scenes.py`). Seat 7 is the seat with the number plate in the rear view (`bench7`). Later passengers: crickets, a moth that follows the bus light, a tortoise on its first bus ride, a small cloud that fell, a scarecrow going home, a snowman who must be home before sunrise, a kite with a broken string.
@@ -108,6 +115,16 @@ Next: episode 6. It opens on the tiny music and the small light under seat 7 whi
 - The opening camera uses two layers in Where It Goes: the far background scales from 1.12 to 1.0 while the railing and the hero scale from 1.9 to 1.0. The landmark stays in frame 0 that way.
 - Research: the search tool returns links only. Three `web-fetch` agents read the pages and quoted the numbers. Budget ten minutes for it.
 - Build time in this run: about 40 minutes for both films, checks and scheduling.
+
+## Build notes from episodes 7 to 9 (chat session, 2026-11-26 14:50 to 15:25)
+
+- Six films in 35 minutes. The speed came from two kits. Use them for every new episode.
+- Where It Goes: work folder gets `engine/lib.py`, `engine/make.py`, `whereitgoes/ep02/scenes.py` as `base2.py`, and `whereitgoes/kit/kit.py`. Scenes start with `from kit import *`. The kit has `fit`, `sweat`, `strip`, `tickbadge`, `cam`, `make_draw` (slide transitions), `panel` (number counter), `cloud`, `floor`, `sign`, `truck`, `qmarks`. Audio: `audio.py` = `kit/ahead.py` + event lines + `kit/atail.py`. Start the events with `kit/wig_common_events.py`. `kit/build.sh <name>` renders, muxes, checks, encodes the web copy and copies it to the media clone.
+- Where It Goes films: ep 7 `box` hero (online return; NRF and Happy Returns 2025: 19.3% of online sales returned, $849.9 billion). Ep 8 reuses `bag`, `carousel`, `hall` (99.5% of bags reunited, 90 day search, Scottsboro, over a million shoppers, since 1970). Ep 9 `xtree` hero (25 to 30 million real trees, 4,000 programs, Jefferson Parish since 1986, fish habitat).
+- The Night Bus: work folder gets `engine/lib.py`, `engine/make.py`, `nightbus/base.py`, `nightbus/ep02/scenes.py` as `ep2.py`, `nightbus/ep05/scenes.py` as `ep5.py`, and the three files in `nightbus/kit/`. Scenes start with `from nkit import *`. One episode is seven scenes: opening on the cliffhanger, meeting, `fare_scene`, `road_scene`, home, `pin_scene`, new cliffhanger. Only the opening, the meeting, the home scene and the passenger need new drawing.
+- `nkit.py` has the passengers `cloudp`, `scarep`, `snowp` (same call signature), the souvenirs `jar`, `button`, `flake`, `note6`, the tables `SOUV` and `POS` (add episode 10 and later there), `collection2(c, f, g, n)`, `pin_scene(c, t, f, g, n)`, `fare_scene`, `road_base`, `road_scene`, `card`, `ext_begin`, `ext_end`, `stopped_bus`, `otto_home`, `field_scene`, `melt_scene`, `band`, `make_draw`.
+- `nbaudio.build(cfg, events)` writes `audio.py`. `cfg` sets `IN` (interior time spans), `ENG` (engine gain points), `M0` and `MEND` (music start and end). `evc.EV_CDF` holds the sounds for the fare, road and pin scenes.
+- Episode 9 ends on a string that hangs in front of the bus and lifts its front (`scG` in `nightbus/ep09/scenes.py`). Episode 10 opens there.
 
 ## Hook test (YouTube Studio, CutSignal HQ, read 2026-11-26 01:00)
 
