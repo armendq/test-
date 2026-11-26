@@ -62,7 +62,7 @@ def scene1(c, t, f, g):
             a = i * math.pi / 4
             wline(c, [(hx_ + 110 * math.cos(a), hy_ + 90 * math.sin(a)), (hx_ + (150 + 40 * q) * math.cos(a), hy_ + (120 + 40 * q) * math.sin(a))], ('sp', i), f, lw=7, col=WHITE, amp=0.5, a=1 - q)
     c.restore()
-    caption(c, t, -1, [[("THIS WALL IS MADE", CREAM)], [("OF CHEWED GUM.", GOLD)]], y=300, size=88, pop=False)
+    caption(c, t, -1, [[("THIS WALL IS COVERED", CREAM)], [("IN CHEWED GUM.", GOLD)]], y=300, size=88, pop=False)
     strip(c, 1560, ["Post Alley, Seattle"], seg(t, 0.9, 1.3), size=40)
 
 
