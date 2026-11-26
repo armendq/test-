@@ -34,17 +34,24 @@ Nothing goes out after 2026-11-28 19:00 without a new instruction from the owner
 | 2 | Suitcase after check-in | 2026-11-25 18:22 | media/where_it_goes_ep02_suitcase.mp4 | Sources: SITA Baggage IT Insights 2026, Airport Technology (Heathrow T5). |
 | 3 | The letter you post | scheduled 2026-11-26 06:00 | media/where_it_goes_ep03_letter_v2.mp4 (new first frame) | Sources: USPS Postal Facts, USPS Link, Smithsonian National Postal Museum. US figures. |
 
-Next topics, in order. Each one is the aftermath of something the viewer did:
+Next topics, in order. Each one is the aftermath of something the viewer did.
 
-4. The plastic bottle you recycle (next)
-5. The water you flush
-6. The parcel you send back
-7. The message you send (undersea cables)
-8. The old phone you hand in
-9. The blood you donate
-10. The umbrella you leave on a train
-11. The clothes you donate
-12. The battery you drop in the collection box
+Changed 2026-11-26 08:30. Reason: the coin film (famous place, built-in curiosity) held 56.9% of the feed. The suitcase film held 38.2% and the letter film 42.2% (first 2.5 hours, new first frame). Everyday objects pull less than famous places and odd rituals. Famous and curious topics go first:
+
+4. The love lock you clip on a Paris bridge (next)
+5. The letter your child sends to Santa
+6. The gum you stick on the Seattle Gum Wall
+7. The Christmas tree you put out in January
+8. The wish plaque you hang at a Japanese shrine
+9. The suitcase you never collect (Unclaimed Baggage, Alabama)
+10. The message you put in a bottle
+11. The plastic bottle you recycle
+12. The water you flush
+13. The old phone you hand in
+14. The blood you donate
+15. The clothes you donate
+
+Name the famous place or ritual in the first caption and show it in frame 0. Keep the first-frame rules from PLAYBOOK.md.
 
 Skip a topic if the research does not give two solid sources. Pick the next one.
 
@@ -70,7 +77,7 @@ Next: episode 4. It opens on the bus rolling away without Otto. Default driver: 
 |---|---|---|---|---|
 | Coin | shocked coin in mid-air | 56.9% | 0:19 of 0:31 | 1.3K |
 | Suitcase | calm, smiling suitcase on a belt | 38.2% | 0:26 of 0:31 | 1.1K |
-| Letter | frightened letter above the gaping slot | not yet read | | |
+| Letter | frightened letter above the gaping slot | 42.2% (2.5 hours in) | 0:15 of 0:31 | 302 |
 
 Channel lifetime: 36.5% stayed, 95% of views from the Shorts feed. Older puzzle videos: 15% to 44% stayed. Every Short stops near 1,000 views. Target: 65% stayed or more. Follow the first-frame rules in PLAYBOOK.md. Talewend Studio numbers are not read yet.
 
