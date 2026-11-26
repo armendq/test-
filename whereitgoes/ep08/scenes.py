@@ -17,21 +17,12 @@ def tee(c, x, y, s, rot, col=TEAL, key='te', f=0):
 
 
 def scene1(c, t, f, g):
-    a = 1.9 - g * 0.22
-    x, y = on_car(a, 540, CY)
-    k = ease(seg(t, 0.6, 1.3)); z = lerp(1.9, 1.0, k)
-    fear = 1.0
-    c.save(); cam(c, z, lerp(x + 20, 540, k), lerp(y - 190, 960, k))
-    hall(c, f, g)
-    carousel(c, f, g, 540, CY)
-    dim = ease(seg(t, 1.5, 2.3))
-    c.rectangle(-600, -600, 2400, 3200); rgb(c, hx('0B1026'), 0.62 * dim); c.fill()
-    if dim > 0:
-        c.new_path(); c.move_to(x - 40, 420); c.line_to(x - 240, y + 30); c.line_to(x + 240, y + 30); c.line_to(x + 40, 420); c.close_path(); rgb(c, hx('FFE9A8'), 0.16 * dim); c.fill()
-    sweat(c, x, y - 230, 1.0, g, f)
-    bag(c, x + 4 * math.sin(g * 41), y, 0.86, 'hero', f, col=CORAL, face='o', eyes='big', look=(math.sin(g * 3), -0.2), rot=0.05 * math.sin(g * 30), sw=0.3 * math.sin(g * 9))
-    c.restore()
-    caption(c, t, -1, [[("WHERE DOES YOUR", CREAM)], [("LOST SUITCASE GO?", GOLD)]], y=300, size=80, pop=False)
+    bg(c, hx('FFE9C9'), hx('FFD3A0'))
+    floor(c, 1430, WOOD)
+    sign(c, 540, 660, "UNCLAIMED LUGGAGE", CREAM, INK, size=48)
+    bag(c, 520, 1420, 1.55, 'hero', f, col=CORAL, face='o', eyes='big', look=(0.8, -0.2), sw=0.18*math.sin(g*6))
+    sign(c, 765, 1020 + 14*math.sin(g*5), "FOR SALE", GOLD, INK, size=49, rot=-0.1)
+    caption(c, t, -1, [[("A STORE BUYS", CREAM)], [("LOST AIRLINE BAGS.", GOLD)]], y=300, size=82, pop=False)
 
 
 def scene2(c, t, f, g):
@@ -48,8 +39,8 @@ def scene2(c, t, f, g):
     c.new_path(); c.move_to(800, 560); c.line_to(650, 1390); c.line_to(980, 1390); c.line_to(840, 560); c.close_path(); rgb(c, hx('FFE9A8'), 0.5 * lone); c.fill()
     bag(c, 815, 1390, 0.62, 'hero', f, col=CORAL, face='flat' if t > 1.6 else 'smile', eyes='dot', look=(-0.8, 0.5), sw=0.2 * math.sin(g * 3))
     sign(c, 800, 1040, "NOT THIS ONE", CORAL, WHITE, size=40, rot=-0.05, k=eback(seg(t, 2.3, 2.6)), padx=24)
-    caption(c, t, 0.25, [[("99.5% OF BAGS", GOLD)], [("GET BACK HOME.", CREAM)]], y=300, size=84)
-    strip(c, 1470, ["Source: PBS NewsHour."], seg(t, 1.0, 1.4), size=34)
+    caption(c, t, 0.25, [[("99.5% OF BAGS", GOLD)], [("REUNITE RIGHT AWAY.", CREAM)]], y=300, size=84)
+    strip(c, 1470, ["Source: Unclaimed Baggage."], seg(t, 1.0, 1.4), size=34)
 
 
 def storeroom(c, f, g):
@@ -89,8 +80,8 @@ def scene3(c, t, f, g):
     stick(c, 250, 1480 - 190, 1.0, 'wk', f, lh=(-60, -30), rh=(120 + 40 * sw, -170), face='flat', shirt=BLUE, hat='cap', look=(0.8 * sw, -0.3))
     mx, my = 250 + 120 + 40 * sw + 30, 1290 - 170 - 40
     c.new_path(); c.arc(mx + 20, my - 26, 44, 0, 2 * math.pi); rgb(c, GLASS, 0.5); c.fill_preserve(); rgb(c, INK); c.set_line_width(9); c.stroke()
-    caption(c, t, 0.2, [[("AIRLINES SEARCH", CREAM)], [("FOR 90 DAYS.", GOLD)]], y=300, size=84)
-    strip(c, 1560 - 30, ["Sources: PBS NewsHour, Smithsonian Magazine."], seg(t, 1.2, 1.6), size=32)
+    caption(c, t, 0.2, [[("AIRLINES SEARCH", CREAM)], [("UP TO 90 DAYS.", GOLD)]], y=300, size=84)
+    strip(c, 1490, ["Before sale: tracing and claim settlement.", "Source: Unclaimed Baggage (2026)."], seg(t, 1.2, 1.6), size=32)
 
 
 def scene4(c, t, f, g):
@@ -115,8 +106,8 @@ def scene4(c, t, f, g):
     for i in range(3):
         pk = (g * 2 + i * 0.33) % 1
         c.new_path(); c.arc(tx - 290 - 90 * pk, 1300 - 30 * pk, 16 + 22 * pk, 0, 2 * math.pi); rgb(c, WHITE, 0.6 * (1 - pk)); c.fill()
-    caption(c, t, 0.2, [[("THEN ONE STORE", CREAM)], [("BUYS IT UNSEEN.", GOLD)]], y=300, size=84)
-    strip(c, 1590 - 110, ["Sources: WSB-TV, Smithsonian Magazine."], seg(t, 1.2, 1.6), size=32)
+    caption(c, t, 0.2, [[("THEN ONE STORE", CREAM)], [("BUYS UNCLAIMED BAGS.", GOLD)]], y=300, size=84)
+    strip(c, 1590 - 110, ["Scottsboro, Alabama. Source: Unclaimed Baggage."], seg(t, 1.2, 1.6), size=32)
 
 
 def arc_pos(p0, p1, u, h):
@@ -154,8 +145,8 @@ def scene5(c, t, f, g):
         if 0 < u < 1:
             x, y = arc_pos((270, 960), (755, 1180), u, 330)
             (sock if kind == 'sock' else tee)(c, x, y, 0.8 * (1 - 0.5 * ein(u)), u * 5 + i, col)
-    caption(c, t, 0.2, [[("EVERY BAG IS OPENED.", CREAM)], [("CLOTHES GET CLEANED.", GOLD)]], y=300, size=70)
-    strip(c, 1480, ["Source: Afar."], seg(t, 1.2, 1.6), size=34)
+    caption(c, t, 0.2, [[("OPEN, SORT, CLEAN.", CREAM)], [("GIVE ITEMS A NEW LIFE.", GOLD)]], y=300, size=70)
+    strip(c, 1480, ["Items are resold, repurposed or recycled.", "Source: Unclaimed Baggage."], seg(t, 1.2, 1.6), size=34)
 
 
 def scene6(c, t, f, g):
@@ -180,8 +171,8 @@ def scene6(c, t, f, g):
         d = -1 if x1 < x0 else 1
         stick(c, x, 1420 - 190, 1.0, ('sh', i), f, lh=(-50 if d > 0 else -110, -40 if d > 0 else -150), rh=(110 if d > 0 else 50, -150 if d > 0 else -40), face='grin', shirt=sh,
               lf=(-45 + 30 * math.sin(g * 9) * mv, 190), rf=(45 - 30 * math.sin(g * 9) * mv, 190), look=(-0.7 * d * -1, 0))
-    caption(c, t, 0.2, [[("OVER A MILLION", GOLD)], [("SHOPPERS A YEAR.", CREAM)]], y=300, size=82)
-    strip(c, 1490, ["Sources: NBC News, NewsNation, WPTV."], seg(t, 1.2, 1.6), size=32)
+    caption(c, t, 0.2, [[("SOMEONE ELSE", CREAM)], [("BUYS WHAT WAS LEFT.", GOLD)]], y=300, size=82)
+    strip(c, 1490, ["Source: Unclaimed Baggage."], seg(t, 1.2, 1.6), size=32)
 
 
 def scene7(c, t, f, g):
@@ -195,9 +186,16 @@ def scene7(c, t, f, g):
     qmarks(c, ((860, 900, 0.3), (140, 820, -0.3), (560, 1010, 0.15)), t, 2.2)
     caption(c, t, 0.12, [[("YOUR SOCKS?", CREAM)], [("SOLD.", GOLD)]], y=300, size=92, t1=1.85)
     caption(c, t, 1.95, [[("EVER LOST A BAG", CREAM)], [("FOR GOOD?", GOLD)]], y=300, size=86)
-    strip(c, 1500, ["Sources: PBS NewsHour, Smithsonian Magazine,", "NBC News, WSB-TV, WPTV, Afar, NewsNation."], seg(t, 2.3, 2.7), size=30)
+    strip(c, 1500, ["Sources: Unclaimed Baggage,", "How It Works and 2026 Found Report."], seg(t, 2.3, 2.7), size=30)
 
 
 SCENES = [(0.0, 3.6, scene1), (3.6, 8.0, scene2), (8.0, 12.4, scene3), (12.4, 16.8, scene4), (16.8, 21.2, scene5),
           (21.2, 25.6, scene6), (25.6, 30.0, scene7)]
 draw = make_draw(SCENES)
+
+
+# November 26 retention edit. Values: output seconds, source start, source end.
+from edit import edited_draw
+EDIT = [(2.4, 0, 3.6), (3.6, 3.6, 8), (4, 8, 12.4), (4, 12.4, 16.8), (4, 16.8, 21.2), (4, 21.2, 25.6), (3, 26.9, 29.9)]
+DURATION = sum(shot[0] for shot in EDIT)
+draw = edited_draw(SCENES, EDIT)

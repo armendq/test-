@@ -122,3 +122,10 @@ def scG(c, t, f, g): melt_scene(c, t, f, g, tease=True)
 
 SCENES = [(0.0, 3.6, scA), (3.6, 8.0, scB), (8.0, 12.4, scC), (12.4, 16.8, scD), (16.8, 21.2, scE), (21.2, 25.6, scF), (25.6, 30.0, scG)]
 draw = make_draw(SCENES)
+
+
+# November 26 retention edit. Values: output seconds, source start, source end.
+from edit import edited_draw
+EDIT = [(2, 0, 3.6), (3.8, 3.6, 8), (4, 8, 12.4), (3.2, 12.4, 16.8), (5, 16.8, 21.2), (3, 21.2, 25.6), (4, 25.6, 30)]
+DURATION = sum(shot[0] for shot in EDIT)
+draw = edited_draw(SCENES, EDIT)

@@ -8,7 +8,18 @@ def flakes(c, g, n=26, a=0.9, seed=3, x0=0, x1=W, y0=0, y1=H):
         c.new_path(); c.arc(bx + 20 * math.sin(g * 1.3 + ph), y0 + (by + g * sp) % (y1 - y0), sz, 0, 2 * math.pi); rgb(c, WHITE, a); c.fill()
 
 
-def scA(c, t, f, g): melt_scene(c, t, f, g, tease=False)
+def scA(c, t, f, g):
+    bg(c, NAVY, hx('27345A'))
+    c.rectangle(0, 1420, W, 500); rgb(c, FLOOR); c.fill()
+    snowp(c, 450, 1400, 2.7, 'hook-snow', f, g, mood='sad', sq=0.84, melt=1.0, look=(1, 0.6))
+    rrect(c, 755, 1200, 160, 190, 18); fs(c, hx('FF8A3D'), 8)
+    for i in range(4):
+        c.rectangle(773+i*34, 1220, 14, 150); rgb(c, GOLD); c.fill()
+    for i in range(3):
+        ph=(g*1.4+i/3)%1
+        wline(c, [(790+i*36,1180-170*ph),(803+i*36,1160-170*ph),(788+i*36,1140-170*ph)], ('heat-hook',i), f, lw=7, col=CORAL, a=1-ph)
+    cap2(c, t, -1, ["The heater is melting him."], y=270, size=84, gold=True)
+
 
 
 def scB(c, t, f, g):
@@ -117,3 +128,10 @@ def scG(c, t, f, g):
 
 SCENES = [(0.0, 3.6, scA), (3.6, 8.0, scB), (8.0, 12.4, scC), (12.4, 16.8, scD), (16.8, 21.2, scE), (21.2, 25.6, scF), (25.6, 30.0, scG)]
 draw = make_draw(SCENES)
+
+
+# November 26 retention edit. Values: output seconds, source start, source end.
+from edit import edited_draw
+EDIT = [(2, 0, 3.6), (3.8, 3.6, 8), (4, 8, 12.4), (3.2, 12.4, 16.8), (5, 16.8, 21.2), (3, 21.2, 25.6), (4, 25.6, 30)]
+DURATION = sum(shot[0] for shot in EDIT)
+draw = edited_draw(SCENES, EDIT)

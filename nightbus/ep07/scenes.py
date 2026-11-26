@@ -4,7 +4,7 @@ LX, LYY = 300, 1396
 
 
 def scA(c, t, f, g):
-    k = ease(seg(t, 0.6, 1.3)); z = lerp(1.6, 1.0, k); sx, sy = scr(LX, LYY)
+    k = ease(seg(t, 0.6, 1.3)); z = lerp(2.0, 1.1, k); sx, sy = scr(LX, LYY)
     ext_begin(c, f, g, z, lerp(sx + 90, 540, k), lerp(sy - 250, 960, k))
     OUT = 2.2
     stopped_bus(c, f, g, otto=('wide', 'o') if t < OUT else None, door=ease(seg(t, OUT - 0.3, OUT)))
@@ -15,8 +15,8 @@ def scA(c, t, f, g):
     if t < 1.4: txt(c, "!", 560, 1110, 110, GOLD, SERIF)
     ext_end(c, g, 0.22)
     band(c, 1 - k)
-    cap2(c, t, -1, ["Something is lying in the road."], y=250, size=74, gold=True, t1=2.2)
-    cap2(c, t, 2.3, ["It is soft. And it is crying."], y=250, size=78)
+    cap2(c, t, -1, ["A cloud fell. It cannot fly."], y=250, size=74, gold=True, t1=2.2)
+    cap2(c, t, 2.3, ["Too full of rain to fly."], y=250, size=78)
 
 
 def scB(c, t, f, g):
@@ -40,7 +40,7 @@ def scB(c, t, f, g):
     cloudp(c, LX + 30 * up, cy_, 0.72, 'cl', f, g, mood='sad' if (t < 1.2 or lookup) else 'happy', look=(1, -0.4) if not lookup else (0.4, -1), sq=0.8 + 0.1 * up)
     ext_end(c, g, 0.2)
     cap2(c, t, 0.2, ["A small cloud."], y=250, size=90, gold=True, t1=2.0)
-    cap2(c, t, 2.1, ["It fell out of the sky."], y=250, size=84)
+    cap2(c, t, 2.1, ["Its family is still up there."], y=250, size=84)
 
 
 def scC(c, t, f, g):
@@ -102,3 +102,10 @@ def scG(c, t, f, g): field_scene(c, t, f, g, tease=True)
 
 SCENES = [(0.0, 3.6, scA), (3.6, 8.0, scB), (8.0, 12.4, scC), (12.4, 16.8, scD), (16.8, 21.2, scE), (21.2, 25.6, scF), (25.6, 30.0, scG)]
 draw = make_draw(SCENES)
+
+
+# November 26 retention edit. Values: output seconds, source start, source end.
+from edit import edited_draw
+EDIT = [(2, 0, 3.6), (3.8, 3.6, 8), (4, 8, 12.4), (3.2, 12.4, 16.8), (5, 16.8, 21.2), (3, 21.2, 25.6), (4, 25.6, 30)]
+DURATION = sum(shot[0] for shot in EDIT)
+draw = edited_draw(SCENES, EDIT)

@@ -1,0 +1,68 @@
+[
+  {
+    "episode": "whereitgoes07",
+    "file": "where_it_goes_ep07_online_return_retention_v2.mp4",
+    "duration": 22.6,
+    "frames": "678",
+    "lufs": -14.9,
+    "peak_dbfs": -1.5,
+    "black_intervals": 0,
+    "sha256": "28ea3a64c85dcc12b7853db87b1dc930d239839a03a7542411e8ec87bb1e2648",
+    "bytes": 2237800
+  },
+  {
+    "episode": "whereitgoes08",
+    "file": "where_it_goes_ep08_lost_suitcase_retention_v2.mp4",
+    "duration": 25.0,
+    "frames": "750",
+    "lufs": -14.5,
+    "peak_dbfs": -1.1,
+    "black_intervals": 0,
+    "sha256": "b87d36d055652b179e6ae4353ab9eacdab664d62a2469b66ed002a97ade50067",
+    "bytes": 2624654
+  },
+  {
+    "episode": "whereitgoes09",
+    "file": "where_it_goes_ep09_christmas_tree_retention_v2.mp4",
+    "duration": 23.0,
+    "frames": "690",
+    "lufs": -14.3,
+    "peak_dbfs": -1.2,
+    "black_intervals": 0,
+    "sha256": "bb14491b58e4d8460711a86c471d1e3923b544fb25e53a3dd23db993a97e2dd8",
+    "bytes": 2972394
+  },
+  {
+    "episode": "nightbus07",
+    "file": "night_bus_ep07_the_cloud_retention_v2.mp4",
+    "duration": 25.0,
+    "frames": "750",
+    "lufs": -14.1,
+    "peak_dbfs": -1.4,
+    "black_intervals": 0,
+    "sha256": "517e9b604e16db205f9e8b895c36de0366ff4744b8f9bb32e61db83d0d018bed",
+    "bytes": 5030790
+  },
+  {
+    "episode": "nightbus08",
+    "file": "night_bus_ep08_the_scarecrow_retention_v2.mp4",
+    "duration": 25.0,
+    "frames": "750",
+    "lufs": -13.9,
+    "peak_dbfs": -1.7,
+    "black_intervals": 0,
+    "sha256": "5457852e3a22f3fd42d6205441509845c7feaf28fb3fb490bdaa950b8a4b0226",
+    "bytes": 4977429
+  },
+  {
+    "episode": "nightbus09",
+    "file": "night_bus_ep09_the_snowman_retention_v2.mp4",
+    "duration": 25.0,
+    "frames": "750",
+    "lufs": -14.0,
+    "peak_dbfs": -1.5,
+    "black_intervals": 0,
+    "sha256": "4dcd339d55307790ac186584daab2cf304aebe3e54cb14e14f6c11088ce322d2",
+    "bytes": 4465221
+  }
+]

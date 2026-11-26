@@ -1,7 +1,9 @@
 import sys, subprocess, os
 import cairocffi as cairo
-from lib import W, H, FPS, N
-from scenes import draw
+from lib import W, H, FPS, DUR
+import scenes
+draw = scenes.draw
+N = round(FPS * getattr(scenes, 'DURATION', DUR))
 
 OUT = os.path.dirname(os.path.abspath(__file__))
 
@@ -36,7 +38,9 @@ def main():
         for i in range(a, b):
             frame(surf, ctx, i)
             p.stdin.write(bytes(surf.get_data()))
-        p.stdin.close(); p.wait()
+        p.stdin.close()
+        if p.wait() != 0:
+            raise RuntimeError('Video encoder failed')
 
 
 main()

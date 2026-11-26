@@ -294,7 +294,7 @@ def field_scene(c, t, f, g, tease=True):
     fl = t - FL
     flash = (1 - fl / 0.18) if 0 <= fl < 0.18 else ((1 - (fl - 0.3) / 0.25) * 0.7 if 0.3 <= fl < 0.55 else 0)
     c.save(); c.translate(330, 1300); c.scale(1, 0.3); c.new_path(); c.arc(0, 0, 330, math.pi, 2 * math.pi); c.restore(); rgb(c, hx('1D3A2E')); c.fill()
-    scarep(c, 330, 1336, 0.8, 'fig', f, g, sil=True if (flash <= 0 and t < FL + 0.6) else 'eyes', rot=0.02 * math.sin(g * 2))
+    scarep(c, 330, 1336, 0.8, 'fig', f, g, sil=(True if (flash <= 0 and t < FL + 0.6) else 'eyes') if tease else False, mood='sad', rot=0.02 * math.sin(g * 2))
     for i in range(5):
         px = 130 + i * 112
         wline(c, [(px, 1340), (px, 1262)], ('fp', i), f, lw=12, col=hx('2B2F55'), amp=0.5)
@@ -310,8 +310,8 @@ def field_scene(c, t, f, g, tease=True):
         cap2(c, t, 2.0, ["Scarecrow, statue or wizard?"], y=362, size=70)
     else:
         band(c, 1 - ease(seg(t, 0.6, 1.3)))
-        cap2(c, t, -1, ["Someone is standing in the field."], y=250, size=72, gold=True, t1=2.2)
-        cap2(c, t, 2.3, ["It does not move."], y=250, size=86)
+        cap2(c, t, -1, ["A scarecrow. Far from home."], y=250, size=72, gold=True, t1=2.2)
+        cap2(c, t, 2.3, ["Otto stops to help."], y=250, size=86)
 
 
 def melt_scene(c, t, f, g, tease=True):
@@ -350,5 +350,5 @@ def melt_scene(c, t, f, g, tease=True):
         cap2(c, t, 2.0, ["Snowman, ice cream or icicle?"], y=362, size=68)
     else:
         band(c, 1 - ease(seg(t, 0.6, 1.3)))
-        cap2(c, t, -1, ["Who is melting in seat 3?"], y=250, size=82, gold=True, t1=2.2)
-        cap2(c, t, 2.3, ["It is freezing back here."], y=250, size=82)
+        cap2(c, t, -1, ["A passenger is melting!"], y=250, size=82, gold=True, t1=2.2)
+        cap2(c, t, 2.3, ["The heater is still on."], y=250, size=82)

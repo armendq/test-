@@ -90,6 +90,9 @@ cap(27.55); cap(27.62)
 for i in range(3): blip(27.8 + i * 0.25, 700 + 150 * i, 1000 + 180 * i, 0.08, 0.06)
 arp(28.6, (79, 84, 88), 0.09)
 x=buf[:NS]
+from scenes import EDIT
+from edit import edited_audio
+x = edited_audio(x, SR, EDIT)
 x[-int(0.02*SR):]*=np.linspace(1,0,int(0.02*SR)); x[:int(0.004*SR)]*=np.linspace(0,1,int(0.004*SR))
 x=np.tanh(x*1.6); x=x/np.max(np.abs(x))*0.89
 st=np.stack([x,x],1); pcm=(st*32767).astype('<i2')

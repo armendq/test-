@@ -65,27 +65,12 @@ def street(c, f, g, sky=(DUSK, DUSK2)):
 
 
 def scene1(c, t, f, g):
-    k = ease(seg(t, 0.6, 1.3)); z = lerp(1.9, 1.0, k)
-    TX, TY = 560, 1392
-    c.save(); cam(c, z, lerp(TX + 40, 540, k), lerp(TY - 260, 960, k))
-    street(c, f, g)
-    ck = eback(seg(t, 1.0, 1.35))
-    c.save(); c.translate(820, 690); c.rotate(0.05); c.scale(max(ck, 0.001), max(ck, 0.001)); rrect(c, -120, -90, 240, 180, 18); fs(c, WHITE, 8)
-    c.rectangle(-120, -90, 240, 54); rgb(c, RED); c.fill(); rrect(c, -120, -90, 240, 180, 18); rgb(c, INK); c.set_line_width(8); c.stroke()
-    txt(c, "JANUARY", 0, -50, 34, WHITE); txt(c, "2", 0, 66, 104, INK); c.restore()
-    hl = ease(seg(t, 2.0, 3.2))
-    if hl > 0:
-        c.new_path(); c.move_to(1200, 1180); c.line_to(1200 - 760 * hl, 1100); c.line_to(1200 - 760 * hl, 1420); c.line_to(1200, 1330); c.close_path(); rgb(c, hx('FFE9A8'), 0.28 * hl); c.fill()
-    trashcan(c, f, 760, 1392)
-    walk = ease(seg(t, 1.4, 3.2))
-    stick(c, lerp(330, 150, walk), 1392 - 190, 1.0, 'you', f, lh=(-60, -20) if t < 2.3 else (-112 - 12 * math.sin(g * 9), -300), rh=(60, -20), face='smile', eyes='closed', shirt=TEAL,
-          lf=(-45 + 26 * math.sin(g * 9) * (1 if 0 < walk < 1 else 0), 190), rf=(45 - 26 * math.sin(g * 9) * (1 if 0 < walk < 1 else 0), 190))
-    sweat(c, TX + 30, TY - 330, 1.0, g, f)
-    xtree(c, TX + 4 * math.sin(g * 41), TY, 0.9, 'hero', f, face='o', eyes='big', look=(1, -0.2) if t > 2.0 else (math.sin(g * 4), 0), rot=0.26 + 0.03 * math.sin(g * 30))
-    needles(c, TX + 60, TY - 300, g)
-    c.restore()
-    snow(c, g)
-    caption(c, t, -1, [[("WHERE DOES YOUR", CREAM)], [("CHRISTMAS TREE GO?", GOLD)]], y=300, size=78, pop=False)
+    bg(c, hx('2E8FC4'), hx('134E7A'))
+    c.rectangle(0, 1450, W, 500); rgb(c, hx('D9C08A')); c.fill()
+    xtree(c, 540, 1440, 1.7, 'hero', f, face='o', eyes='big', look=(math.sin(g*2), 0), rot=0.025*math.sin(g*4))
+    for i, (x, y, col, d) in enumerate(((260, 990, GOLD, 1), (820, 1200, CORAL, -1))):
+        fish(c, x + 24*math.sin(g*3+i), y + 12*math.sin(g*4+i), 0.95, col, d, wag=math.sin(g*12))
+    caption(c, t, -1, [[("CHRISTMAS TREES...", CREAM)], [("UNDERWATER?", GOLD)]], y=300, size=86, pop=False)
 
 
 def scene2(c, t, f, g):
@@ -118,7 +103,7 @@ def scene3(c, t, f, g):
     wk = ease(seg(t, 1.5, 2.0))
     stick(c, lerp(tx + 120, 610, wk), 1392 - 190, 1.0, 'wk', f, lh=(-40, -30), rh=(84, -150 - 120 * math.sin(up * math.pi)), face='smile', shirt=ORANGE, hat='cap', look=(0.5, 0))
     snow(c, g, 18, 0.7)
-    caption(c, t, 0.2, [[("4,000+ LOCAL PROGRAMS", CREAM)], [("RECYCLE THEM.", GOLD)]], y=300, size=68)
+    caption(c, t, 0.2, [[("FIRST: REMOVE DECORATIONS.", CREAM)], [("USE A LOCAL TREE PROGRAM.", GOLD)]], y=300, size=68)
     strip(c, 1560 - 30, ["Source: National Christmas Tree Association."], seg(t, 1.2, 1.6), size=32)
 
 
@@ -182,7 +167,7 @@ def scene5(c, t, f, g):
     wv = (g * 0.9) % 1
     c.new_path(); c.arc(60 - 40 + 60 * wv, 1240, 60, math.pi, 2 * math.pi); rgb(c, WHITE, 0.7 * (1 - wv)); c.set_line_width(12); c.stroke()
     caption(c, t, 0.2, [[("IN LOUISIANA, THEY", CREAM)], [("SHIELD THE MARSH.", GOLD)]], y=300, size=78)
-    strip(c, 1490, ["Jefferson Parish, since 1986.", "Source: Waste360."], seg(t, 1.2, 1.6), size=32)
+    strip(c, 1490, ["Jefferson Parish, Louisiana.", "Source: Jefferson Parish Environmental Affairs."], seg(t, 1.2, 1.6), size=32)
 
 
 def fish(c, x, y, s, col, d=1, key='fi', f=0, wag=0.0):
@@ -213,9 +198,9 @@ def scene6(c, t, f, g):
         if u > 0:
             fish(c, lerp(x0, x1, u), lerp(y0, y1, u) + 8 * math.sin(g * 4 + i), 0.62, col, d, wag=math.sin(g * 14 + i))
     sign(c, 540, 760, "FISH HOTEL", GOLD, INK, size=44, rot=-0.04, k=eback(seg(t, 3.0, 3.3)), padx=24)
-    caption(c, t, 0.15, [[("YOURS? IT SANK", CREAM)], [("INTO A LAKE.", GOLD)]], y=300, size=84, t1=2.1)
+    caption(c, t, 0.15, [[("SOME PROGRAMS SINK THEM", CREAM)], [("IN LAKES.", GOLD)]], y=300, size=84, t1=2.1)
     caption(c, t, 2.2, [[("NOW IT IS", CREAM)], [("A FISH HOTEL.", GOLD)]], y=300, size=88)
-    strip(c, 1500, ["Source: University of Illinois Extension."], seg(t, 1.0, 1.4), size=32)
+    strip(c, 1500, ["Source: Texas Parks and Wildlife."], seg(t, 1.0, 1.4), size=32)
 
 
 def scene7(c, t, f, g):
@@ -229,9 +214,16 @@ def scene7(c, t, f, g):
     k = eback(seg(t, 0.3, 0.6))
     c.save(); c.translate(540, 1010); c.scale(k, k); c.new_path(); c.arc(0, 0, 62, 0, 2 * math.pi); fs(c, INK, 0); txt(c, "VS", 0, 20, 56, GOLD); c.restore()
     caption(c, t, 0.12, [[("REAL TREE", CREAM)], [("OR FAKE TREE?", GOLD)]], y=300, size=90)
-    strip(c, 640, ["Sources: National Christmas Tree Association,", "University of Illinois Extension, Waste360."], seg(t, 1.2, 1.6), size=30)
+    strip(c, 640, ["Use approved local collection programs.", "Sources: NCTA, TPWD, Jefferson Parish."], seg(t, 1.2, 1.6), size=30)
 
 
 SCENES = [(0.0, 3.6, scene1), (3.6, 8.0, scene2), (8.0, 12.4, scene3), (12.4, 16.8, scene4), (16.8, 21.2, scene5),
           (21.2, 25.6, scene6), (25.6, 30.0, scene7)]
 draw = make_draw(SCENES)
+
+
+# November 26 retention edit. Values: output seconds, source start, source end.
+from edit import edited_draw
+EDIT = [(2.4, 0, 3.6), (4, 8, 12.4), (4, 12.4, 16.8), (4, 16.8, 21.2), (5.6, 21.2, 25.6), (3, 25.6, 28.6)]
+DURATION = sum(shot[0] for shot in EDIT)
+draw = edited_draw(SCENES, EDIT)

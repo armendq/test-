@@ -1,6 +1,6 @@
 # Studio playbook
 
-How to build and post one 30 second vertical film for each series. A fresh session follows this file from top to bottom. Read `STATE.md` first. It says which episode is next.
+How to build and post one concise vertical film for each series. A fresh session follows this file from top to bottom. Read `STATE.md` first. It says which episode is next.
 
 ## The two series
 
@@ -11,7 +11,7 @@ How to build and post one 30 second vertical film for each series. A fresh sessi
 | Premise | Second person. "You did X. Here is where it went." One hero object with a face rides through the real system behind an everyday act. Ends on a human payoff and a question. | Wordless night bus. Otto the badger driver takes one odd passenger home per episode. Ends on a cliffhanger and a three-option vote for the next passenger. |
 | Facts | Every number on screen comes from a named source found in this run. Sources go on screen and in the caption. | None. Pure story. |
 | Look | Bright, bold caption blocks (`caption()` in `engine/lib.py`), cream and gold on ink. | Navy night palette, serif captions (`cap2()` in `nightbus/base.py`). |
-| Catchphrase | Opening block: "WHERE DOES YOUR <THING> GO?" | "Every passenger gets home." near the end. |
+| Catchphrase | Opening block: the specific surprising destination or problem, visible from frame 0. | "Every passenger gets home." near the end. |
 
 Never post the same video on both brands.
 
@@ -28,7 +28,7 @@ The repository needs push access in the session (`armendq/test-`). Add it first 
 
 ## Build one episode
 
-1. Make a work folder. Copy `engine/lib.py` and `engine/make.py` into it. For The Night Bus also copy `nightbus/base.py`.
+1. Make an isolated work folder. For an existing episode use `python engine/prepare.py <whereitgoes|nightbus> <episode-number> <work-folder>`. This copies the matching dependencies, including `engine/edit.py`. For a new episode create its source folder first. Never render in or overwrite another run's folder.
 2. Where It Goes only: research. Two or three web searches. At least two named sources. Every number in the film must appear in a source. Prefer the newest report.
 3. Write `scenes.py`. Use the latest episode of the same series as the model for structure and helper use. Export `SCENES` and `draw(c, g, f)`.
 4. Review stills: `python3 make.py still 0,2.5,5,8,11,14,17,20,23,26,29 4 sheet.jpg`, then read the image. Fix and repeat. At least two rounds.
@@ -40,7 +40,7 @@ python3 audio.py && python3 make.py render
 ffmpeg -v error -y -i video.mp4 -i audio.wav -c:v copy -af "loudnorm=I=-15:TP=-1.5:LRA=11" -c:a aac -b:a 192k -ar 44100 -shortest -movflags +faststart final.mp4
 ```
 
-7. Check the result. Duration 30.000 s, 900 frames, loudness near -15 LUFS, no black frames, then one full contact sheet:
+7. Check the result. Duration matches `scenes.DURATION` (30 s if absent), exactly `round(duration * 30)` video frames, matching audio, loudness near -15 LUFS, no black frames, then one full contact sheet:
 
 ```bash
 ffprobe -v error -show_entries format=duration:stream=nb_frames -of default=nw=1 final.mp4
@@ -49,7 +49,7 @@ ffmpeg -v info -i final.mp4 -vf "blackdetect=d=0.1:pix_th=0.06" -an -f null - 2>
 ffmpeg -v error -y -i final.mp4 -vf "fps=2,scale=180:320,tile=10x6" -frames:v 1 -q:v 3 sheet_all.jpg
 ```
 
-8. Web copy for hosting (about 4 MB, visually identical):
+8. Web copy for hosting (inspect the encoded copy for compression damage):
 
 ```bash
 ffmpeg -v error -y -i video.mp4 -c:v libx264 -preset veryslow -tune animation -b:v 1000k -maxrate 2200k -bufsize 5000k -pass 1 -passlogfile p -pix_fmt yuv420p -an -f mp4 /dev/null
@@ -60,13 +60,13 @@ If any check fails and you cannot fix it, do not post. Report what failed.
 
 ## Film rules
 
-- 1080 x 1920, 30 fps, exactly 30 s, six or seven scenes.
+- 1080 x 1920, 30 fps. Start with the established 30-second format, then cut repeated setup and empty holds. The November 27 revisions run 22.6 to 25 seconds. Length serves the story; it is not an algorithm requirement. Declare `DURATION` for a shorter cut and check picture and audio against it.
 - The first frame carries the hook: the hero in close-up plus the opening caption. No title card.
 - Keep faces, action and labels inside x 60 to 960 and y 250 to 1500. The apps cover the rest.
 - Captions sit near y 215 to 300. Nothing else may sit under them. One idea per caption. Six words or fewer when possible.
 - Wordless apart from captions. No voice.
 - Give every beat motion: a walk, a pop, a count, a camera push. No frame should hold still for more than a second.
-- End with a question the viewer wants to answer in a comment.
+- Deliver the promised answer or completed passenger story before the final prompt. Use one specific question if it fits. Keep the closing prompt brief; do not withhold the answer for comments.
 - Characters keep their look: Otto (badger, blue uniform, cap), the hero object of Where It Goes always has a simple face.
 - No real people, no brand logos, no known characters, no song lyrics.
 - Sound: every visible event gets a small sound. Music ducks or stops for the cliffhanger.
@@ -93,35 +93,35 @@ If any check fails and you cannot fix it, do not post. Report what failed.
                  "category": "ENTERTAINMENT_OR_FILM_ANIMATION", "madeForKids": false, "isAiGeneratedContent": false}}
 ```
 
-Notes: TikTok needs `title`. Where It Goes uses category `ENTERTAINMENT` and tags like `#whereitgoes`. The Night Bus uses `FILM_ANIMATION` and `#nightbus #animation #cozy`. The Night Bus caption ends with the vote: "Vote in the comments. The winner rides soon."
+Notes: TikTok needs `title`. Where It Goes uses category `ENTERTAINMENT` and tags like `#whereitgoes`. The Night Bus uses `FILM_ANIMATION` and `#nightbus #animation #cozy`. The Night Bus caption invites a choice for a future ride. Do not promise a vote will decide an episode already built or scheduled. Record actual votes before claiming a winner.
 
 4. Send the finished file to the user with a one-line caption.
 5. Update `STATE.md`: episode log line, the vote options, any numbers you read. Commit and push the `studio` branch together with the new `scenes.py` and `audio.py` in `series/epNN/`.
 
-## First-frame rules (added 2026-11-26, both series)
+## Opening and pacing rules (revised 2026-11-26)
 
-YouTube Studio shows why every Short stops near 1,000 views: most of the feed swipes away at the first frame. Channel lifetime on CutSignal HQ: 36.5% stayed to watch. Coin film: 56.9% stayed (opens on a shocked coin in mid-air). Suitcase film: 38.2% stayed (opens on a calm, smiling suitcase). The first frame decides the reach. Follow these rules in every film:
+Read `audit/2026-11-26-retention-review.md` for observed values and official sources. A plateau near 1,000 views is not evidence of a fixed view cap. Opening choice, continued watching and satisfaction all matter. The averages do not reveal the exact drop-off second. These edits are hypotheses, not proven causes.
 
-1. Frame 0 shows the hero in trouble. A face with shock or fear, an action in mid-motion, and the threat or the destination in the same frame. Never a calm establishing shot. Never a smiling hero at rest.
-2. The camera starts tight, about 2x zoom on the hero, and pulls back after 0.6 seconds.
-3. The caption sits on screen from frame 0. No fade-in on the first caption.
-4. Something moves in each of the first 15 frames: a tremble, sweat drops, motion lines, a falling object.
-5. Check: render the still at t=0.0 next to the stills at 0.5 and 1.0. If frame 0 reads as a calm poster, rebuild the opening before the full render.
-6. Keep every scene under 4.5 seconds and end each scene on a small surprise. The coin film lost viewers mid-film (average view 19 of 31 seconds).
-
-Reference: `whereitgoes/ep03/scenes.py`, `scene1`. The letter trembles above the gaping slot, face 'o', eyes 'big', sweat drops, zoom 2.05.
+1. Frame 0 shows a large, legible subject and the specific problem or surprising destination. A frightened face alone is not the hook. Use emotion appropriate to the scene, not mandatory fear on every object.
+2. Put the opening words on frame 0, without a fade. Prefer one short sentence. Do not begin every CutSignal episode with the generic series question. Keep series branding and episode numbers after the title's specific promise.
+3. Show meaningful action immediately. Frame the subject tightly enough to read on a phone without cropping the relevant threat, clue or destination. No mandatory zoom factor.
+4. Cut repeated setup. Begin a useful explanation or causal story beat within the first few seconds. For The Night Bus, identify this episode's passenger and problem without requiring knowledge of the last cliffhanger.
+5. Give each shot a purpose: new information, an action, a consequence or a payoff. Do not impose uniform 4.4-second shots. Hold long enough to read, then move on. A bobbing character is not a new story beat.
+6. Review frame 0, 0.5 and 1 second at phone size, then every scene boundary and the full film. Confirm the title's promise resolves within the film. Keep Otto's continuity and the next cliffhanger intact.
+7. For revisions using `EDIT`, each tuple is `(output_seconds, source_start, source_end)` and stays inside one source scene. `edited_draw` and `edited_audio` share this list. The sound is time-stretched with pitch preserved. Copy `edit.py` when preparing a film. Never trim picture while leaving the old audio timeline.
+8. Research each quantitative claim with its year, geography, unit and denominator. Sales value is not order count. An estimate is not a measured result. A retailer's returns policy is not a universal grading system. Save primary-source URLs with the episode caption or audit.
 
 ## Keep the catalogue alive (added 2026-11-26)
 
-- Every caption ends its first paragraph with one send line fitted to the film. Example: "Send this to the friend who always loses a suitcase." Sends carry the most weight for reach to new people on Instagram.
-- The Night Bus: every title and caption carries the episode number. The caption names the previous episode in one short line ("Episode 2: the fox cub.").
+- Lead the caption with the specific promise. Use a natural, relevant send line only where useful. Do not treat share requests, tags or posting times as distribution switches.
+- The Night Bus: put the specific story hook first and the episode number at the end of the title. The caption carries the episode number. The caption names the previous episode in one short line ("Episode 2: the fox cub.").
 - Never delete a stalled video. Never upload the same file twice.
 - Chat check-ins with the server browser (CutSignal HQ only, the browser holds no Talewend login): after each CutSignal film goes live, post one question comment under it on YouTube with a sourced fact from the film, add it to the public playlist "Where It Goes", and reply to every viewer comment with a heart.
-- Blocked on 2026-11-26: related-video links and pinned comments on CutSignal HQ YouTube need channel verification (selfie video or ID). Only the owner can complete it. YouTube unlocks it on its own after about 2 months of channel history.
+- Blocked on 2026-11-26: related-video links and pinned comments on CutSignal HQ YouTube need channel verification (selfie video or ID). The browser showed "Video verification in review" on November 26 evening. Check the actual status before adding related videos. Do not promise an unlock date or request another identity submission while review is pending.
 
 ## Known pitfalls
 
-- `make.py` imports `scenes.draw`. Run it from the work folder.
+- `make.py` imports `scenes.draw` and uses `scenes.DURATION` when present. Run it from the work folder.
 - `caption()` shrinks long lines to fit. Keep lines short so they stay large.
 - A world transform that shifts the scene leaves unpainted bands. Paint the full frame first.
 - Things that pass under a caption or the source strip read as clutter. Move them.

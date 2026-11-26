@@ -92,6 +92,9 @@ for i in range(3): blip(25.9 + i * 0.22, 700 + 150 * i, 1000 + 180 * i, 0.08, 0.
 arp(26.6, (79, 84, 88), 0.09)
 for k in range(4): bell(26.65 + k * 0.14, 0.05, k)
 x=buf[:NS]
+from scenes import EDIT
+from edit import edited_audio
+x = edited_audio(x, SR, EDIT)
 x[-int(0.02*SR):]*=np.linspace(1,0,int(0.02*SR)); x[:int(0.004*SR)]*=np.linspace(0,1,int(0.004*SR))
 x=np.tanh(x*1.6); x=x/np.max(np.abs(x))*0.89
 st=np.stack([x,x],1); pcm=(st*32767).astype('<i2')

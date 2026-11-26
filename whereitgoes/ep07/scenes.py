@@ -48,27 +48,14 @@ def kiosk(c, f, g, gape=0.0, gulp=0.0):
 
 
 def scene1(c, t, f, g):
-    drop = ease(seg(t, 1.5, 2.3))
-    hand0 = (HIP[0] + 150, HIP[1] - 235)
-    px = lerp(hand0[0] + 30, SLOT[0], drop); py = lerp(hand0[1] - 70, SLOT[1], drop) - 190 * math.sin(drop * math.pi)
-    k = ease(seg(t, 0.6, 1.3)); z = lerp(2.0, 1.0, k)
-    fx, fy = lerp((px + SLOT[0]) / 2 + 10, 540, k), lerp((py + SLOT[1]) / 2 - 30, 960, k)
-    fear = 1 - seg(t, 1.3, 1.5)
-    jx = 5 * math.sin(g * 41) * fear; jy = 4 * math.sin(g * 53 + 1) * fear
-    es = lerp(0.8, 0.5, k)
-    c.save(); cam(c, z, fx, fy)
-    shop(c, f, g)
-    gulp = math.sin(seg(t, 2.25, 2.7) * math.pi)
-    kiosk(c, f, g, gape=(10 + 14 * abs(math.sin(g * 5))) if t < 1.5 else 0, gulp=gulp)
-    stick(c, HIP[0], HIP[1], 1.0, 'you', f, lh=(-60, -20), rh=(150, -235) if t < 2.4 else (112 + 12 * math.sin(g * 9), -300),
-          face='smile', eyes='closed', shirt=TEAL, bob=math.sin(g * 3) * 2)
-    if drop < 1:
-        if t < 1.45: sweat(c, px + jx, py + jy, es / 0.62, g, f)
-        box(c, px + jx, py + jy, es * (1 - 0.3 * ein(seg(drop, 0.8, 1.0))), 'hero', f, face='o', eyes='big',
-            rot=0.1 * math.sin(g * 30) * fear + drop * 0.6, look=(1, 0.6))
-    rrect(c, 586, SLOT[1] - 30, 238, 60, 20); rgb(c, DARK, 1.0 if drop > 0.85 else 0.0); c.fill()
-    c.restore()
-    caption(c, t, -1, [[("WHERE DOES YOUR", CREAM)], [("ONLINE RETURN GO?", GOLD)]], y=300, size=80, pop=False)
+    bg(c, hx('FFE9C9'), hx('FFD3A0'))
+    floor(c, 1430, WOOD)
+    for x, label, col in ((260, "BACK ON SALE", GREEN), (780, "ANOTHER ROUTE", CORAL)):
+        sign(c, x, 1280, label, col, WHITE, size=39, padx=22)
+        wline(c, [(540, 1080), (x, 1190)], ('fork', x), f, lw=18, col=INK)
+    hop = 20 * math.sin(g * 7)
+    box(c, 540 + 38*math.sin(g*3), 910 + hop, lerp(2.2, 1.7, ease(seg(t, 0.4, 1.6))), 'hero', f, face='o', eyes='big', look=(math.sin(g*3), 0.5), rot=0.035*math.sin(g*6))
+    caption(c, t, -1, [[("RETURNED.", CREAM)], [("NOT ALWAYS RESOLD.", GOLD)]], y=300, size=84, pop=False)
 
 
 BX = (130, 310, 490, 670, 850)
@@ -100,8 +87,8 @@ def scene2(c, t, f, g):
                     ang = -0.1 - (math.pi + 0.3); ex, ey = 92 * math.cos(ang), 92 * math.sin(ang)
                     c.new_path(); c.move_to(ex - 46, ey + 4); c.line_to(ex + 46, ey + 4); c.line_to(ex + 4, ey + 62); c.close_path(); fs(c, GOLD, 8)
                 c.restore()
-    caption(c, t, 0.25, [[("1 IN 5", GOLD), (" ONLINE", CREAM)], [("ORDERS COMES BACK.", CREAM)]], y=300, size=78)
-    strip(c, 1450, ["19.3% of US online sales in 2025.", "Source: NRF and Happy Returns."], seg(t, 1.2, 1.6))
+    caption(c, t, 0.25, [[("US ONLINE SALES:", CREAM)], [("19.3% RETURNED", GOLD)]], y=300, size=78)
+    strip(c, 1450, ["2025 estimate, measured by sales value.", "Source: NRF and Happy Returns."], seg(t, 1.2, 1.6))
 
 
 def scene3(c, t, f, g):
@@ -122,7 +109,7 @@ def scene3(c, t, f, g):
         box(c, 540, 1500 - 5 * 134 - 70 * k, 0.68 * k, 'hero', f, face='o', eyes='big', rot=wob, look=(0, -0.8))
     v = 849.9 * eout(seg(t, 0.7, 3.2))
     panel(c, 540, 570, 860, 180, "$%.1f BILLION" % v, 104, eback(seg(t, 0.5, 0.85)))
-    caption(c, t, 0.2, [[("THE US SENDS BACK", CREAM)], [("PER YEAR:", GOLD)]], y=290, size=72)
+    caption(c, t, 0.2, [[("ALL US RETAIL RETURNS", CREAM)], [("2025 ESTIMATE:", GOLD)]], y=290, size=72)
     strip(c, 1560 - 110, ["2025 estimate. Source: NRF and Happy Returns."], seg(t, 1.6, 2.0), size=34)
 
 
@@ -153,15 +140,15 @@ def scene4(c, t, f, g):
     mx, my = 270 + 150 + 70 * sw + 40, 1262 - 150 - 46
     wline(c, [(mx - 34, my + 34), (mx - 4, my + 4)], 'mgh', f, lw=14)
     c.new_path(); c.arc(mx + 30, my - 30, 50, 0, 2 * math.pi); rgb(c, GLASS, 0.55); c.fill_preserve(); rgb(c, INK); c.set_line_width(10); c.stroke()
-    for i, (x, L, col, sub) in enumerate(((300, "A", GREEN, "LIKE NEW"), (540, "B", GOLD, "USED"), (780, "C", CORAL, "BROKEN"))):
+    for i, (x, L, col, sub) in enumerate(((300, "NEW", GREEN, "SEALED?"), (540, "USED", GOLD, "WORKING?"), (780, "FIX?", CORAL, "DAMAGED?"))):
         k = eback(seg(t, 1.9 + i * 0.4, 2.2 + i * 0.4))
         if k > 0.01:
-            c.save(); c.translate(x, 800); c.scale(k, k); c.new_path(); c.arc(0, 0, 76, 0, 2 * math.pi); fs(c, col, 9); txt(c, L, 0, 36, 100, INK if i == 1 else WHITE); c.restore()
+            c.save(); c.translate(x, 800); c.scale(k, k); c.new_path(); c.arc(0, 0, 76, 0, 2 * math.pi); fs(c, col, 9); fit(c, L, 0, 18, 48, 140, INK if i == 1 else WHITE); c.restore()
             fit(c, sub, x, 930, 38, 220, CREAM, a=k)
-    caption(c, t, 0.2, [[("A WORKER OPENS IT", CREAM)], [("AND GRADES IT.", GOLD)]], y=300, size=80)
+    caption(c, t, 0.2, [[("FIRST:", CREAM)], [("CHECK ITS CONDITION.", GOLD)]], y=300, size=80)
 
 
-BINS = ((230, "A", GREEN, "RESOLD"), (540, "B", GOLD, "BULK LOT"), (850, "C", CORAL, "SCRAP"))
+BINS = ((230, "SELL", GREEN, "RESALE"), (540, "GIVE", GOLD, "DONATION"), (850, "RECYCLE", CORAL, "RECYCLING"))
 
 
 def scene5(c, t, f, g):
@@ -176,13 +163,14 @@ def scene5(c, t, f, g):
             bx = lerp(x - 260, x, sl); by = lerp(640 - 62, 1290, d)
             if d < 1:
                 box(c, bx, by, 0.62, ('d', i), f, face=('grin', 'flat', 'o')[i], eyes=('dot', 'dot', 'big')[i], rot=d * (0.5, -0.4, 0.8)[i],
-                    grade=(L, col, 1.0), col=(CARD, hx('E3B57E'), hx('B98552'))[i], look=(0, 0.8))
+                    grade=None, col=(CARD, hx('E3B57E'), hx('B98552'))[i], look=(0, 0.8))
         land = seg(t, t0 + 0.5, t0 + 0.75); sq = 1 - 0.06 * math.sin(land * math.pi)
         c.save(); c.translate(x, 1430); c.scale(1 / sq, sq); c.translate(-x, -1430)
-        rrect(c, x - 128, 1236, 256, 196, 26); fs(c, col, 9); txt(c, L, x, 1385, 130, INK if i == 1 else WHITE); c.restore()
+        rrect(c, x - 128, 1236, 256, 196, 26); fs(c, col, 9); fit(c, L, x, 1354, 56, 226, INK if i == 1 else WHITE); c.restore()
         k = eback(seg(t, t0 + 0.45, t0 + 0.75))
         sign(c, x, 1078, sub, CREAM, INK, size=36, k=k, padx=22, lw=7)
-    caption(c, t, 0.2, [[("THREE WAYS OUT:", CREAM)], [("RESOLD, BULK, SCRAP.", GOLD)]], y=300, size=74)
+    caption(c, t, 0.2, [[("SOME POSSIBLE ROUTES:", CREAM)], [("SELL, DONATE, RECYCLE", GOLD)]], y=300, size=74)
+    strip(c, 1510, ["Routes vary by seller and condition.", "Example: Amazon returns process."], seg(t, 0.8, 1.1), size=31)
 
 
 def scene6(c, t, f, g):
@@ -203,7 +191,7 @@ def scene6(c, t, f, g):
     hp = lerp2((400, 1010 - 86), (hand[0] - 30, hand[1] - 40), take)
     stick(c, bxp, 1250, 1.0, 'buyer', f, lh=(-120, -150) if t > 2.8 else (-40, -20), rh=(50, -20), face='grin' if take > 0.5 else 'smile', shirt=PURPLE,
           lf=(-45 + 30 * math.sin(g * 9) * (1 if 0 < walk < 1 else 0), 190), rf=(45 - 30 * math.sin(g * 9) * (1 if 0 < walk < 1 else 0), 190), look=(-0.8, 0.1))
-    box(c, hp[0], hp[1], lerp(0.84, 0.6, take), 'hero', f, face='grin' if t > 0.7 else 'o', eyes='dot' if t > 0.7 else 'big', grade=("A", GREEN, gk),
+    box(c, hp[0], hp[1], lerp(0.84, 0.6, take), 'hero', f, face='grin' if t > 0.7 else 'o', eyes='dot' if t > 0.7 else 'big', grade=None,
         look=(0.6, 0) if t > 1.9 else (0, 0), rot=0.06 * math.sin(g * 5) * take)
     if take < 0.05:
         c.save(); c.translate(400, 1070); c.rotate(-0.05); rrect(c, -92, -24, 184, 48, 10); fs(c, WHITE, 6); txt(c, "OPEN BOX", 0, 12, 30, RED); c.restore()
@@ -211,7 +199,7 @@ def scene6(c, t, f, g):
         hk = seg(t, 3.5 + i * 0.2, 4.0 + i * 0.2)
         if 0 < hk:
             heart(c, hp[0] - 40 + i * 50, hp[1] - 150 - 70 * hk - 20 * i, 0.5 + 0.2 * i, CORAL, 1 - 0.5 * hk)
-    caption(c, t, 0.15, [[("YOURS?", CREAM)], [("GRADE A.", GOLD)]], y=300, size=92, t1=2.0)
+    caption(c, t, 0.15, [[("ONE POSSIBLE ENDING:", CREAM)], [("AN OPEN-BOX SALE.", GOLD)]], y=300, size=92, t1=2.0)
     caption(c, t, 2.1, [[("SOMEONE NEW", CREAM)], [("TAKES IT HOME.", GOLD)]], y=300, size=84)
 
 
@@ -219,12 +207,19 @@ def scene7(c, t, f, g):
     bg(c, hx('FF7A5A'), hx('FFC83D'))
     hop = abs(math.sin(g * 5)) * 46
     c.new_path(); c.save(); c.translate(540, 1215); c.scale(1, 0.25); c.arc(0, 0, 210 - hop, 0, 2 * math.pi); c.restore(); rgb(c, INK, 0.18); c.fill()
-    box(c, 540, 1040 - hop, 1.5, 'hero', f, face='grin', look=(0, -0.3), grade=("A", GREEN, 1.0), rot=0.05 * math.sin(g * 5))
+    box(c, 540, 1040 - hop, 1.5, 'hero', f, face='grin', look=(0, -0.3), grade=None, rot=0.05 * math.sin(g * 5))
     qmarks(c, ((200, 760, -0.3), (880, 800, 0.3), (250, 1330, 0.2)), t, 0.7)
     caption(c, t, 0.12, [[("WHAT DID YOU", CREAM)], [("LAST SEND BACK?", GOLD)]], y=300, size=88)
-    strip(c, 1450, ["Sources: NRF and Happy Returns,", "2025 Retail Returns Landscape (US)."], seg(t, 1.0, 1.4), size=34)
+    strip(c, 1450, ["Sources: NRF / Happy Returns (2025).", "Amazon returns process (2026)."], seg(t, 1.0, 1.4), size=31)
 
 
 SCENES = [(0.0, 3.6, scene1), (3.6, 8.0, scene2), (8.0, 12.4, scene3), (12.4, 16.8, scene4), (16.8, 21.2, scene5),
           (21.2, 25.6, scene6), (25.6, 30.0, scene7)]
 draw = make_draw(SCENES)
+
+
+# November 26 retention edit. Values: output seconds, source start, source end.
+from edit import edited_draw
+EDIT = [(2.4, 0, 3.6), (4, 12.4, 16.8), (4.4, 16.8, 21.2), (4.4, 21.2, 25.6), (4.4, 3.6, 8), (3, 25.6, 28.6)]
+DURATION = sum(shot[0] for shot in EDIT)
+draw = edited_draw(SCENES, EDIT)

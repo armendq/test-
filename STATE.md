@@ -2,6 +2,12 @@
 
 Updated by every run. Newest facts win.
 
+## November 26 evening revision in progress
+
+The owner authorized improvements to both current series after reviewing their reach. Codex is updating the six EXISTING November 27 posts in place. Do not create duplicate posts for episodes 7–9. Revised source, primary-source corrections, duration support and rendering evidence accompany this commit. Hosted media uses the `_retention_v2.mp4` suffix. Queue verification will be recorded here after all six replacements save. Read `audit/2026-11-26-retention-review.md`; its evening metrics and qualified conclusions supersede the earlier hook diagnosis below.
+
+Claude's 16:38 production run stopped at its usage limit while preparing episode 6. No completed episode-6 source or scheduled 23:00 post was found during this review. This revision batch does not claim to have filled that slot.
+
 ## Test rule
 
 Ten episodes per series. Read each episode at 48 hours and judge at 7 days. Kill the series at 0 of 10 past 2,000 views in 7 days. Keep it at 2 of 10 past 10,000.
@@ -27,7 +33,7 @@ The owner asked for three posts a day on both channels through 2026-11-28. On 20
 
 Nothing goes out after 2026-11-28 23:00 without a new instruction from the owner.
 
-Audience note: CutSignal HQ has no country of residence set. YouTube does not use location settings for recommendations. US reach comes from posting while the US is awake, US-relevant topics, English and a strong hold rate. Last 28 days, top viewer countries: UK 9.7%, Malaysia 7.4%, Ireland 4.8%, Germany 3.2%, Australia 2.8%.
+Audience note: CutSignal HQ has no country of residence set. YouTube does not use location settings for recommendations. The selected US-hour slots remain unchanged. Publishing time alone does not establish long-term reach. Topic relevance, language and observed viewer response remain hypotheses to test. Last 28 days, top viewer countries: UK 9.7%, Malaysia 7.4%, Ireland 4.8%, Germany 3.2%, Australia 2.8%.
 
 ## Where It Goes (CutSignal HQ, blogId 6535620)
 
@@ -81,7 +87,7 @@ Rules of the series:
 
 - Otto keeps a souvenir from every passenger and pins it by his seat: the snail's ticket, the cub's drawing. Show the growing collection in the last scene.
 - Each episode opens on the last cliffhanger, resolves it with a gentle surprise, then takes the passenger home.
-- Episodes are built hours ahead, so votes rarely arrive in time. Take the first option of the last vote unless this file records a winner. The caption says: "Vote in the comments. The winner rides soon."
+- Episodes are built hours ahead, so votes rarely arrive in time. Take the first option of the last vote unless this file records a winner. Invite suggestions for a future passenger. Do not promise votes will decide an episode already built or scheduled, and do not claim a winner without recorded votes.
 
 ARC, fixed 2026-11-26 14:50. Episodes 7, 8 and 9 of both series are BUILT and SCHEDULED (15:25 on 11-26). The owner asked the chat session to build all three pairs for 2026-11-27. The chat session builds episodes 7, 8 and 9 of both series this afternoon. A run that finds "reserved" in the Schedule table skips that slot and takes the next slot that shows "open". Episode numbers for the runs: the 16:38 run on 11-26 builds episode 6 (slot 11-26 23:00). The 20:38 run on 11-26 builds episode 10 (slot 11-28 15:00). Later runs count on from 10.
 
