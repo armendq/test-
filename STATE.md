@@ -18,9 +18,9 @@ The owner asked for three posts a day on both channels through 2026-11-28. On 20
 | 2026-11-26 | 13:00 | ep 4, published (post uuid 890930339708751015, Instagram and YouTube) | ep 4, published (post uuid 3749873471815435575) | run at 08:38 |
 | 2026-11-26 | 19:00 | ep 5, scheduled (post uuid 6398902071684647353, Instagram and YouTube) | ep 5, scheduled (post uuid -7829230190743764758) | run at 12:38 |
 | 2026-11-26 | 23:00 | open | open | run at 16:38 |
-| 2026-11-27 | 15:00 | open | open | run at 20:38 on 11-26 |
-| 2026-11-27 | 19:00 | open | open | run at 12:38 |
-| 2026-11-27 | 23:00 | open | open | run at 16:38 |
+| 2026-11-27 | 15:00 | reserved: ep 7 | reserved: ep 7 | chat session, afternoon of 11-26 |
+| 2026-11-27 | 19:00 | reserved: ep 8 | reserved: ep 8 | chat session, afternoon of 11-26 |
+| 2026-11-27 | 23:00 | reserved: ep 9 | reserved: ep 9 | chat session, afternoon of 11-26 |
 | 2026-11-28 | 15:00 | open | open | run at 20:38 on 11-27 |
 | 2026-11-28 | 19:00 | open | open | run at 12:38 |
 | 2026-11-28 | 23:00 | open | open | run at 16:38 |
@@ -45,11 +45,12 @@ Changed 2026-11-26 08:30. Reason: the coin film (famous place, built-in curiosit
 
 4. The love lock you clip on a Paris bridge (done, episode 4)
 5. The letter your child sends to Santa (done, episode 5)
-6. The gum you stick on the Seattle Gum Wall (next)
-7. The Christmas tree you put out in January
-8. The wish plaque you hang at a Japanese shrine
-9. The suitcase you never collect (Unclaimed Baggage, Alabama)
-10. The message you put in a bottle
+6. The gum you stick on the Seattle Gum Wall (next: episode 6, slot 2026-11-26 23:00, run at 16:38)
+7. RESERVED, chat session builds it as episode 7: the parcel you send back after Black Friday
+8. RESERVED, chat session builds it as episode 8: the suitcase you never collect (Unclaimed Baggage, Alabama)
+9. RESERVED, chat session builds it as episode 9: the Christmas tree you put out in January
+10. The message you put in a bottle (next after episode 9: episode 10)
+10b. The wish plaque you hang at a Japanese shrine
 11. The plastic bottle you recycle
 12. The water you flush
 13. The old phone you hand in
@@ -75,6 +76,15 @@ Rules of the series:
 - Otto keeps a souvenir from every passenger and pins it by his seat: the snail's ticket, the cub's drawing. Show the growing collection in the last scene.
 - Each episode opens on the last cliffhanger, resolves it with a gentle surprise, then takes the passenger home.
 - Episodes are built hours ahead, so votes rarely arrive in time. Take the first option of the last vote unless this file records a winner. The caption says: "Vote in the comments. The winner rides soon."
+
+RESERVED ARC, 2026-11-26 14:50. The owner asked the chat session to build all three pairs for 2026-11-27. The chat session builds episodes 7, 8 and 9 of both series this afternoon. A run that finds "reserved" in the Schedule table skips that slot and takes the next slot that shows "open". Episode numbers for the runs: the 16:38 run on 11-26 builds episode 6 (slot 11-26 23:00). The 20:38 run on 11-26 builds episode 10 (slot 11-28 15:00). Later runs count on from 10.
+
+Night Bus arc, fixed so the episodes join up:
+- Episode 6 (run at 16:38): opens on seat 7 as described below. It MUST end on this cliffhanger: Otto brakes hard, the headlights show something white and fluffy lying in the road. Caption: "What is lying in the road?" Vote: "Cloud, sheep or pillow? You pick."
+- Episode 7 (chat session): a small cloud that fell out of the sky. Fare: one raindrop in a jar. Ends on: a figure stands dead still in a field with its arms out. "Who is standing in the field?" Vote: "Scarecrow, statue or wizard?"
+- Episode 8 (chat session): the scarecrow going home to its field. Fare: one coat button. Ends on: cold in the bus, a puddle under seat 3. "Who is melting in seat 3?" Vote: "Snowman, ice cream or icicle?"
+- Episode 9 (chat session): the snowman who must be home before sunrise. Fare: one snowflake that never melts. Ends on: a string hangs in front of the windscreen and tugs at the bus. "What is on the other end?" Vote: "Kite, balloon or star?"
+- Episode 10 (run at 20:38 on 11-26): opens on the string at the windscreen. Passenger: the kite with a broken string. Otto's collection then holds, after the ghost's peg: the episode 6 souvenir, the raindrop jar, the coat button and the snowflake.
 
 Next: episode 6. It opens on the tiny music and the small light under seat 7 while Otto bends down with wide eyes. Default passenger: twin mice with tiny fiddles on their way to a concert (mice is the first vote option). Otto's collection by the seat now holds the snail's ticket, the cub's drawing, the owl's feather, the hedgehog's luggage tag and the ghost's clothes peg. The peg is pinned below the feather and the tag, left of his head in the cabin view (`collection` and `cabin` in `nightbus/ep05/scenes.py`). Seat 7 is the seat with the number plate in the rear view (`bench7`). Later passengers: crickets, a moth that follows the bus light, a tortoise on its first bus ride, a small cloud that fell, a scarecrow going home, a snowman who must be home before sunrise, a kite with a broken string.
 
