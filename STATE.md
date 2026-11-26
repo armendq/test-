@@ -8,23 +8,26 @@ Ten episodes per series. Read each episode at 48 hours and judge at 7 days. Kill
 
 ## Three-day plan (Europe/Budapest)
 
-The owner asked for posts on both channels at 06:00, 13:00 and 19:00 on 2026-11-26, 2026-11-27 and 2026-11-28. Each run builds one episode per series and schedules both for one slot. Mark a slot with the episode numbers once both films are scheduled in Metricool.
+The owner asked for three posts a day on both channels through 2026-11-28. On 2026-11-26 at 11:05 he moved every open slot to US hours: 15:00, 19:00 and 23:00 Prague, which is 09:00, 13:00 and 17:00 in New York. Each run builds one episode per series and schedules both for one slot. Mark a slot with the episode numbers once both films are scheduled in Metricool.
 
 ## Schedule
 
 | Date | Slot | Where It Goes | The Night Bus | Built by |
 |---|---|---|---|---|
-| 2026-11-26 | 06:00 | ep 3, scheduled (post uuid 6660782198279980202, Instagram and YouTube) | ep 3, scheduled (post 442111883) | chat session, evening of 11-25 |
-| 2026-11-26 | 13:00 | ep 4, scheduled (post 442786085, uuid 890930339708751015, Instagram and YouTube) | ep 4, scheduled (post 442786098, uuid 3749873471815435575) | run at 08:38, both scheduled at 09:17 |
+| 2026-11-26 | 06:00 | ep 3, published | ep 3, published | chat session, evening of 11-25 |
+| 2026-11-26 | 13:00 | ep 4, scheduled (post uuid 890930339708751015, Instagram and YouTube) | ep 4, scheduled (post uuid 3749873471815435575) | run at 08:38 |
 | 2026-11-26 | 19:00 | open | open | run at 12:38 |
-| 2026-11-27 | 06:00 | open | open | run at 20:38 on 11-26 |
-| 2026-11-27 | 13:00 | open | open | run at 08:38 |
+| 2026-11-26 | 23:00 | open | open | run at 16:38 |
+| 2026-11-27 | 15:00 | open | open | run at 20:38 on 11-26 |
 | 2026-11-27 | 19:00 | open | open | run at 12:38 |
-| 2026-11-28 | 06:00 | open | open | run at 20:38 on 11-27 |
-| 2026-11-28 | 13:00 | open | open | run at 08:38 |
+| 2026-11-27 | 23:00 | open | open | run at 16:38 |
+| 2026-11-28 | 15:00 | open | open | run at 20:38 on 11-27 |
 | 2026-11-28 | 19:00 | open | open | run at 12:38 |
+| 2026-11-28 | 23:00 | open | open | run at 16:38 |
 
-Nothing goes out after 2026-11-28 19:00 without a new instruction from the owner.
+Nothing goes out after 2026-11-28 23:00 without a new instruction from the owner.
+
+Audience note: CutSignal HQ has no country of residence set. YouTube does not use location settings for recommendations. US reach comes from posting while the US is awake, US-relevant topics, English and a strong hold rate. Last 28 days, top viewer countries: UK 9.7%, Malaysia 7.4%, Ireland 4.8%, Germany 3.2%, Australia 2.8%.
 
 ## Where It Goes (CutSignal HQ, blogId 6535620)
 
