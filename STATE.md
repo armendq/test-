@@ -41,11 +41,15 @@ Extended by the owner on 2026-11-27 16:47 ("make the call"): one film per brand 
 | 2026-11-30 | open | open, plus the long-form compilation (built in this run, scheduled for 2026-12-01 01:00, see below) | run at 12:38 |
 | 2026-12-01 | open | open (the long-form compilation goes out at 01:00) | run at 12:38 |
 | 2026-12-02 | open | open | run at 12:38, then the decision check |
-| 2026-12-03 | open | open | run at 12:38 |
+| 2026-12-03 | open, plus the Where It Goes long-form compilation (built in this run, scheduled for 2026-12-04 01:00, see below) | open | run at 12:38 |
 | 2026-12-04 | open | open | run at 12:38 |
 | 2026-12-05 | open | open | run at 12:38 |
 
 Long-form compilation, YouTube Talewend only, made for kids, regular video (not a Short): "The Night Bus: bedtime rides 1 to 12", the twelve episodes back to back with the calm narrator. Episodes 10 to 12 have narr.json. Write narr.json for episodes 1 to 9 from their captions, rebuild each with engine/vobuild.sh, join with ffmpeg concat, add a 3-second title card. The 2026-11-30 run builds it and schedules it for 2026-12-01 at 01:00 Europe/Budapest (19:00 New York, bedtime). Check the queue first: if a Talewend post already sits at 2026-12-01 01:00, do not create a second one.
+
+Long-form compilation, YouTube CutSignal HQ only, not made for kids, regular video (not a Short): "Where It Goes: where your everyday things end up", every Where It Goes film published so far, in episode order, with a 3-second title card. Rebuild films that have narr.json with engine/vobuild.sh, use the hosted web copies for the rest, join with ffmpeg concat. The 2026-12-03 run builds it and schedules it for 2026-12-04 at 01:00 Europe/Budapest. Check the queue first: if a CutSignal post already sits at that time, do not create a second one.
+
+Why long-form: Shorts feed watch time never counts toward the YouTube Partner Program watch-hour thresholds. Only public long-form videos build qualified watch hours. Both compilations get chapter timestamps in the description (0:00 title card, then one line per episode with its concrete detail first).
 
 Night Bus audience: every Night Bus video on Talewend YouTube is made for kids (owner approval, 2026-11-27). Episodes 1 to 8 show made for kids in YouTube Studio since 2026-11-27 22:20, and episodes 9 to 12 carry the setting from Metricool. Every published Short sits in its series playlist, and the Where It Goes Shorts link a related video (see PLAYBOOK.md, Voice and audience, points 8 and 9).
 
