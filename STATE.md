@@ -33,7 +33,7 @@ The owner asked for three posts a day on both channels through 2026-11-28. On 20
 | 2026-11-28 | 19:00 | ep 11, scheduled (Instagram and YouTube) | ep 11, scheduled (Instagram, TikTok and YouTube) | chat session, 09:47 on 11-27 |
 | 2026-11-28 | 23:00 | ep 12, scheduled (Instagram and YouTube) | ep 12, scheduled (Instagram, TikTok and YouTube) | chat session, 09:55 on 11-27 |
 
-## 30-day sprint (owner, 2026-11-28 00:25): one YouTube Partner Program threshold by 2026-12-27
+## 30-day sprint (owner, 2026-11-28 00:25): one YouTube Partner Program threshold by 2026-12-28
 
 Owner's words: "i will give you 30 days ... to achieve one of the tresholds. you can use different strategies, create more channels, so find a way, try as hard as you can? you have my 100% approval."
 
@@ -41,7 +41,7 @@ Target: the first YPP tier on one channel. 500 subscribers, 3 public uploads in 
 
 Main vehicle: CutSignal HQ (advanced features, automatic dubbing, related links, playlist). Thresholds count per channel, so effort stays concentrated. No new channel unless a winning format cannot live on CutSignal. A run never creates channels or accounts: it recommends one in its report.
 
-Daily slots from 2026-11-29 to 2026-12-27 (Europe/Budapest), replacing the one-per-brand table below:
+Daily slots from 2026-11-29 to 2026-12-28 (Europe/Budapest), replacing the one-per-brand table below:
 - CutSignal HQ, Where It Goes: 19:00 and 21:00.
 - Talewend, The Night Bus: 23:00.
 
@@ -51,7 +51,16 @@ December topics first for Where It Goes: Christmas, winter and New Year stories 
 
 Long-form: one compilation per channel for every 12 new episodes, built the day after the 12th episode publishes, scheduled at 01:00 (19:00 New York), chapter timestamps in the description.
 
-Weekly read every Sunday run (2026-11-29, 12-06, 12-13, 12-20, 12-27): subscribers per channel, the Earn page progress if Studio shows it, best and worst film of the week, winner-rule decisions. Numbers go to the private Posting project or the run report, never to this repository.
+Three-AI review, 2026-11-28 00:4x (ChatGPT in the Posting project, Gemini on the main account, Claude). Agreed: YouTube ad money inside 30 days is very unlikely; CutSignal comes first; the fastest revenue is selling the animation capability as a service (owner decision pending); hooks need motion and an open question in frame one; every film needs a satisfying, shareable payoff. Decisions taken from it:
+- Test arm: the 21:00 CutSignal film runs 15 to 18 seconds and ends on a line that flows back into its first line (loop). The 19:00 film keeps the standard 24-second cut. Compare them at 48 hours, same series, same week.
+- Payoff rule: the last 3 seconds of every film show the answer as a picture, not only as words. The Night Bus always lands the passenger home before the cliffhanger tease.
+- Long-form: The Night Bus compilation stays (2026-12-01 01:00). No Where It Goes compilation. Instead, one original 6 to 8 minute Where It Goes deep dive in the week of 2026-12-07, on the best-performing topic so far, built as its own story with new research, not stitched Shorts.
+- Rejected: removing made for kids from The Night Bus (the series is child-directed, the label is a legal duty) and pausing automatic dubbing (YouTube states dubbing does not hurt discoverability).
+- Sunday runs send the weekly read to ChatGPT (project Posting) and Gemini (main account) in the server browser, ask each for the three most useful changes, and merge them.
+
+Topic list for Where It Goes from the review, to verify against primary sources before use (December items first): the Rockefeller Center tree becomes lumber for Habitat for Humanity homes; wishes written on the Times Square New Year confetti; broken Christmas lights recycled for their copper; retired spacecraft sent to Point Nemo, the spacecraft cemetery; New York subway cars sunk as Atlantic reefs; old London Underground trains now running on the Isle of Wight; a torn banknote you can still redeem (US Bureau of Engraving and Printing); worn banknotes shredded by the central bank; hotel soap recycled by Clean the World; used cooking oil turned into jet fuel; oyster shells rebuilt into reefs; France's ban on supermarkets destroying edible food; wind turbine blades buried in a Wyoming landfill; lost golf balls recovered from ponds and resold; Olympic gold medals that are mostly silver. Drop any claim a primary source does not confirm.
+
+Weekly read every Sunday run (2026-11-29, 12-06, 12-13, 12-20, 12-27) and a final read on 2026-12-28: subscribers per channel, the Earn page progress if Studio shows it, best and worst film of the week, winner-rule decisions. Numbers go to the private Posting project or the run report, never to this repository.
 
 Extended by the owner on 2026-11-27 16:47 ("make the call"): one film per brand per day from 2026-11-29 to 2026-12-05. Nothing goes out after 2026-12-05 23:00 without a new instruction from the owner. Read the "Voice and audience" section of PLAYBOOK.md first.
 
@@ -61,13 +70,13 @@ Extended by the owner on 2026-11-27 16:47 ("make the call"): one film per brand 
 | 2026-11-30 | open | open, plus the long-form compilation (built in this run, scheduled for 2026-12-01 01:00, see below) | run at 12:38 |
 | 2026-12-01 | open | open (the long-form compilation goes out at 01:00) | run at 12:38 |
 | 2026-12-02 | open | open | run at 12:38, then the decision check |
-| 2026-12-03 | open, plus the Where It Goes long-form compilation (built in this run, scheduled for 2026-12-04 01:00, see below) | open | run at 12:38 |
+| 2026-12-03 | open | open | run at 12:38 |
 | 2026-12-04 | open | open | run at 12:38 |
 | 2026-12-05 | open | open | run at 12:38 |
 
 Long-form compilation, YouTube Talewend only, made for kids, regular video (not a Short): "The Night Bus: bedtime rides 1 to 12", the twelve episodes back to back with the calm narrator. Episodes 10 to 12 have narr.json. Write narr.json for episodes 1 to 9 from their captions, rebuild each with engine/vobuild.sh, join with ffmpeg concat, add a 3-second title card. The 2026-11-30 run builds it and schedules it for 2026-12-01 at 01:00 Europe/Budapest (19:00 New York, bedtime). Check the queue first: if a Talewend post already sits at 2026-12-01 01:00, do not create a second one.
 
-Approved by the owner on 2026-11-28 00:25 as part of the 30-day sprint: long-form compilation, YouTube CutSignal HQ only, not made for kids, regular video (not a Short): "Where It Goes: where your everyday things end up", every Where It Goes film published so far, in episode order, with a 3-second title card. Rebuild films that have narr.json with engine/vobuild.sh, use the hosted web copies for the rest, join with ffmpeg concat. The 2026-12-03 run builds it and schedules it for 2026-12-04 at 01:00 Europe/Budapest. Check the queue first: if a CutSignal post already sits at that time, do not create a second one.
+Cancelled on 2026-11-28 after the three-AI review (ChatGPT and Gemini both advised against compilations of unrelated explainers; see the sprint section): long-form compilation, YouTube CutSignal HQ only, not made for kids, regular video (not a Short): "Where It Goes: where your everyday things end up", every Where It Goes film published so far, in episode order, with a 3-second title card. Rebuild films that have narr.json with engine/vobuild.sh, use the hosted web copies for the rest, join with ffmpeg concat. The 2026-12-03 run builds it and schedules it for 2026-12-04 at 01:00 Europe/Budapest. Check the queue first: if a CutSignal post already sits at that time, do not create a second one.
 
 Why long-form: Shorts feed watch time never counts toward the YouTube Partner Program watch-hour thresholds. Only public long-form videos build qualified watch hours. Both compilations get chapter timestamps in the description (0:00 title card, then one line per episode with its concrete detail first).
 
