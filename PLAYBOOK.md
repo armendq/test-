@@ -119,6 +119,18 @@ Read `audit/2026-11-26-retention-review.md` for observed values and official sou
 - Chat check-ins with the server browser (CutSignal HQ only, the browser holds no Talewend login): after each CutSignal film goes live, post one question comment under it on YouTube with a sourced fact from the film, add it to the public playlist "Where It Goes", and reply to every viewer comment with a heart.
 - Blocked on 2026-11-26: related-video links and pinned comments on CutSignal HQ YouTube need channel verification (selfie video or ID). The browser showed "Video verification in review" on November 26 evening. Check the actual status before adding related videos. Do not promise an unlock date or request another identity submission while review is pending.
 
+## Voice and audience (owner decision, 2026-11-27)
+
+The owner asked the chat session to decide the direction toward reach and profit. Decisions:
+
+1. Every film carries a spoken voice-over from the first frame. Caption-only openings did not hold viewers.
+2. Voice engine: Kokoro (open source, free), `engine/narrate.py`. Where It Goes uses voice `af_heart` at speed 1.1. The Night Bus uses `af_bella` at speed 0.95 (calm). Write `narr.json` in the film folder: a list of `{"t": seconds, "text": "..."}`. Lines start with the matching caption. Spell numbers as words ("a hundred and eight", "sixty-nine percent"). `narrate.py` speeds a line up to 1.35 to fit its slot and reports anything still over. Keep bedtime lines at or below speed 1.15 by shortening the text. Then `bash engine/vobuild.sh <name>_vo` inside the film folder: it reuses `video.mp4`, ducks the music and effects about 10 dB under the voice, normalizes to -15 LUFS and writes the two-pass `web.mp4`.
+3. Where It Goes opens on the spoken surprise ("This bottle was at sea for a hundred and eight years."). Topics: famous places and useful seasonal stories first. Everyday objects come later.
+4. The Night Bus is children's bedtime content. Set YouTube `madeForKids: true` on every Night Bus post (YouTube guidance: stories and animated characters aimed at children make content "made for kids", and the creator carries the legal duty). Comments are off on YouTube for these, so the guess invitation lives on Instagram and TikTok.
+5. No new channels for now. A new channel restarts at the same first-test audience with no history.
+6. No paid video tool yet. Decision point 2026-12-02: compare the narrated films' 48-hour retention with the best silent film (numbers live in the private Posting project, never in this repository). If they do not beat it, recommend the owner buy a Runway plan for realistic opening shots. Never buy anything from a run.
+7. One film per brand per day from 2026-11-29: Where It Goes at 19:00, The Night Bus at 23:00 (Europe/Budapest). Each film changes one thing and gets judged at 48 hours.
+
 ## Known pitfalls
 
 - `make.py` imports `scenes.draw` and uses `scenes.DURATION` when present. Run it from the work folder.

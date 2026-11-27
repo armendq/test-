@@ -33,7 +33,19 @@ The owner asked for three posts a day on both channels through 2026-11-28. On 20
 | 2026-11-28 | 19:00 | ep 11, scheduled (Instagram and YouTube) | ep 11, scheduled (Instagram, TikTok and YouTube) | chat session, 09:47 on 11-27 |
 | 2026-11-28 | 23:00 | ep 12, scheduled (Instagram and YouTube) | ep 12, scheduled (Instagram, TikTok and YouTube) | chat session, 09:55 on 11-27 |
 
-Nothing goes out after 2026-11-28 23:00 without a new instruction from the owner.
+Extended by the owner on 2026-11-27 16:47 ("make the call"): one film per brand per day from 2026-11-29 to 2026-12-05. Nothing goes out after 2026-12-05 23:00 without a new instruction from the owner. Read the "Voice and audience" section of PLAYBOOK.md first.
+
+| Date | Where It Goes 19:00 | The Night Bus 23:00 | Built by |
+|---|---|---|---|
+| 2026-11-29 | open | open | run at 12:38 |
+| 2026-11-30 | open | open | run at 12:38 |
+| 2026-12-01 | open | open, plus the long-form compilation (see below) | run at 12:38 |
+| 2026-12-02 | open | open | run at 12:38, then the decision check |
+| 2026-12-03 | open | open | run at 12:38 |
+| 2026-12-04 | open | open | run at 12:38 |
+| 2026-12-05 | open | open | run at 12:38 |
+
+Long-form compilation, YouTube Talewend only, made for kids, regular video (not a Short): "The Night Bus: bedtime rides 1 to 12", the twelve episodes back to back with the calm narrator. Episodes 10 to 12 have narr.json. Write narr.json for episodes 1 to 9 from their captions, rebuild each with engine/vobuild.sh, join with ffmpeg concat, add a 3-second title card. Schedule it for 2026-12-01 at 01:00 Europe/Budapest (19:00 New York, bedtime).
 
 Reservation, 2026-11-27 09:35: the owner asked the chat session to make sure every slot publishes, after the 16:38 and 20:38 runs on 11-26 stopped at the usage limit. The chat session builds episodes 10, 11 and 12 of both series for the three 2026-11-28 slots. The 12:38 run on 11-27 skips all three. A later run takes a reserved slot only if the Metricool queue shows no post for that brand at that time when the run starts. Never create a second post in a slot that already has one. Update 09:55: all three 2026-11-28 slots are scheduled on both brands. No open slot remains before the plan ends, so later runs build and schedule nothing.
 
@@ -52,9 +64,9 @@ Audience note: CutSignal HQ has no country of residence set. YouTube does not us
 | 7 | The parcel you send back | scheduled 2026-11-27 15:00 | media/where_it_goes_ep07_online_return.mp4 | Source: NRF and Happy Returns, 2025 Retail Returns Landscape. |
 | 8 | The suitcase nobody claims | scheduled 2026-11-27 19:00 | media/where_it_goes_ep08_lost_suitcase.mp4 | Sources: PBS NewsHour, Smithsonian Magazine, NBC News, WSB-TV, WPTV, Afar, NewsNation. |
 | 9 | The Christmas tree in January | scheduled 2026-11-27 23:00 | media/where_it_goes_ep09_christmas_tree.mp4 | Sources: National Christmas Tree Association, University of Illinois Extension, Waste360. |
-| 10 | The message in a bottle | scheduled 2026-11-28 15:00 | media/where_it_goes_ep10_message_in_a_bottle.mp4 | Sources: Guinness World Records, Oldest message in a bottle (released 30 Nov 1906, found on Amrum 17 Apr 2015, 108 years 138 days, shilling paid); National Geographic and Smithsonian Magazine (1,020 weighted bottles 1904 to 1906, about 55% returned per the MBA). 24.0 s. Frame 0: frightened bottle above the North Sea, caption THIS BOTTLE WAS AT SEA FOR 108 YEARS. |
-| 11 | The wish plaque (ema) you hang at Meiji Jingu, Tokyo | scheduled 2026-11-28 19:00 | media/where_it_goes_ep11_wish_plaque.mp4 | Sources: Meiji Jingu, Ema & Goshuin (500 yen, 1,000 yen at New Year, hung around the camphor tree in front of the main shrine); Japan Tourism Agency multilingual database, Meiji Jingu sign text 2018 (offered by priests at the morning rite, later burned in a ritual fire); National Geographic, Dec 2021 (most ema burned in rites called ema kuyo). 24.0 s. Frame 0: frightened plaque on the rack with a fire glow, caption YOUR WISH PLAQUE ENDS UP IN A FIRE. |
-| 12 | The plastic bottle you recycle (US) | scheduled 2026-11-28 23:00 | media/where_it_goes_ep12_plastic_bottle.mp4 | Sources: NAPCOR 2025 PET Recycling Report via Plastics Today and Resource Recycling (69% of PET recycled in the US and Canada went into new bottles in 2025; US PET bottle recycling rate 29.0% by weight, 1,821 of 6,286 million pounds); North Carolina DEQ, Recycling Loop (truck, sorting, bale, wash, flake). 24.0 s. Frame 0: frightened bottle above an open recycling cart, caption MOST RECYCLED PET BECOMES NEW BOTTLES. |
+| 10 | The message in a bottle | scheduled 2026-11-28 15:00 | media/where_it_goes_ep10_message_in_a_bottle_vo.mp4 (narrated, replaced in the same post at 17:09 on 11-27) | Sources: Guinness World Records, Oldest message in a bottle (released 30 Nov 1906, found on Amrum 17 Apr 2015, 108 years 138 days, shilling paid); National Geographic and Smithsonian Magazine (1,020 weighted bottles 1904 to 1906, about 55% returned per the MBA). 24.0 s. Frame 0: frightened bottle above the North Sea, caption THIS BOTTLE WAS AT SEA FOR 108 YEARS. |
+| 11 | The wish plaque (ema) you hang at Meiji Jingu, Tokyo | scheduled 2026-11-28 19:00 | media/where_it_goes_ep11_wish_plaque_vo.mp4 (narrated, replaced in the same post at 17:09 on 11-27) | Sources: Meiji Jingu, Ema & Goshuin (500 yen, 1,000 yen at New Year, hung around the camphor tree in front of the main shrine); Japan Tourism Agency multilingual database, Meiji Jingu sign text 2018 (offered by priests at the morning rite, later burned in a ritual fire); National Geographic, Dec 2021 (most ema burned in rites called ema kuyo). 24.0 s. Frame 0: frightened plaque on the rack with a fire glow, caption YOUR WISH PLAQUE ENDS UP IN A FIRE. |
+| 12 | The plastic bottle you recycle (US) | scheduled 2026-11-28 23:00 | media/where_it_goes_ep12_plastic_bottle_vo.mp4 (narrated, replaced in the same post at 17:09 on 11-27) | Sources: NAPCOR 2025 PET Recycling Report via Plastics Today and Resource Recycling (69% of PET recycled in the US and Canada went into new bottles in 2025; US PET bottle recycling rate 29.0% by weight, 1,821 of 6,286 million pounds); North Carolina DEQ, Recycling Loop (truck, sorting, bale, wash, flake). 24.0 s. Frame 0: frightened bottle above an open recycling cart, caption MOST RECYCLED PET BECOMES NEW BOTTLES. |
 
 Next topics, in order. Each one is the aftermath of something the viewer did.
 
@@ -69,6 +81,13 @@ Changed 2026-11-26 08:30. Reason: the coin film (famous place, built-in curiosit
 10. The message you put in a bottle (done, episode 10)
 10b. The wish plaque you hang at a Japanese shrine (done, episode 11)
 11. The plastic bottle you recycle (done, episode 12)
+Changed 2026-11-27 (owner decision): famous places and seasonal stories first, narrated. Research each one from primary sources before building. Skip any topic without two solid sources:
+
+16. The Rockefeller Center Christmas tree after the holidays (seasonal, December)
+17. The letters people send to Juliet in Verona
+18. The bath toys lost at sea in 1992
+19. The letters sent to Santa in Rovaniemi, Finland (seasonal)
+20. The coins left in famous fountains other than Trevi
 12. The water you flush
 13. The old phone you hand in
 14. The blood you donate
@@ -91,9 +110,9 @@ Skip a topic if the research does not give two solid sources. Pick the next one.
 | 7 | A small cloud that fell, paid with a raindrop, home in the sky above the hill | scheduled 2026-11-27 15:00 | media/night_bus_ep07_the_cloud.mp4 | A figure stands in the field. Scarecrow, statue or wizard. |
 | 8 | The scarecrow, paid with a coat button, home on its pole with its crows | scheduled 2026-11-27 19:00 | media/night_bus_ep08_the_scarecrow.mp4 | Something melts in seat 3. Snowman, ice cream or icicle. |
 | 9 | The snowman, paid with a snowflake, home on the snowy hill before sunrise | scheduled 2026-11-27 23:00 | media/night_bus_ep09_the_snowman.mp4 | A string tugs at the bus. Kite, balloon or star. |
-| 10 | The kite with a broken string. Otto ties a new knot. Paid with a red tail bow, pinned at (466, 742). Home at the open window on the windy hill. | scheduled 2026-11-28 15:00 | media/night_bus_ep10_the_kite.mp4 | A small light circles the bus headlights. Moth, firefly or fairy. Invites guesses, promises no vote. |
-| 11 | The moth, dizzy from the bus lights. Otto dims them. Paid with a white petal, pinned at (60, 1100). Home in the field of night flowers. | scheduled 2026-11-28 19:00 | media/night_bus_ep11_the_moth.mp4 | Someone very slow waits at a bus stop. Tortoise, rock or helmet. Invites guesses, promises no vote. |
-| 12 | The tortoise racing the first frost. Its first bus ride. Paid with a lucky clover, pinned at (474, 620). Home in the burrow under the old wall. | scheduled 2026-11-28 23:00 | media/night_bus_ep12_the_tortoise.mp4 | A lantern left on a bench at a stop. Gnome, fairy or elf. Invites guesses, promises no vote. |
+| 10 | The kite with a broken string. Otto ties a new knot. Paid with a red tail bow, pinned at (466, 742). Home at the open window on the windy hill. | scheduled 2026-11-28 15:00 | media/night_bus_ep10_the_kite_vo.mp4 (narrated, YouTube made for kids, replaced in the same post at 17:09 on 11-27) | A small light circles the bus headlights. Moth, firefly or fairy. Invites guesses, promises no vote. |
+| 11 | The moth, dizzy from the bus lights. Otto dims them. Paid with a white petal, pinned at (60, 1100). Home in the field of night flowers. | scheduled 2026-11-28 19:00 | media/night_bus_ep11_the_moth_vo.mp4 (narrated, YouTube made for kids, replaced in the same post at 17:09 on 11-27) | Someone very slow waits at a bus stop. Tortoise, rock or helmet. Invites guesses, promises no vote. |
+| 12 | The tortoise racing the first frost. Its first bus ride. Paid with a lucky clover, pinned at (474, 620). Home in the burrow under the old wall. | scheduled 2026-11-28 23:00 | media/night_bus_ep12_the_tortoise_vo.mp4 (narrated, YouTube made for kids, replaced in the same post at 17:09 on 11-27) | A lantern left on a bench at a stop. Gnome, fairy or elf. Invites guesses, promises no vote. |
 
 Rules of the series:
 
