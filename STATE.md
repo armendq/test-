@@ -29,11 +29,13 @@ The owner asked for three posts a day on both channels through 2026-11-28. On 20
 | 2026-11-27 | 15:00 | ep 7, scheduled (post uuid -4090777591657117813, Instagram and YouTube) | ep 7, scheduled (post uuid -5075034786245884956) | chat session, afternoon of 11-26 |
 | 2026-11-27 | 19:00 | ep 8, scheduled (post uuid -3154122013597284128, Instagram and YouTube) | ep 8, scheduled (post uuid -3323159541580086499) | chat session, afternoon of 11-26 |
 | 2026-11-27 | 23:00 | ep 9, scheduled (post uuid 4618433659693843675, Instagram and YouTube) | ep 9, scheduled (post uuid 2212531941976394766) | chat session, afternoon of 11-26 |
-| 2026-11-28 | 15:00 | open | open | run at 20:38 on 11-27 |
-| 2026-11-28 | 19:00 | open | open | run at 12:38 |
-| 2026-11-28 | 23:00 | open | open | run at 16:38 |
+| 2026-11-28 | 15:00 | reserved | reserved | chat session, from 09:35 on 11-27 |
+| 2026-11-28 | 19:00 | reserved | reserved | chat session, from 09:35 on 11-27 |
+| 2026-11-28 | 23:00 | reserved | reserved | chat session, from 09:35 on 11-27 |
 
 Nothing goes out after 2026-11-28 23:00 without a new instruction from the owner.
+
+Reservation, 2026-11-27 09:35: the owner asked the chat session to make sure every slot publishes, after the 16:38 and 20:38 runs on 11-26 stopped at the usage limit. The chat session builds episodes 10, 11 and 12 of both series for the three 2026-11-28 slots. The 12:38 run on 11-27 skips all three. A later run takes a reserved slot only if the Metricool queue shows no post for that brand at that time when the run starts. Never create a second post in a slot that already has one.
 
 Audience note: CutSignal HQ has no country of residence set. YouTube does not use location settings for recommendations. The selected US-hour slots remain unchanged. Publishing time alone does not establish long-term reach. Topic relevance, language and observed viewer response remain hypotheses to test. Last 28 days, top viewer countries: UK 9.7%, Malaysia 7.4%, Ireland 4.8%, Germany 3.2%, Australia 2.8%.
 
