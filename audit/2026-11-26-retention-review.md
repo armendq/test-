@@ -1,21 +1,16 @@
 # November 26 retention review
 
-Observed through the owner's server browser, approximately 19:35–19:40 Europe/Budapest. Values are snapshots, not matched-age experiments. Source: native YouTube Studio and Metricool, both brands. The current formats are Where It Goes and The Night Bus, not the earlier puzzle or archival-photo formats.
+Observed through the owner's server browser, approximately 19:35–19:40 Europe/Budapest. The values sit in the private Posting project, not in this repository. They are snapshots, not matched-age experiments. Source: native YouTube Studio and Metricool, both brands. The current formats are Where It Goes and The Night Bus, not the earlier puzzle or archival-photo formats.
 
 ## What the data supports
 
-| CutSignal Short | Views at read | Stayed to watch | Average view duration | Displayed length |
-|---|---:|---:|---:|---:|
-| Suitcase after check-in | 1,343 | 41.0% | 26 s | 31 s |
-| Paris love lock | 1,218 | 59.6% | 20 s | 31 s |
-| Trevi coin | 1,365 | 57.0% | 20 s | 31 s |
-| Letter | 925 | 43.7% | 16 s | 31 s |
+The review compared four CutSignal Shorts of the same displayed length: suitcase after check-in, Paris love lock, Trevi coin and letter. The love lock and the coin held viewers best.
 
 The suitcase's opening has the weakest choice-to-watch result in this group. The letter also has a weak continued-watching result. These averages do not show where the retention curve drops. Native detailed retention was still processing. No precise drop-off second or algorithmic view cap was established.
 
-Talewend hedgehog: about 1,200 views, 53.8% stayed, 46.2% swiped, 4 likes and 2 subscribers gained. Its detailed retention was unavailable. The first four Talewend YouTube films had 1,079, 1,139, 1,235 and 1,200 views at the read. Instagram differed materially across the same films: 178, 1,467, 506 and 1,743. Do not pool platforms or compare videos of very different ages as a controlled test.
+Talewend hedgehog: more viewers stayed than swiped. Its detailed retention was unavailable. The first four Talewend YouTube films sat at similar view counts at the read. Instagram differed materially across the same films. Do not pool platforms or compare videos of very different ages as a controlled test.
 
-TikTok CutSignal: five consecutive public posts showed zero counted plays. Private account was off. Earlier account traffic included For You, so an account-wide permanent ban is not established. Tiny play-time totals beside zero counted views do not prove an audience-retention failure. No recommendation restriction notice was visible in the web UI. The app-only Account Check and individual eligibility status remain unverified. Keep the existing CutSignal IG/YouTube-only route while diagnosing this separately. No paid promotion, repost cycle or new account was used.
+TikTok CutSignal: recent consecutive public posts showed no counted plays. Private account was off. Earlier account traffic included For You, so an account-wide permanent ban is not established. Tiny play-time totals beside zero counted views do not prove an audience-retention failure. No recommendation restriction notice was visible in the web UI. The app-only Account Check and individual eligibility status remain unverified. Keep the existing CutSignal IG/YouTube-only route while diagnosing this separately. No paid promotion, repost cycle or new account was used.
 
 ## Changes in this batch
 
@@ -36,7 +31,7 @@ Read at 48 hours and 7 days after each actual publication. Record the read times
 
 If opening choice improves but retention weakens, inspect the next causal beat and caption load. If both improve without wider distribution, consider topic demand and competing content. Do not claim a universal 65%, 70% or 1,000-view threshold.
 
-Related-video links remain blocked on CutSignal because YouTube showed `Video verification in review`. Do not request another identity submission or promise a completion date. Add relevant cross-links once the account exposes the feature.
+Related-video links were blocked on CutSignal while YouTube showed `Video verification in review`. Update 2026-11-27: the owner reports the verification is complete. Add relevant cross-links once Studio exposes the feature. Do not request another identity submission.
 
 ## Platform guidance
 

@@ -100,7 +100,7 @@ Notes: TikTok needs `title`. Where It Goes uses category `ENTERTAINMENT` and tag
 
 ## Opening and pacing rules (revised 2026-11-26)
 
-Read `audit/2026-11-26-retention-review.md` for observed values and official sources. A plateau near 1,000 views is not evidence of a fixed view cap. Opening choice, continued watching and satisfaction all matter. The averages do not reveal the exact drop-off second. These edits are hypotheses, not proven causes.
+Read `audit/2026-11-26-retention-review.md` for qualified conclusions and official sources. Observed values live in the private Posting project, never in this repository. A plateau near 1,000 views is not evidence of a fixed view cap. Opening choice, continued watching and satisfaction all matter. The averages do not reveal the exact drop-off second. These edits are hypotheses, not proven causes.
 
 1. Frame 0 shows a large, legible subject and the specific problem or surprising destination. A frightened face alone is not the hook. Use emotion appropriate to the scene, not mandatory fear on every object.
 2. Put the opening words on frame 0, without a fade. Prefer one short sentence. Do not begin every CutSignal episode with the generic series question. Keep series branding and episode numbers after the title's specific promise.
@@ -140,4 +140,4 @@ The owner asked the chat session to decide the direction toward reach and profit
 - The Night Bus interior helpers live in `nightbus/base.py` (`bus_int_back`, `otto_full`, `bus_ext`, `snail`). Episode 2 adds `fox`, `rear`, `bench`, `kid_drawing`, `country`, `hill`, `road`, `driver`. Reuse them.
 - Episode 3 scripts import earlier episodes. Where It Goes: copy `whereitgoes/ep02/scenes.py` into the work folder as `base2.py` (`bag`, `belt`, `boh`, `hall`, `tag_card`), and `whereitgoes/ep03/scenes.py` adds `env`, `street`, `mailbox`, `stream`, `monitor`, `granny`. The Night Bus: copy `nightbus/base.py` as `base.py` and `nightbus/ep02/scenes.py` as `ep2.py`, and `nightbus/ep03/scenes.py` adds `owl`, `feather`, `tree_card`, `souvenirs`, `ladder`, `tree`. A new episode starts with `from ep2 import *` or `from base2 import *` and copies the helpers it needs.
 - Build time in the chat session: about 35 minutes per film, most of it scene writing and one round of contact-sheet fixes.
-- TikTok `@cutsignalhq` gets 0 plays. The owner removed TikTok from the CutSignal post for 2026-11-26 06:00. CutSignal HQ posts go to Instagram and YouTube only: providers `instagram` and `youtube`, no `tiktokData`. Talewend posts keep all three networks.
+- TikTok `@cutsignalhq` gets almost no plays. The owner removed TikTok from the CutSignal post for 2026-11-26 06:00. CutSignal HQ posts go to Instagram and YouTube only: providers `instagram` and `youtube`, no `tiktokData`. Talewend posts keep all three networks.

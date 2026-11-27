@@ -4,7 +4,7 @@ Updated by every run. Newest facts win.
 
 ## November 26 evening revision in progress
 
-The owner authorized improvements to both current series after reviewing their reach. Codex is updating the six EXISTING November 27 posts in place. Do not create duplicate posts for episodes 7–9. Revised source, primary-source corrections, duration support and rendering evidence accompany this commit. Hosted media uses the `_retention_v2.mp4` suffix. Queue verification will be recorded here after all six replacements save. Read `audit/2026-11-26-retention-review.md`; its evening metrics and qualified conclusions supersede the earlier hook diagnosis below.
+The owner authorized improvements to both current series after reviewing their reach. Codex is updating the six EXISTING November 27 posts in place. Do not create duplicate posts for episodes 7–9. Revised source, primary-source corrections, duration support and rendering evidence accompany this commit. Hosted media uses the `_retention_v2.mp4` suffix. Queue verification will be recorded here after all six replacements save. Read `audit/2026-11-26-retention-review.md`; its qualified conclusions supersede the earlier hook diagnosis below.
 
 Claude's 16:38 production run stopped at its usage limit while preparing episode 6. No completed episode-6 source or scheduled 23:00 post was found during this review. This revision batch does not claim to have filled that slot.
 
@@ -23,12 +23,12 @@ The owner asked for three posts a day on both channels through 2026-11-28. On 20
 | Date | Slot | Where It Goes | The Night Bus | Built by |
 |---|---|---|---|---|
 | 2026-11-26 | 06:00 | ep 3, published | ep 3, published | chat session, evening of 11-25 |
-| 2026-11-26 | 13:00 | ep 4, published (post uuid 890930339708751015, Instagram and YouTube) | ep 4, published (post uuid 3749873471815435575) | run at 08:38 |
-| 2026-11-26 | 19:00 | ep 5, scheduled (post uuid 6398902071684647353, Instagram and YouTube) | ep 5, scheduled (post uuid -7829230190743764758) | run at 12:38 |
+| 2026-11-26 | 13:00 | ep 4, published (Instagram and YouTube) | ep 4, published | run at 08:38 |
+| 2026-11-26 | 19:00 | ep 5, scheduled (Instagram and YouTube) | ep 5, scheduled | run at 12:38 |
 | 2026-11-26 | 23:00 | ep 6, scheduled (Instagram and YouTube) | ep 6, scheduled (Instagram, TikTok and YouTube) | chat session, 21:16 on 11-26, after the 16:38 run stopped at its usage limit |
-| 2026-11-27 | 15:00 | ep 7, scheduled (post uuid -4090777591657117813, Instagram and YouTube) | ep 7, scheduled (post uuid -5075034786245884956) | chat session, afternoon of 11-26 |
-| 2026-11-27 | 19:00 | ep 8, scheduled (post uuid -3154122013597284128, Instagram and YouTube) | ep 8, scheduled (post uuid -3323159541580086499) | chat session, afternoon of 11-26 |
-| 2026-11-27 | 23:00 | ep 9, scheduled (post uuid 4618433659693843675, Instagram and YouTube) | ep 9, scheduled (post uuid 2212531941976394766) | chat session, afternoon of 11-26 |
+| 2026-11-27 | 15:00 | ep 7, scheduled (Instagram and YouTube) | ep 7, scheduled | chat session, afternoon of 11-26 |
+| 2026-11-27 | 19:00 | ep 8, scheduled (Instagram and YouTube) | ep 8, scheduled | chat session, afternoon of 11-26 |
+| 2026-11-27 | 23:00 | ep 9, scheduled (Instagram and YouTube) | ep 9, scheduled | chat session, afternoon of 11-26 |
 | 2026-11-28 | 15:00 | ep 10, scheduled (Instagram and YouTube) | ep 10, scheduled (Instagram, TikTok and YouTube) | chat session, 09:39 on 11-27 |
 | 2026-11-28 | 19:00 | ep 11, scheduled (Instagram and YouTube) | ep 11, scheduled (Instagram, TikTok and YouTube) | chat session, 09:47 on 11-27 |
 | 2026-11-28 | 23:00 | ep 12, scheduled (Instagram and YouTube) | ep 12, scheduled (Instagram, TikTok and YouTube) | chat session, 09:55 on 11-27 |
@@ -51,16 +51,16 @@ Night Bus audience: every Night Bus video on Talewend YouTube is made for kids (
 
 Reservation, 2026-11-27 09:35: the owner asked the chat session to make sure every slot publishes, after the 16:38 and 20:38 runs on 11-26 stopped at the usage limit. The chat session builds episodes 10, 11 and 12 of both series for the three 2026-11-28 slots. The 12:38 run on 11-27 skips all three. A later run takes a reserved slot only if the Metricool queue shows no post for that brand at that time when the run starts. Never create a second post in a slot that already has one. Update 09:55: all three 2026-11-28 slots are scheduled on both brands. No open slot remains before the plan ends, so later runs build and schedule nothing.
 
-Audience note: CutSignal HQ has no country of residence set. YouTube does not use location settings for recommendations. The selected US-hour slots remain unchanged. Publishing time alone does not establish long-term reach. Topic relevance, language and observed viewer response remain hypotheses to test. Last 28 days, top viewer countries: UK 9.7%, Malaysia 7.4%, Ireland 4.8%, Germany 3.2%, Australia 2.8%.
+Audience note: CutSignal HQ has no country of residence set. YouTube does not use location settings for recommendations. The selected US-hour slots remain unchanged. Publishing time alone does not establish long-term reach. Topic relevance, language and observed viewer response remain hypotheses to test. Top viewer countries sit in the private Posting project.
 
 ## Where It Goes (CutSignal HQ, blogId 6535620)
 
 | Ep | Topic | Posted | File | Notes |
 |---|---|---|---|---|
-| 1 | Coin in the Trevi Fountain | 2026-11-25 13:36 | not in repo | Sources: Reuters, Caritas Roma. YouTube 1.1K views after 5 hours. Instagram 171. TikTok 0. |
+| 1 | Coin in the Trevi Fountain | 2026-11-25 13:36 | not in repo | Sources: Reuters, Caritas Roma. |
 | 2 | Suitcase after check-in | 2026-11-25 18:22 | media/where_it_goes_ep02_suitcase.mp4 | Sources: SITA Baggage IT Insights 2026, Airport Technology (Heathrow T5). |
-| 3 | The letter you post | 2026-11-26 06:00 | media/where_it_goes_ep03_letter_v2.mp4 (new first frame) | Sources: USPS Postal Facts, USPS Link, Smithsonian National Postal Museum. US figures. Metricool shows it published: youtube.com/shorts/164vQsLbJOg, instagram.com/reel/DgMTtNaBPEh. |
-| 4 | The love lock you clip on a Paris bridge | 2026-11-26 13:00 | media/where_it_goes_ep04_love_lock.mp4 | Sources: Guinness World Records, PBS NewsHour, NPR, NBC News (Reuters), The Connexion, Smithsonian Magazine. Seven scenes, 3.6 s then six of 4.4 s. Frame 0: shocked lock on the railing, key in mid-air, Eiffel Tower behind. Numbers on screen: 1,000,000 locks, 45 tonnes, June 2014, 2.4 metres, 2015, 2017, 150 bunches, 250,000 euros, 3 charities. Metricool shows it published: youtube.com/shorts/ZncVX-L8BmY, instagram.com/reel/DgND__RhyQR. |
+| 3 | The letter you post | 2026-11-26 06:00 | media/where_it_goes_ep03_letter_v2.mp4 (new first frame) | Sources: USPS Postal Facts, USPS Link, Smithsonian National Postal Museum. US figures. Metricool shows it published. |
+| 4 | The love lock you clip on a Paris bridge | 2026-11-26 13:00 | media/where_it_goes_ep04_love_lock.mp4 | Sources: Guinness World Records, PBS NewsHour, NPR, NBC News (Reuters), The Connexion, Smithsonian Magazine. Seven scenes, 3.6 s then six of 4.4 s. Frame 0: shocked lock on the railing, key in mid-air, Eiffel Tower behind. Numbers on screen: 1,000,000 locks, 45 tonnes, June 2014, 2.4 metres, 2015, 2017, 150 bunches, 250,000 euros, 3 charities. Metricool shows it published. |
 | 5 | The letter your child sends to Santa (USPS Operation Santa) | scheduled 2026-11-26 19:00 | media/where_it_goes_ep05_santa_letter.mp4 | Sources: USPS news releases of Sept. 14 and Nov. 4, 2026, USPS Operation Santa site (About, How it works), USPS Postal Facts, Smithsonian Magazine. US topic. Seven scenes, 3.6 s then six of 4.4 s. Frame 0: shocked Santa letter in mid-air above the gaping slot of a snowy mailbox, a child's mitten below, zoom 2.0. Numbers on screen: 123 Elf Road, North Pole 88888, 1912, year 114, December 5. No Santa figure on screen. Closing question: "What did you ask Santa for?" Wrinkle: the USPS history page dates the first permission to Nov. 1911 and the rule to 1913. The film follows the USPS Operation Santa site, USPS Postal Facts and Smithsonian Magazine (1912). The December 5 deadline dates the film after that day. |
 | 6 | The gum on Seattle's Gum Wall | scheduled 2026-11-26 23:00 | media/where_it_goes_ep06_gum_wall_v2.mp4 (opening says COVERED IN, replaced at 21:21) | Sources: Pike Place Market, About the Gum Wall; Unexpected Productions, About the Wall; The Columbian; KOMO News, Nov 2024 (market spokesperson: about 2,350 lb in 3 days and about 94 buckets in 2015, cleaned again 2019 and 2024, over 8 ft high and 54 ft wide); NBC News, Nov 2015 (steam chosen to protect the brick). 24.0 s, seven scenes. Frame 0: frightened gum held toward the wall, caption THIS WALL IS COVERED IN CHEWED GUM. Closing question: Would you add yours? |
 | 7 | The parcel you send back | scheduled 2026-11-27 15:00 | media/where_it_goes_ep07_online_return.mp4 | Source: NRF and Happy Returns, 2025 Retail Returns Landscape. |
@@ -72,7 +72,7 @@ Audience note: CutSignal HQ has no country of residence set. YouTube does not us
 
 Next topics, in order. Each one is the aftermath of something the viewer did.
 
-Changed 2026-11-26 08:30. Reason: the coin film (famous place, built-in curiosity) held 56.9% of the feed. The suitcase film held 38.2% and the letter film 42.2% (first 2.5 hours, new first frame). Everyday objects pull less than famous places and odd rituals. Famous and curious topics go first:
+Changed 2026-11-26 08:30. Reason: the coin film (famous place, built-in curiosity) held the feed best. The suitcase and letter films held less. Everyday objects pull less than famous places and odd rituals. Famous and curious topics go first:
 
 4. The love lock you clip on a Paris bridge (done, episode 4)
 5. The letter your child sends to Santa (done, episode 5)
@@ -103,10 +103,10 @@ Skip a topic if the research does not give two solid sources. Pick the next one.
 
 | Ep | Passenger | Posted | File | Cliffhanger and vote |
 |---|---|---|---|---|
-| 1 | Snail with a ticket | 2026-11-25 14:48 | media/night_bus_ep01_the_snail.mp4 | Eyes in the mirror. Fox, owl or ghost. No votes came in. Fox chosen. After 4 hours: YouTube 769 views, TikTok 228 plays, Instagram 172. |
+| 1 | Snail with a ticket | 2026-11-25 14:48 | media/night_bus_ep01_the_snail.mp4 | Eyes in the mirror. Fox, owl or ghost. No votes came in. Fox chosen. |
 | 2 | Fox cub, paid with an acorn, home on the hill with the crooked tree | 2026-11-25 18:33 | media/night_bus_ep02_the_fox_cub.mp4 | Steps on the roof, eyes at the window. Owl, cat or ghost. |
-| 3 | Owl with a hurt wing, paid with a feather, home at the very top of the tallest tree | 2026-11-26 06:00 | media/night_bus_ep03_the_owl.mp4 | The bus drives away while Otto stands in the road. "Who is driving the bus?" Hedgehog, ghost or mice. No winner on record at 08:38. Hedgehog taken as the first option. Metricool shows it published: youtube.com/shorts/zE6YIHduawc, tiktok video 7712340917608385814, instagram.com/reel/DgMTpCfMKKa. |
-| 4 | Hedgehog on a giant suitcase. It took the bus for the luggage van. Paid with a luggage tag. Home at the hedge at the end of the lane. The suitcase held its winter bed of leaves. | 2026-11-26 13:00 | media/night_bus_ep04_the_hedgehog.mp4 | The STOP bell rings in an empty bus. "Who rang the bell?" Ghost, mice or moth. No winner on record at 12:38. Ghost taken as the first option. Metricool shows it published: youtube.com/shorts/5Dm1XMNIv6w, tiktok video 7712450117038624022, instagram.com/reel/DgNEHRgTpuy. |
+| 3 | Owl with a hurt wing, paid with a feather, home at the very top of the tallest tree | 2026-11-26 06:00 | media/night_bus_ep03_the_owl.mp4 | The bus drives away while Otto stands in the road. "Who is driving the bus?" Hedgehog, ghost or mice. No winner on record at 08:38. Hedgehog taken as the first option. Metricool shows it published. |
+| 4 | Hedgehog on a giant suitcase. It took the bus for the luggage van. Paid with a luggage tag. Home at the hedge at the end of the lane. The suitcase held its winter bed of leaves. | 2026-11-26 13:00 | media/night_bus_ep04_the_hedgehog.mp4 | The STOP bell rings in an empty bus. "Who rang the bell?" Ghost, mice or moth. No winner on record at 12:38. Ghost taken as the first option. Metricool shows it published. |
 | 5 | Ghost who lost its sheet. Nobody could see it, so the bus looked empty. Otto throws a spare cloth over the dented seat and the ghost appears. Paid with a wooden clothes peg. Home at the old house with the washing line, where its own sheet hung. It was washing day. | scheduled 2026-11-26 19:00 | media/night_bus_ep05_the_ghost.mp4 | Tiny music and a small light under seat 7. "Who is playing under seat 7?" Mice, crickets or a moth. |
 | 6 | Twin mice with tiny fiddles under seat 7, late for their midnight concert. Paid with a small golden music note, pinned at (64, 690). Home at the old stump stage. | scheduled 2026-11-26 23:00 | media/night_bus_ep06_the_twin_mice.mp4 | Otto brakes, the headlights show something white and fluffy in the road. Cloud, sheep or pillow. Invites guesses, promises no vote. |
 | 7 | A small cloud that fell, paid with a raindrop, home in the sky above the hill | scheduled 2026-11-27 15:00 | media/night_bus_ep07_the_cloud.mp4 | A figure stands in the field. Scarecrow, statue or wizard. |
@@ -174,16 +174,9 @@ Episode 6 is done (scheduled 2026-11-26 23:00). Its brief, kept for reference: i
 
 ## Hook test (YouTube Studio, CutSignal HQ, read 2026-11-26 01:00)
 
-| Film | First frame | Stayed to watch | Average view | Views |
-|---|---|---|---|---|
-| Coin | shocked coin in mid-air | 56.9% | 0:19 of 0:31 | 1.3K |
-| Suitcase | calm, smiling suitcase on a belt | 38.2% | 0:26 of 0:31 | 1.1K |
-| Letter | frightened letter above the gaping slot | 43.5% (8 hours in) | 0:16 of 0:31 | 913 |
-| Love lock | frightened lock close-up on the bridge | 50.0% (1 hour in, 2 feed views) | 0:05 | 2 (Instagram 182) |
-
-Channel lifetime: 36.5% stayed, 95% of views from the Shorts feed. Older puzzle videos: 15% to 44% stayed. Every Short stops near 1,000 views. Target: 65% stayed or more. Follow the first-frame rules in PLAYBOOK.md. Talewend Studio numbers are not read yet.
+A shocked or frightened hero in frame 0 (coin, letter, love lock) held viewers better than a calm one (suitcase). Most views come from the Shorts feed. Every Short so far stalls near its first test audience. Target: 65% stayed or more. Follow the first-frame rules in PLAYBOOK.md. The numbers sit in the private Posting project, never in this repository.
 
 ## Account notes
 
-- Baselines on 2026-11-25: CutSignal YouTube 6 subscribers, Instagram 2 followers, TikTok 0 followers. Talewend YouTube 2 videos, Instagram 0 followers, TikTok 0 followers.
-- TikTok `@cutsignalhq`: every video sits at 0 to 10 plays. The account needs a check by the owner in the TikTok app. The owner removed TikTok from the CutSignal post for 2026-11-26 06:00. No TikTok on CutSignal HQ posts until the owner says otherwise.
+- Baselines on 2026-11-25 (subscribers and followers per network) sit in the private Posting project.
+- TikTok `@cutsignalhq`: videos get almost no plays. The account needs a check by the owner in the TikTok app. The owner removed TikTok from the CutSignal post for 2026-11-26 06:00. No TikTok on CutSignal HQ posts until the owner says otherwise.
