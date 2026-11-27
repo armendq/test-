@@ -38,14 +38,16 @@ Extended by the owner on 2026-11-27 16:47 ("make the call"): one film per brand 
 | Date | Where It Goes 19:00 | The Night Bus 23:00 | Built by |
 |---|---|---|---|
 | 2026-11-29 | open | open | run at 12:38 |
-| 2026-11-30 | open | open | run at 12:38 |
-| 2026-12-01 | open | open, plus the long-form compilation (see below) | run at 12:38 |
+| 2026-11-30 | open | open, plus the long-form compilation (built in this run, scheduled for 2026-12-01 01:00, see below) | run at 12:38 |
+| 2026-12-01 | open | open (the long-form compilation goes out at 01:00) | run at 12:38 |
 | 2026-12-02 | open | open | run at 12:38, then the decision check |
 | 2026-12-03 | open | open | run at 12:38 |
 | 2026-12-04 | open | open | run at 12:38 |
 | 2026-12-05 | open | open | run at 12:38 |
 
-Long-form compilation, YouTube Talewend only, made for kids, regular video (not a Short): "The Night Bus: bedtime rides 1 to 12", the twelve episodes back to back with the calm narrator. Episodes 10 to 12 have narr.json. Write narr.json for episodes 1 to 9 from their captions, rebuild each with engine/vobuild.sh, join with ffmpeg concat, add a 3-second title card. Schedule it for 2026-12-01 at 01:00 Europe/Budapest (19:00 New York, bedtime).
+Long-form compilation, YouTube Talewend only, made for kids, regular video (not a Short): "The Night Bus: bedtime rides 1 to 12", the twelve episodes back to back with the calm narrator. Episodes 10 to 12 have narr.json. Write narr.json for episodes 1 to 9 from their captions, rebuild each with engine/vobuild.sh, join with ffmpeg concat, add a 3-second title card. The 2026-11-30 run builds it and schedules it for 2026-12-01 at 01:00 Europe/Budapest (19:00 New York, bedtime). Check the queue first: if a Talewend post already sits at 2026-12-01 01:00, do not create a second one.
+
+Night Bus audience: every Night Bus video on Talewend YouTube is made for kids (owner approval, 2026-11-27). Episodes 7 and 8 were published before that and still need the setting in YouTube Studio. The scheduled run sets it when the shared browser has a free tab.
 
 Reservation, 2026-11-27 09:35: the owner asked the chat session to make sure every slot publishes, after the 16:38 and 20:38 runs on 11-26 stopped at the usage limit. The chat session builds episodes 10, 11 and 12 of both series for the three 2026-11-28 slots. The 12:38 run on 11-27 skips all three. A later run takes a reserved slot only if the Metricool queue shows no post for that brand at that time when the run starts. Never create a second post in a slot that already has one. Update 09:55: all three 2026-11-28 slots are scheduled on both brands. No open slot remains before the plan ends, so later runs build and schedule nothing.
 
