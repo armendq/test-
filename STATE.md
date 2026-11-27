@@ -29,7 +29,7 @@ The owner asked for three posts a day on both channels through 2026-11-28. On 20
 | 2026-11-27 | 15:00 | ep 7, scheduled (post uuid -4090777591657117813, Instagram and YouTube) | ep 7, scheduled (post uuid -5075034786245884956) | chat session, afternoon of 11-26 |
 | 2026-11-27 | 19:00 | ep 8, scheduled (post uuid -3154122013597284128, Instagram and YouTube) | ep 8, scheduled (post uuid -3323159541580086499) | chat session, afternoon of 11-26 |
 | 2026-11-27 | 23:00 | ep 9, scheduled (post uuid 4618433659693843675, Instagram and YouTube) | ep 9, scheduled (post uuid 2212531941976394766) | chat session, afternoon of 11-26 |
-| 2026-11-28 | 15:00 | reserved | reserved | chat session, from 09:35 on 11-27 |
+| 2026-11-28 | 15:00 | ep 10, scheduled (Instagram and YouTube) | ep 10, scheduled (Instagram, TikTok and YouTube) | chat session, 09:39 on 11-27 |
 | 2026-11-28 | 19:00 | reserved | reserved | chat session, from 09:35 on 11-27 |
 | 2026-11-28 | 23:00 | reserved | reserved | chat session, from 09:35 on 11-27 |
 
@@ -52,6 +52,7 @@ Audience note: CutSignal HQ has no country of residence set. YouTube does not us
 | 7 | The parcel you send back | scheduled 2026-11-27 15:00 | media/where_it_goes_ep07_online_return.mp4 | Source: NRF and Happy Returns, 2025 Retail Returns Landscape. |
 | 8 | The suitcase nobody claims | scheduled 2026-11-27 19:00 | media/where_it_goes_ep08_lost_suitcase.mp4 | Sources: PBS NewsHour, Smithsonian Magazine, NBC News, WSB-TV, WPTV, Afar, NewsNation. |
 | 9 | The Christmas tree in January | scheduled 2026-11-27 23:00 | media/where_it_goes_ep09_christmas_tree.mp4 | Sources: National Christmas Tree Association, University of Illinois Extension, Waste360. |
+| 10 | The message in a bottle | scheduled 2026-11-28 15:00 | media/where_it_goes_ep10_message_in_a_bottle.mp4 | Sources: Guinness World Records, Oldest message in a bottle (released 30 Nov 1906, found on Amrum 17 Apr 2015, 108 years 138 days, shilling paid); National Geographic and Smithsonian Magazine (1,020 weighted bottles 1904 to 1906, about 55% returned per the MBA). 24.0 s. Frame 0: frightened bottle above the North Sea, caption THIS BOTTLE WAS AT SEA FOR 108 YEARS. |
 
 Next topics, in order. Each one is the aftermath of something the viewer did.
 
@@ -63,7 +64,7 @@ Changed 2026-11-26 08:30. Reason: the coin film (famous place, built-in curiosit
 7. The parcel you send back (done, episode 7)
 8. The suitcase you never collect (done, episode 8)
 9. The Christmas tree you put out in January (done, episode 9)
-10. The message you put in a bottle (next after episode 9: episode 10)
+10. The message you put in a bottle (done, episode 10)
 10b. The wish plaque you hang at a Japanese shrine
 11. The plastic bottle you recycle
 12. The water you flush
@@ -88,6 +89,7 @@ Skip a topic if the research does not give two solid sources. Pick the next one.
 | 7 | A small cloud that fell, paid with a raindrop, home in the sky above the hill | scheduled 2026-11-27 15:00 | media/night_bus_ep07_the_cloud.mp4 | A figure stands in the field. Scarecrow, statue or wizard. |
 | 8 | The scarecrow, paid with a coat button, home on its pole with its crows | scheduled 2026-11-27 19:00 | media/night_bus_ep08_the_scarecrow.mp4 | Something melts in seat 3. Snowman, ice cream or icicle. |
 | 9 | The snowman, paid with a snowflake, home on the snowy hill before sunrise | scheduled 2026-11-27 23:00 | media/night_bus_ep09_the_snowman.mp4 | A string tugs at the bus. Kite, balloon or star. |
+| 10 | The kite with a broken string. Otto ties a new knot. Paid with a red tail bow, pinned at (466, 742). Home at the open window on the windy hill. | scheduled 2026-11-28 15:00 | media/night_bus_ep10_the_kite.mp4 | A small light circles the bus headlights. Moth, firefly or fairy. Invites guesses, promises no vote. |
 
 Rules of the series:
 
