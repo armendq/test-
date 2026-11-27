@@ -31,11 +31,11 @@ The owner asked for three posts a day on both channels through 2026-11-28. On 20
 | 2026-11-27 | 23:00 | ep 9, scheduled (post uuid 4618433659693843675, Instagram and YouTube) | ep 9, scheduled (post uuid 2212531941976394766) | chat session, afternoon of 11-26 |
 | 2026-11-28 | 15:00 | ep 10, scheduled (Instagram and YouTube) | ep 10, scheduled (Instagram, TikTok and YouTube) | chat session, 09:39 on 11-27 |
 | 2026-11-28 | 19:00 | ep 11, scheduled (Instagram and YouTube) | ep 11, scheduled (Instagram, TikTok and YouTube) | chat session, 09:47 on 11-27 |
-| 2026-11-28 | 23:00 | reserved | reserved | chat session, from 09:35 on 11-27 |
+| 2026-11-28 | 23:00 | ep 12, scheduled (Instagram and YouTube) | ep 12, scheduled (Instagram, TikTok and YouTube) | chat session, 09:55 on 11-27 |
 
 Nothing goes out after 2026-11-28 23:00 without a new instruction from the owner.
 
-Reservation, 2026-11-27 09:35: the owner asked the chat session to make sure every slot publishes, after the 16:38 and 20:38 runs on 11-26 stopped at the usage limit. The chat session builds episodes 10, 11 and 12 of both series for the three 2026-11-28 slots. The 12:38 run on 11-27 skips all three. A later run takes a reserved slot only if the Metricool queue shows no post for that brand at that time when the run starts. Never create a second post in a slot that already has one.
+Reservation, 2026-11-27 09:35: the owner asked the chat session to make sure every slot publishes, after the 16:38 and 20:38 runs on 11-26 stopped at the usage limit. The chat session builds episodes 10, 11 and 12 of both series for the three 2026-11-28 slots. The 12:38 run on 11-27 skips all three. A later run takes a reserved slot only if the Metricool queue shows no post for that brand at that time when the run starts. Never create a second post in a slot that already has one. Update 09:55: all three 2026-11-28 slots are scheduled on both brands. No open slot remains before the plan ends, so later runs build and schedule nothing.
 
 Audience note: CutSignal HQ has no country of residence set. YouTube does not use location settings for recommendations. The selected US-hour slots remain unchanged. Publishing time alone does not establish long-term reach. Topic relevance, language and observed viewer response remain hypotheses to test. Last 28 days, top viewer countries: UK 9.7%, Malaysia 7.4%, Ireland 4.8%, Germany 3.2%, Australia 2.8%.
 
@@ -54,6 +54,7 @@ Audience note: CutSignal HQ has no country of residence set. YouTube does not us
 | 9 | The Christmas tree in January | scheduled 2026-11-27 23:00 | media/where_it_goes_ep09_christmas_tree.mp4 | Sources: National Christmas Tree Association, University of Illinois Extension, Waste360. |
 | 10 | The message in a bottle | scheduled 2026-11-28 15:00 | media/where_it_goes_ep10_message_in_a_bottle.mp4 | Sources: Guinness World Records, Oldest message in a bottle (released 30 Nov 1906, found on Amrum 17 Apr 2015, 108 years 138 days, shilling paid); National Geographic and Smithsonian Magazine (1,020 weighted bottles 1904 to 1906, about 55% returned per the MBA). 24.0 s. Frame 0: frightened bottle above the North Sea, caption THIS BOTTLE WAS AT SEA FOR 108 YEARS. |
 | 11 | The wish plaque (ema) you hang at Meiji Jingu, Tokyo | scheduled 2026-11-28 19:00 | media/where_it_goes_ep11_wish_plaque.mp4 | Sources: Meiji Jingu, Ema & Goshuin (500 yen, 1,000 yen at New Year, hung around the camphor tree in front of the main shrine); Japan Tourism Agency multilingual database, Meiji Jingu sign text 2018 (offered by priests at the morning rite, later burned in a ritual fire); National Geographic, Dec 2021 (most ema burned in rites called ema kuyo). 24.0 s. Frame 0: frightened plaque on the rack with a fire glow, caption YOUR WISH PLAQUE ENDS UP IN A FIRE. |
+| 12 | The plastic bottle you recycle (US) | scheduled 2026-11-28 23:00 | media/where_it_goes_ep12_plastic_bottle.mp4 | Sources: NAPCOR 2025 PET Recycling Report via Plastics Today and Resource Recycling (69% of PET recycled in the US and Canada went into new bottles in 2025; US PET bottle recycling rate 29.0% by weight, 1,821 of 6,286 million pounds); North Carolina DEQ, Recycling Loop (truck, sorting, bale, wash, flake). 24.0 s. Frame 0: frightened bottle above an open recycling cart, caption MOST RECYCLED PET BECOMES NEW BOTTLES. |
 
 Next topics, in order. Each one is the aftermath of something the viewer did.
 
@@ -67,7 +68,7 @@ Changed 2026-11-26 08:30. Reason: the coin film (famous place, built-in curiosit
 9. The Christmas tree you put out in January (done, episode 9)
 10. The message you put in a bottle (done, episode 10)
 10b. The wish plaque you hang at a Japanese shrine (done, episode 11)
-11. The plastic bottle you recycle
+11. The plastic bottle you recycle (done, episode 12)
 12. The water you flush
 13. The old phone you hand in
 14. The blood you donate
@@ -92,6 +93,7 @@ Skip a topic if the research does not give two solid sources. Pick the next one.
 | 9 | The snowman, paid with a snowflake, home on the snowy hill before sunrise | scheduled 2026-11-27 23:00 | media/night_bus_ep09_the_snowman.mp4 | A string tugs at the bus. Kite, balloon or star. |
 | 10 | The kite with a broken string. Otto ties a new knot. Paid with a red tail bow, pinned at (466, 742). Home at the open window on the windy hill. | scheduled 2026-11-28 15:00 | media/night_bus_ep10_the_kite.mp4 | A small light circles the bus headlights. Moth, firefly or fairy. Invites guesses, promises no vote. |
 | 11 | The moth, dizzy from the bus lights. Otto dims them. Paid with a white petal, pinned at (60, 1100). Home in the field of night flowers. | scheduled 2026-11-28 19:00 | media/night_bus_ep11_the_moth.mp4 | Someone very slow waits at a bus stop. Tortoise, rock or helmet. Invites guesses, promises no vote. |
+| 12 | The tortoise racing the first frost. Its first bus ride. Paid with a lucky clover, pinned at (474, 620). Home in the burrow under the old wall. | scheduled 2026-11-28 23:00 | media/night_bus_ep12_the_tortoise.mp4 | A lantern left on a bench at a stop. Gnome, fairy or elf. Invites guesses, promises no vote. |
 
 Rules of the series:
 
