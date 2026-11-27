@@ -130,6 +130,8 @@ The owner asked the chat session to decide the direction toward reach and profit
 5. No new channels for now. A new channel restarts at the same first-test audience with no history.
 6. No paid video tool yet. Decision point 2026-12-02: compare the narrated films' 48-hour retention with the best silent film (numbers live in the private Posting project, never in this repository). If they do not beat it, recommend the owner buy a Runway plan for realistic opening shots. Never buy anything from a run.
 7. One film per brand per day from 2026-11-29: Where It Goes at 19:00, The Night Bus at 23:00 (Europe/Budapest). Each film changes one thing and gets judged at 48 hours.
+8. YouTube automatic dubbing is on for both channels (owner instruction, 2026-11-27), published without manual review. YouTube dubs speech only, and it skips a video whose original speech runs too fast. Leave room in every script: dubbed languages need more time than English. Keep each line at or below speed 1.15 after `narrate.py` fits it, and keep at least a short pause between lines. Upload defaults on both channels set the video language and the title and description language to English (United States).
+9. Every published Short joins its series playlist: "Where It Goes" on CutSignal HQ, "The Night Bus: bedtime stories for kids" on Talewend (ordered oldest first, so a viewer starts at episode 1). Every Where It Goes Short links a related video on the same channel, picked by topic (famous places together, letters together, luggage and returns together). Talewend has no related-video links: that feature needs advanced feature access, which Talewend does not have.
 
 ## Known pitfalls
 
