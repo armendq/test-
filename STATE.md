@@ -12,7 +12,7 @@ Update 21:16: the chat session built episode 6 of both series from new source in
 
 ## Test rule
 
-Ten episodes per series. Read each episode at 48 hours and judge at 7 days. Kill the series at 0 of 10 past 2,000 views in 7 days. Keep it at 2 of 10 past 10,000.
+Replaced on 2026-11-28 by the Strategy v2 pivot rules below. The old rule: ten episodes per series, read at 48 hours, judged at 7 days, kill at 0 of 10 past 2,000 views in 7 days, keep at 2 of 10 past 10,000.
 
 ## Three-day plan (Europe/Budapest)
 
@@ -33,48 +33,87 @@ The owner asked for three posts a day on both channels through 2026-11-28. On 20
 | 2026-11-28 | 19:00 | ep 11, scheduled (Instagram and YouTube) | ep 11, scheduled (Instagram, TikTok and YouTube) | chat session, 09:47 on 11-27 |
 | 2026-11-28 | 23:00 | ep 12, scheduled (Instagram and YouTube) | ep 12, scheduled (Instagram, TikTok and YouTube) | chat session, 09:55 on 11-27 |
 
+## Strategy v2 (2026-11-28 11:40): profit first, long-form engine, weekly gates
+
+Read this section first. It replaces the slots, the test arm and the long-form rules in the sprint section below.
+
+Owner, 2026-11-28 10:58: "the think is you need to evaluate the strategy, if ot does not work, change fo what is needed. in 60 days the channel needs to become profitable, use all knowlede to achieve that. it is your ultimate goal."
+
+Why the plan changed (checked 2026-11-28):
+- Ad money needs the full YPP tier: 1,000 subscribers plus 4,000 public long-form watch hours in 12 months, or 10 million qualified Shorts views in 90 days. The 500-subscriber tier pays fan funding only (YouTube Help: "How to earn money on YouTube", "Overview of the expanded YouTube Partner Program").
+- From 2027-02-01 new applicants need 8,000 watch hours or 20 million Shorts views, and Shorts revenue sharing pays only channels with 10 million qualified Shorts views in the last 90 days (Team YouTube, announced 2026-08-11). Shorts do not pay a small channel. Long-form is the revenue engine, and CutSignal HQ has to qualify and apply before 2027-02-01. Review takes about a month, so ad money starts after approval, not inside the sprint.
+- The inauthentic-content policy (clarified July 2026) keeps template-looking, repetitive, mass-produced AI content out of monetization, judged on the whole channel.
+- Made for kids switches off the notification bell, comments, memberships and personalized ads. Talewend also lacks intermediate features, so it cannot upload videos over 15 minutes or set custom thumbnails. The Night Bus cannot carry the profit goal.
+- Shorts on both channels stall at the first test audience. The Shorts route to 10 million views is out of reach at this pace.
+- ChatGPT (project Posting, chat "YouTube Strategy Check") and Gemini (main account, chat "Faceless YouTube Channel Strategy Check") reviewed the draft on 2026-11-28. Both rank CutSignal long-form first and rate the made-for-kids route at 3 to 8 percent. Gemini rates Shorts-only under 1 percent. Their estimates for the best path run from 10 to 25 percent.
+
+Plan from 2026-11-29 (Europe/Budapest):
+- CutSignal long-form is the money engine: original 8 to 12 minute Where It Goes explainers, each its own story with new research, never stitched Shorts. Chapters and sources in the description. A curiosity title built around a phrase people search. A custom thumbnail (Metricool videoThumbnailUrl). YouTube only, type "video", madeForKids false, category EDUCATION. Out at 01:00 (19:00 New York) on Wednesday and Saturday, built by the 16:38 run the day before. First one 2026-12-02 01:00. A Monday 01:00 slot (built by the Sunday 16:38 run) opens after a full week without a usage-limit failure. Each file stays under 95 MB for the media branch.
+- CutSignal Shorts: one a day at 19:00, Instagram and YouTube. The 21:00 slot is dropped. Each Short works as a trailer: one surprising fact from an upcoming or published long-form, with its related video pointing to that long-form once it is live. Loop test on alternate days: odd dates end on a line that flows back into the first line, even dates keep the standard ending. Decide at 48 hours after 6 of each.
+- The Night Bus: Monday, Wednesday and Friday at 23:00. The compilation of episodes 1 to 12 still goes out 2026-12-01 01:00 as the single Talewend long-form test.
+- Dropped: the 21:00 CutSignal slot, the daily Night Bus, a 45 to 60 minute sleep documentary (template risk, rejected by Gemini, not advised by ChatGPT).
+- Every film is unique: no reused scenes, no two films in a row with the same opening composition, palette or structure, no title template.
+- When a run nears its usage limit, keep this order: the long-form due, the CutSignal Short, Studio upkeep, The Night Bus.
+
+Weekly scorecard, every Sunday from 2026-12-06 (numbers go to the private Posting project, never here): subscribers, long-form public watch hours, and per long-form video views, click-through rate, average view duration, average percentage viewed, retention at 0:30 and subscribers gained. Shorts: median views at 48 hours, median stayed-to-watch, loop versus standard. Revenue by line.
+
+CutSignal target curve, cumulative subscribers and long-form watch hours on each Sunday: Dec 6 50 and 100, Dec 13 120 and 300, Dec 20 250 and 700, Dec 27 400 and 1,300, Jan 3 600 and 2,200, Jan 10 800 and 3,200, Jan 17 1,000 and 4,000. Apply the day both thresholds are met.
+
+Pivot rules, applied from the day after the read:
+1. Long-form click-through rate under 4% after 1,000 impressions: new title and thumbnail on that video and a new packaging style for the next one.
+2. Retention at 0:30 under 65%: rebuild the openings (promise the answer in the first 10 seconds, no intro).
+3. Average percentage viewed under 35%: shorter cut and a tighter story for the next long-form.
+4. Shorts median stayed-to-watch under 60% for a week: new frame-one system, not only new topics.
+5. Below 50% of the curve on subscribers or hours on two Sundays in a row: change the topic family or the format, chosen with the Sunday ChatGPT and Gemini consult.
+6. Winners: a long-form with twice the channel median watch hours at 7 days gets two follow-ups on its angle and three trailer Shorts. A Short past 10,000 views or 3 times the median gets two follow-ups.
+7. Talewend on 2026-12-13: under 100 long-form watch hours and under 30 subscribers means The Night Bus pauses after a closing episode, and its capacity moves to CutSignal.
+8. 2027-01-10: under 450 subscribers or under 1,600 hours means the ad tier before 2027-02-01 is out of reach. Keep two long-forms a week at full quality toward the new bar (1,000 subscribers plus 8,000 hours), cut the rest, notify the owner.
+9. 90% of the full tier (900 subscribers and 3,600 hours): notify the owner to turn on 2-Step Verification and link AdSense, so the application goes in the day both thresholds are met.
+
+Strategy log (decision and the rule behind it; numbers stay in the private project):
+- 2026-11-28: Strategy v2 adopted after the owner's 10:58 message and the three-AI review.
+
 ## 60-day sprint (owner, 2026-11-28 09:56): one YouTube Partner Program threshold by 2027-01-27
 
 Owner's words on 2026-11-28 09:56: "i will give you 60 days, so you together with chatgpt, and gemini, to achieve one of the tresholds. you can use different strategies, create more channels, so find a way, try as hard as you can? you have my 100% approval." At 09:53: "it needs to be faceless, i dont want myself to be involv d". So no services, no client contact, and the owner never appears. Earlier 30-day wording: "i will give you 30 days ... to achieve one of the tresholds. you can use different strategies, create more channels, so find a way, try as hard as you can? you have my 100% approval." At 10:29: "I will not ask, i will not interfere, you have server browser, you have chatgpt and gemini, you op erate on your own, only when you need something you ask or notofy me. You have 60 days to turn the channels profitable, you make your own decitikns, you have my full approval for everything." So runs decide on their own and contact the owner only when he has to act or a milestone lands (rules in the scheduled task).
 
-Target: the first YPP tier on one channel. 500 subscribers, 3 public uploads in 90 days, and either 3 million qualified Shorts views in 90 days or 3,000 public long-form watch hours in 365 days. Qualified Shorts views are engaged views on public Shorts in the Shorts feed. Shorts feed watch time never counts toward watch hours. Promote ads never count.
+Target: replaced by Strategy v2 above, which aims at the full tier because only the full tier pays ads. The first tier (500 subscribers, 3 public uploads in 90 days, and either 3 million qualified Shorts views in 90 days or 3,000 public long-form watch hours in 365 days) pays fan funding only. Qualified Shorts views are engaged views on public Shorts in the Shorts feed. Shorts feed watch time never counts toward watch hours. Promote ads never count.
 
 Main vehicle: CutSignal HQ (advanced features, automatic dubbing, related links, playlist). Thresholds count per channel, so effort stays concentrated. No new channel unless a winning format cannot live on CutSignal. A run never creates channels or accounts: it recommends one in its report.
 
-Daily slots from 2026-11-29 to 2027-01-27 (Europe/Budapest), replacing the one-per-brand table below:
-- CutSignal HQ, Where It Goes: 19:00 and 21:00.
-- Talewend, The Night Bus: 23:00.
+Slots: Strategy v2 above sets them (CutSignal Short daily at 19:00, CutSignal long-form Wednesday and Saturday at 01:00, The Night Bus Monday, Wednesday and Friday at 23:00). The earlier plan of 19:00 and 21:00 for CutSignal and a daily Night Bus ended before it started.
 
 Winner rule: before choosing topics, each run reads the public view counts of every Short published 2 or more days ago. A film passing 10,000 views, or three times its series median at the same age, is a winner. The next two films of that series take the same angle (same kind of place, object or passenger problem) with new facts. Never reupload or copy a winner.
 
 December topics first for Where It Goes: Christmas, winter and New Year stories tied to a famous place or a big public ritual, then famous places, then everyday objects.
 
-Long-form (watch hours count only from public long-form videos): The Night Bus gets a bedtime compilation for every 12 new episodes, built the day after the 12th episode publishes, scheduled at 01:00 (19:00 New York), chapters in the description. Where It Goes gets no compilations: one original 6 to 8 minute deep dive in the week of 2026-12-07, then one every week only if the first holds 35% average percentage viewed or more at 7 days.
+Long-form (watch hours count only from public long-form videos): Strategy v2 above sets it. CutSignal gets two original 8 to 12 minute long-forms a week from 2026-12-02. The Night Bus compilation of episodes 1 to 12 goes out 2026-12-01 01:00, and a second compilation follows only if Talewend passes the 2026-12-13 gate. Where It Goes never gets compilations.
 
 Three-AI review, 2026-11-28 00:4x (ChatGPT in the Posting project, Gemini on the main account, Claude). Agreed: YouTube ad money inside 30 days is very unlikely; CutSignal comes first; the fastest revenue is selling the animation capability as a service (dropped on 2026-11-28 09:53: the owner wants the business faceless, with no personal involvement); hooks need motion and an open question in frame one; every film needs a satisfying, shareable payoff. Decisions taken from it:
-- Test arm: the 21:00 CutSignal film runs 15 to 18 seconds and ends on a line that flows back into its first line (loop). The 19:00 film keeps the standard 24-second cut. Compare them at 48 hours, same series, same week. Once one arm clearly wins over at least 6 pairs, both slots use the winning format.
+- Test arm: the 21:00 CutSignal film runs 15 to 18 seconds and ends on a line that flows back into its first line (loop). The 19:00 film keeps the standard 24-second cut. Compare them at 48 hours, same series, same week. Once one arm clearly wins over at least 6 pairs, both slots use the winning format. (Strategy v2 runs this test on alternate days of the single 19:00 slot.)
 - Payoff rule: the last 3 seconds of every film show the answer as a picture, not only as words. The Night Bus always lands the passenger home before the cliffhanger tease.
-- Long-form: The Night Bus compilation stays (2026-12-01 01:00). No Where It Goes compilation. Instead, one original 6 to 8 minute Where It Goes deep dive in the week of 2026-12-07, on the best-performing topic so far, built as its own story with new research, not stitched Shorts.
+- Long-form: The Night Bus compilation stays (2026-12-01 01:00). No Where It Goes compilation. Instead, one original 6 to 8 minute Where It Goes deep dive in the week of 2026-12-07, on the best-performing topic so far, built as its own story with new research, not stitched Shorts. (Strategy v2 replaced this with two original 8 to 12 minute long-forms a week from 2026-12-02.)
 - Rejected: removing made for kids from The Night Bus (the series is child-directed, the label is a legal duty) and pausing automatic dubbing (YouTube states dubbing does not hurt discoverability).
 - Sunday runs send the weekly read to ChatGPT (project Posting) and Gemini (main account) in the server browser, ask each for the three most useful changes, and merge them.
 
 Topic list for Where It Goes from the review, to verify against primary sources before use (December items first): the Rockefeller Center tree becomes lumber for Habitat for Humanity homes; wishes written on the Times Square New Year confetti; broken Christmas lights recycled for their copper; retired spacecraft sent to Point Nemo, the spacecraft cemetery; New York subway cars sunk as Atlantic reefs; old London Underground trains now running on the Isle of Wight; a torn banknote you can still redeem (US Bureau of Engraving and Printing); worn banknotes shredded by the central bank; hotel soap recycled by Clean the World; used cooking oil turned into jet fuel; oyster shells rebuilt into reefs; France's ban on supermarkets destroying edible food; wind turbine blades buried in a Wyoming landfill; lost golf balls recovered from ponds and resold; Olympic gold medals that are mostly silver. Drop any claim a primary source does not confirm.
 
-Weekly read every Sunday run, plus a day-30 review on 2026-12-28 (ChatGPT and Gemini also asked whether a new faceless channel in another niche would raise the odds) and a final read on 2027-01-27: subscribers per channel, the Earn page progress if Studio shows it, best and worst film of the week, winner-rule decisions. Numbers go to the private Posting project or the run report, never to this repository.
+Weekly read: the Strategy v2 scorecard every Sunday from 2026-12-06, plus 2026-12-28 and the final read on 2027-01-27, then the pivot rules and the ChatGPT and Gemini consult. Numbers go to the private Posting project or the run report, never to this repository.
 
-Earlier extension by the owner on 2026-11-27 16:47 ("make the call"): one film per brand per day from 2026-11-29 to 2026-12-05. The 60-day sprint above replaced it on 2026-11-28 09:56: the end date is now 2027-01-27 and the daily slots are 19:00, 21:00 and 23:00. The table below covers the first week only. Read the "Voice and audience" section of PLAYBOOK.md first.
+Earlier extension by the owner on 2026-11-27 16:47 ("make the call"): one film per brand per day from 2026-11-29 to 2026-12-05. The 60-day sprint above replaced it on 2026-11-28 09:56: the end date is now 2027-01-27 and the slots follow Strategy v2. The table below covers the first eight days only. Read the "Voice and audience" section of PLAYBOOK.md first.
 
-| Date | Where It Goes 19:00 | The Night Bus 23:00 | Built by |
-|---|---|---|---|
-| 2026-11-29 | open | open | run at 12:38 |
-| 2026-11-30 | open | open, plus the long-form compilation (built in this run, scheduled for 2026-12-01 01:00, see below) | run at 12:38 |
-| 2026-12-01 | open | open (the long-form compilation goes out at 01:00) | run at 12:38 |
-| 2026-12-02 | open | open | run at 12:38, then the decision check |
-| 2026-12-03 | open | open | run at 12:38 |
-| 2026-12-04 | open | open | run at 12:38 |
-| 2026-12-05 | open | open | run at 12:38 |
+| Date | Where It Goes Short 19:00 | The Night Bus 23:00 | Long-form | Built by |
+|---|---|---|---|---|
+| 2026-11-29 Sun | open, loop ending | none | none | run at 12:38 |
+| 2026-11-30 Mon | open, standard ending | open | Talewend compilation built for 2026-12-01 01:00 | 12:38 Shorts, 16:38 compilation |
+| 2026-12-01 Tue | open, loop ending | none | compilation out at 01:00. CutSignal long-form 1 built for 2026-12-02 01:00 | 12:38 Short, 16:38 long-form |
+| 2026-12-02 Wed | open, standard ending | open | CutSignal long-form 1 out at 01:00 | 12:38, then the decision check |
+| 2026-12-03 Thu | open, loop ending | none | none | 12:38 |
+| 2026-12-04 Fri | open, standard ending | open | CutSignal long-form 2 built for 2026-12-05 01:00 | 12:38 Shorts, 16:38 long-form |
+| 2026-12-05 Sat | open, loop ending | none | CutSignal long-form 2 out at 01:00 | 12:38 |
+| 2026-12-06 Sun | open, standard ending | none | none | 12:38 with the first weekly read, pivot rules and AI consult |
 
-Long-form compilation, YouTube Talewend only, made for kids, regular video (not a Short): "The Night Bus: bedtime rides 1 to 12", the twelve episodes back to back with the calm narrator. Episodes 10 to 12 have narr.json. Write narr.json for episodes 1 to 9 from their captions, rebuild each with engine/vobuild.sh, join with ffmpeg concat, add a 3-second title card. The 2026-11-30 run builds it and schedules it for 2026-12-01 at 01:00 Europe/Budapest (19:00 New York, bedtime). Check the queue first: if a Talewend post already sits at 2026-12-01 01:00, do not create a second one.
+Long-form compilation, YouTube Talewend only, made for kids, regular video (not a Short): "The Night Bus: bedtime rides 1 to 12", the twelve episodes back to back with the calm narrator. Episodes 10 to 12 have narr.json. Write narr.json for episodes 1 to 9 from their captions, rebuild each with engine/vobuild.sh, join with ffmpeg concat, add a 3-second title card. The 16:38 run on 2026-11-30 builds it and schedules it for 2026-12-01 at 01:00 Europe/Budapest (19:00 New York, bedtime). Check the queue first: if a Talewend post already sits at 2026-12-01 01:00, do not create a second one.
 
 Cancelled on 2026-11-28 after the three-AI review (ChatGPT and Gemini both advised against compilations of unrelated explainers; see the sprint section): long-form compilation, YouTube CutSignal HQ only, not made for kids, regular video (not a Short): "Where It Goes: where your everyday things end up", every Where It Goes film published so far, in episode order, with a 3-second title card. Rebuild films that have narr.json with engine/vobuild.sh, use the hosted web copies for the rest, join with ffmpeg concat. The 2026-12-03 run builds it and schedules it for 2026-12-04 at 01:00 Europe/Budapest. Check the queue first: if a CutSignal post already sits at that time, do not create a second one.
 
@@ -82,7 +121,7 @@ Why long-form: Shorts feed watch time never counts toward the YouTube Partner Pr
 
 Night Bus audience: every Night Bus video on Talewend YouTube is made for kids (owner approval, 2026-11-27). Episodes 1 to 8 show made for kids in YouTube Studio since 2026-11-27 22:20, and episodes 9 to 12 carry the setting from Metricool. Every published Short sits in its series playlist, and the Where It Goes Shorts link a related video (see PLAYBOOK.md, Voice and audience, points 8 and 9).
 
-Reservation, 2026-11-27 09:35: the owner asked the chat session to make sure every slot publishes, after the 16:38 and 20:38 runs on 11-26 stopped at the usage limit. The chat session builds episodes 10, 11 and 12 of both series for the three 2026-11-28 slots. The 12:38 run on 11-27 skips all three. A later run takes a reserved slot only if the Metricool queue shows no post for that brand at that time when the run starts. Never create a second post in a slot that already has one. Update 09:55: all three 2026-11-28 slots are scheduled on both brands. No open slot remains before the plan ends, so later runs build and schedule nothing.
+Reservation, 2026-11-27 09:35: the owner asked the chat session to make sure every slot publishes, after the 16:38 and 20:38 runs on 11-26 stopped at the usage limit. The chat session builds episodes 10, 11 and 12 of both series for the three 2026-11-28 slots. The 12:38 run on 11-27 skips all three. A later run takes a reserved slot only if the Metricool queue shows no post for that brand at that time when the run starts. Never create a second post in a slot that already has one. Update 09:55: all three 2026-11-28 slots are scheduled on both brands. That closed the three-day plan. From 2026-11-29 Strategy v2 sets the slots.
 
 Audience note: CutSignal HQ has no country of residence set. YouTube does not use location settings for recommendations. The selected US-hour slots remain unchanged. Publishing time alone does not establish long-term reach. Topic relevance, language and observed viewer response remain hypotheses to test. Top viewer countries sit in the private Posting project.
 

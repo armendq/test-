@@ -1,6 +1,7 @@
-import cairocffi as cairo, math, random
+import cairocffi as cairo, math, random, os
 
-W, H, FPS, DUR = 1080, 1920, 30, 30.0
+# Shorts default to 1080x1920 at 30 fps. Long-form: STUDIO_W=1920 STUDIO_H=1080 (STUDIO_FPS=24 renders faster).
+W, H, FPS, DUR = int(os.environ.get("STUDIO_W", 1080)), int(os.environ.get("STUDIO_H", 1920)), int(os.environ.get("STUDIO_FPS", 30)), 30.0
 N = int(FPS * DUR)
 
 
