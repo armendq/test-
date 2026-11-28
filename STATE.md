@@ -35,7 +35,7 @@ The owner asked for three posts a day on both channels through 2026-11-28. On 20
 
 ## 60-day sprint (owner, 2026-11-28 09:56): one YouTube Partner Program threshold by 2027-01-27
 
-Owner's words on 2026-11-28 09:56: "i will give you 60 days, so you together with chatgpt, and gemini, to achieve one of the tresholds. you can use different strategies, create more channels, so find a way, try as hard as you can? you have my 100% approval." At 09:53: "it needs to be faceless, i dont want myself to be involv d". So no services, no client contact, and the owner never appears. Earlier 30-day wording: "i will give you 30 days ... to achieve one of the tresholds. you can use different strategies, create more channels, so find a way, try as hard as you can? you have my 100% approval."
+Owner's words on 2026-11-28 09:56: "i will give you 60 days, so you together with chatgpt, and gemini, to achieve one of the tresholds. you can use different strategies, create more channels, so find a way, try as hard as you can? you have my 100% approval." At 09:53: "it needs to be faceless, i dont want myself to be involv d". So no services, no client contact, and the owner never appears. Earlier 30-day wording: "i will give you 30 days ... to achieve one of the tresholds. you can use different strategies, create more channels, so find a way, try as hard as you can? you have my 100% approval." At 10:29: "I will not ask, i will not interfere, you have server browser, you have chatgpt and gemini, you op erate on your own, only when you need something you ask or notofy me. You have 60 days to turn the channels profitable, you make your own decitikns, you have my full approval for everything." So runs decide on their own and contact the owner only when he has to act or a milestone lands (rules in the scheduled task).
 
 Target: the first YPP tier on one channel. 500 subscribers, 3 public uploads in 90 days, and either 3 million qualified Shorts views in 90 days or 3,000 public long-form watch hours in 365 days. Qualified Shorts views are engaged views on public Shorts in the Shorts feed. Shorts feed watch time never counts toward watch hours. Promote ads never count.
 
@@ -62,7 +62,7 @@ Topic list for Where It Goes from the review, to verify against primary sources 
 
 Weekly read every Sunday run, plus a day-30 review on 2026-12-28 (ChatGPT and Gemini also asked whether a new faceless channel in another niche would raise the odds) and a final read on 2027-01-27: subscribers per channel, the Earn page progress if Studio shows it, best and worst film of the week, winner-rule decisions. Numbers go to the private Posting project or the run report, never to this repository.
 
-Extended by the owner on 2026-11-27 16:47 ("make the call"): one film per brand per day from 2026-11-29 to 2026-12-05. Nothing goes out after 2026-12-05 23:00 without a new instruction from the owner. Read the "Voice and audience" section of PLAYBOOK.md first.
+Earlier extension by the owner on 2026-11-27 16:47 ("make the call"): one film per brand per day from 2026-11-29 to 2026-12-05. The 60-day sprint above replaced it on 2026-11-28 09:56: the end date is now 2027-01-27 and the daily slots are 19:00, 21:00 and 23:00. The table below covers the first week only. Read the "Voice and audience" section of PLAYBOOK.md first.
 
 | Date | Where It Goes 19:00 | The Night Bus 23:00 | Built by |
 |---|---|---|---|
