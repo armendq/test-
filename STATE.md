@@ -33,15 +33,15 @@ The owner asked for three posts a day on both channels through 2026-11-28. On 20
 | 2026-11-28 | 19:00 | ep 11, scheduled (Instagram and YouTube) | ep 11, scheduled (Instagram, TikTok and YouTube) | chat session, 09:47 on 11-27 |
 | 2026-11-28 | 23:00 | ep 12, scheduled (Instagram and YouTube) | ep 12, scheduled (Instagram, TikTok and YouTube) | chat session, 09:55 on 11-27 |
 
-## 30-day sprint (owner, 2026-11-28 00:25): one YouTube Partner Program threshold by 2026-12-28
+## 60-day sprint (owner, 2026-11-28 09:56): one YouTube Partner Program threshold by 2027-01-27
 
-Owner's words: "i will give you 30 days ... to achieve one of the tresholds. you can use different strategies, create more channels, so find a way, try as hard as you can? you have my 100% approval."
+Owner's words on 2026-11-28 09:56: "i will give you 60 days, so you together with chatgpt, and gemini, to achieve one of the tresholds. you can use different strategies, create more channels, so find a way, try as hard as you can? you have my 100% approval." At 09:53: "it needs to be faceless, i dont want myself to be involv d". So no services, no client contact, and the owner never appears. Earlier 30-day wording: "i will give you 30 days ... to achieve one of the tresholds. you can use different strategies, create more channels, so find a way, try as hard as you can? you have my 100% approval."
 
 Target: the first YPP tier on one channel. 500 subscribers, 3 public uploads in 90 days, and either 3 million qualified Shorts views in 90 days or 3,000 public long-form watch hours in 365 days. Qualified Shorts views are engaged views on public Shorts in the Shorts feed. Shorts feed watch time never counts toward watch hours. Promote ads never count.
 
 Main vehicle: CutSignal HQ (advanced features, automatic dubbing, related links, playlist). Thresholds count per channel, so effort stays concentrated. No new channel unless a winning format cannot live on CutSignal. A run never creates channels or accounts: it recommends one in its report.
 
-Daily slots from 2026-11-29 to 2026-12-28 (Europe/Budapest), replacing the one-per-brand table below:
+Daily slots from 2026-11-29 to 2027-01-27 (Europe/Budapest), replacing the one-per-brand table below:
 - CutSignal HQ, Where It Goes: 19:00 and 21:00.
 - Talewend, The Night Bus: 23:00.
 
@@ -49,10 +49,10 @@ Winner rule: before choosing topics, each run reads the public view counts of ev
 
 December topics first for Where It Goes: Christmas, winter and New Year stories tied to a famous place or a big public ritual, then famous places, then everyday objects.
 
-Long-form: one compilation per channel for every 12 new episodes, built the day after the 12th episode publishes, scheduled at 01:00 (19:00 New York), chapter timestamps in the description.
+Long-form (watch hours count only from public long-form videos): The Night Bus gets a bedtime compilation for every 12 new episodes, built the day after the 12th episode publishes, scheduled at 01:00 (19:00 New York), chapters in the description. Where It Goes gets no compilations: one original 6 to 8 minute deep dive in the week of 2026-12-07, then one every week only if the first holds 35% average percentage viewed or more at 7 days.
 
-Three-AI review, 2026-11-28 00:4x (ChatGPT in the Posting project, Gemini on the main account, Claude). Agreed: YouTube ad money inside 30 days is very unlikely; CutSignal comes first; the fastest revenue is selling the animation capability as a service (owner decision pending); hooks need motion and an open question in frame one; every film needs a satisfying, shareable payoff. Decisions taken from it:
-- Test arm: the 21:00 CutSignal film runs 15 to 18 seconds and ends on a line that flows back into its first line (loop). The 19:00 film keeps the standard 24-second cut. Compare them at 48 hours, same series, same week.
+Three-AI review, 2026-11-28 00:4x (ChatGPT in the Posting project, Gemini on the main account, Claude). Agreed: YouTube ad money inside 30 days is very unlikely; CutSignal comes first; the fastest revenue is selling the animation capability as a service (dropped on 2026-11-28 09:53: the owner wants the business faceless, with no personal involvement); hooks need motion and an open question in frame one; every film needs a satisfying, shareable payoff. Decisions taken from it:
+- Test arm: the 21:00 CutSignal film runs 15 to 18 seconds and ends on a line that flows back into its first line (loop). The 19:00 film keeps the standard 24-second cut. Compare them at 48 hours, same series, same week. Once one arm clearly wins over at least 6 pairs, both slots use the winning format.
 - Payoff rule: the last 3 seconds of every film show the answer as a picture, not only as words. The Night Bus always lands the passenger home before the cliffhanger tease.
 - Long-form: The Night Bus compilation stays (2026-12-01 01:00). No Where It Goes compilation. Instead, one original 6 to 8 minute Where It Goes deep dive in the week of 2026-12-07, on the best-performing topic so far, built as its own story with new research, not stitched Shorts.
 - Rejected: removing made for kids from The Night Bus (the series is child-directed, the label is a legal duty) and pausing automatic dubbing (YouTube states dubbing does not hurt discoverability).
@@ -60,7 +60,7 @@ Three-AI review, 2026-11-28 00:4x (ChatGPT in the Posting project, Gemini on the
 
 Topic list for Where It Goes from the review, to verify against primary sources before use (December items first): the Rockefeller Center tree becomes lumber for Habitat for Humanity homes; wishes written on the Times Square New Year confetti; broken Christmas lights recycled for their copper; retired spacecraft sent to Point Nemo, the spacecraft cemetery; New York subway cars sunk as Atlantic reefs; old London Underground trains now running on the Isle of Wight; a torn banknote you can still redeem (US Bureau of Engraving and Printing); worn banknotes shredded by the central bank; hotel soap recycled by Clean the World; used cooking oil turned into jet fuel; oyster shells rebuilt into reefs; France's ban on supermarkets destroying edible food; wind turbine blades buried in a Wyoming landfill; lost golf balls recovered from ponds and resold; Olympic gold medals that are mostly silver. Drop any claim a primary source does not confirm.
 
-Weekly read every Sunday run (2026-11-29, 12-06, 12-13, 12-20, 12-27) and a final read on 2026-12-28: subscribers per channel, the Earn page progress if Studio shows it, best and worst film of the week, winner-rule decisions. Numbers go to the private Posting project or the run report, never to this repository.
+Weekly read every Sunday run, plus a day-30 review on 2026-12-28 (ChatGPT and Gemini also asked whether a new faceless channel in another niche would raise the odds) and a final read on 2027-01-27: subscribers per channel, the Earn page progress if Studio shows it, best and worst film of the week, winner-rule decisions. Numbers go to the private Posting project or the run report, never to this repository.
 
 Extended by the owner on 2026-11-27 16:47 ("make the call"): one film per brand per day from 2026-11-29 to 2026-12-05. Nothing goes out after 2026-12-05 23:00 without a new instruction from the owner. Read the "Voice and audience" section of PLAYBOOK.md first.
 
