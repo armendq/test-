@@ -60,7 +60,7 @@ Weekly scorecard, every Sunday from 2026-12-06 (numbers go to the private Postin
 CutSignal target curve, cumulative subscribers and long-form watch hours on each Sunday: Dec 6 50 and 100, Dec 13 120 and 300, Dec 20 250 and 700, Dec 27 400 and 1,300, Jan 3 600 and 2,200, Jan 10 800 and 3,200, Jan 17 1,000 and 4,000. Apply the day both thresholds are met.
 
 Pivot rules, applied from the day after the read:
-1. Long-form click-through rate under 4% after 1,000 impressions: new title and thumbnail on that video and a new packaging style for the next one.
+1. Long-form click-through rate under 4% after 1,000 impressions: new title on that video in Studio (a thumbnail cannot be swapped after publishing from here) and a new title and thumbnail style for the next one.
 2. Retention at 0:30 under 65%: rebuild the openings (promise the answer in the first 10 seconds, no intro).
 3. Average percentage viewed under 35%: shorter cut and a tighter story for the next long-form.
 4. Shorts median stayed-to-watch under 60% for a week: new frame-one system, not only new topics.
